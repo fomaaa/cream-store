@@ -56,7 +56,7 @@ get_header(); ?>
 	                <div class="card__photo" style="background-image: url(<?php echo get_the_post_thumbnail_url('', 'medium_large') ?>);"></div>
 	                <div class="card__body">
 	                  <div class="card__title"> <?php the_title(); ?> </div>
-	                  <div class="card__text"> <?php the_field('short_desciption') ?> </div>
+	                  <div class="card__text"> <?php the_field('short_description') ?> </div>
 	                  <div class="card__button">
 	                    <a href="<?php the_permalink(); ?>" class="btn btn--link">read</a>
 	                  </div>

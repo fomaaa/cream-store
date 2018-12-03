@@ -131,7 +131,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 			                        </div>
 			                        <div class="formInfo__item">
 			                          <div class="formInfo__title"> Ship to: </div>
-			                          <div class="formInfo__value add-value-adress">Gagarina 23|28, 28, Dnipro, 49000, Ukraine</div>
+			                          <div class="formInfo__value add-value-address"></div>
 			                          <div class="formInfo__change">
 			                            <a href="/checkout#tab2" class="js-tab-prev">Change</a>
 			                          </div>
@@ -181,7 +181,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 			                        </div>
 			                        <div class="formInfo__item">
 			                          <div class="formInfo__title"> Ship to: </div>
-			                          <div class="formInfo__value add-value-address">Gagarina 23|28, 28, Dnipro, 49000, Ukraine </div>
+			                          <div class="formInfo__value add-value-address"></div>
 			                          <div class="formInfo__change">
 			                            <a href="/checkout#tab3" class="js-tab-prev">Change</a>
 			                          </div>

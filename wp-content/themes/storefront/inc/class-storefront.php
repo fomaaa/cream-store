@@ -184,10 +184,7 @@ if ( ! class_exists( 'Storefront' ) ) :
 
 			foreach ( $sidebar_args as $sidebar => $args ) {
 				$widget_tags = array(
-					'before_widget' => '<div id="%1$s" class="widget %2$s">',
-					'after_widget'  => '</div>',
-					'before_title'  => '<span class="gamma widget-title">',
-					'after_title'   => '</span>',
+
 				);
 
 				/**
@@ -221,10 +218,10 @@ if ( ! class_exists( 'Storefront' ) ) :
 			/**
 			 * Styles
 			 */
-			wp_enqueue_style( 'storefront-style', get_template_directory_uri() . '/style.css', '', $storefront_version );
+			//wp_enqueue_style( 'storefront-style', get_template_directory_uri() . '/style.css', '', $storefront_version );
 			wp_style_add_data( 'storefront-style', 'rtl', 'replace' );
 
-			wp_enqueue_style( 'storefront-icons', get_template_directory_uri() . '/assets/css/base/icons.css', '', $storefront_version );
+			//wp_enqueue_style( 'storefront-icons', get_template_directory_uri() . '/assets/css/base/icons.css', '', $storefront_version );
 			wp_style_add_data( 'storefront-icons', 'rtl', 'replace' );
 
 			/**
@@ -241,7 +238,7 @@ if ( ! class_exists( 'Storefront' ) ) :
 
 			$fonts_url = add_query_arg( $query_args, 'https://fonts.googleapis.com/css' );
 
-			wp_enqueue_style( 'storefront-fonts', $fonts_url, array(), null );
+			//wp_enqueue_style( 'storefront-fonts', $fonts_url, array(), null );
 
 			/**
 			 * Scripts
@@ -281,7 +278,7 @@ if ( ! class_exists( 'Storefront' ) ) :
 		public function child_scripts() {
 			if ( is_child_theme() ) {
 				$child_theme = wp_get_theme( get_stylesheet() );
-				wp_enqueue_style( 'storefront-child-style', get_stylesheet_uri(), array(), $child_theme->get( 'Version' ) );
+				//wp_enqueue_style( 'storefront-child-style', get_stylesheet_uri(), array(), $child_theme->get( 'Version' ) );
 			}
 		}
 
@@ -357,11 +354,11 @@ if ( ! class_exists( 'Storefront' ) ) :
 		 * Add styles for embeds
 		 */
 		public function print_embed_styles() {
-			wp_enqueue_style( 'source-sans-pro', '//fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,700,900' );
+			//wp_enqueue_style( 'source-sans-pro', '//fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,700,900' );
 			$accent_color     = get_theme_mod( 'storefront_accent_color' );
 			$background_color = storefront_get_content_background_color();
 			?>
-			<style type="text/css">
+<!-- 			<style type="text/css">
 				.wp-embed {
 					padding: 2.618em !important;
 					border: 0 !important;
@@ -395,7 +392,7 @@ if ( ! class_exists( 'Storefront' ) ) :
 				a.wc-embed-button + a.wc-embed-button {
 					background-color: #60646c;
 				}
-			</style>
+			</style> -->
 			<?php
 		}
 	}

@@ -249,10 +249,7 @@ function register_sidebar($args = array()) {
 		'id' => "sidebar-$i",
 		'description' => '',
 		'class' => '',
-		'before_widget' => '<li id="%1$s" class="widget %2$s">',
-		'after_widget' => "</li>\n",
-		'before_title' => '<h2 class="widgettitle">',
-		'after_title' => "</h2>\n",
+
 	);
 
 	$sidebar = wp_parse_args( $args, $defaults );

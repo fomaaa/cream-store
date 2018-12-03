@@ -35,3 +35,89 @@ Stack trace:
 
 2018-12-03T13:50:13+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\footer.php on line 91
 
+2018-12-03T14:57:33+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 59
+
+2018-12-03T14:57:35+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 59
+
+2018-12-03T14:57:44+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 20
+
+2018-12-03T14:57:49+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\single-product\product-image.php:28
+Stack trace:
+#0 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(208): include()
+#1 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1361): wc_get_template('single-product/...')
+#2 C:\OSPanel\domains\cream-store.loc\wp-includes\class-wp-hook.php(286): woocommerce_show_product_images('')
+#3 C:\OSPanel\domains\cream-store.loc\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\OSPanel\domains\cream-store.loc\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-single-product.php(45): do_action('woocommerce_bef...')
+#6 C:\OSPanel\domains\cream-store.loc\wp-includes\template.php(690): require('C:\\OSPanel\\doma...')
+#7 C:\OSPan in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\single-product\product-image.php on line 28
+
+2018-12-03T14:57:59+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\single-product\product-image.php:28
+Stack trace:
+#0 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(208): include()
+#1 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1361): wc_get_template('single-product/...')
+#2 C:\OSPanel\domains\cream-store.loc\wp-includes\class-wp-hook.php(286): woocommerce_show_product_images('')
+#3 C:\OSPanel\domains\cream-store.loc\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\OSPanel\domains\cream-store.loc\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-single-product.php(45): do_action('woocommerce_bef...')
+#6 C:\OSPanel\domains\cream-store.loc\wp-includes\template.php(690): require('C:\\OSPanel\\doma...')
+#7 C:\OSPan in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\single-product\product-image.php on line 28
+
+2018-12-03T15:05:25+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 21
+
+2018-12-03T15:05:27+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 21
+
+2018-12-03T15:06:49+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 22
+
+2018-12-03T15:07:15+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 26
+
+2018-12-03T15:07:16+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 26
+
+2018-12-03T15:10:33+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 26
+
+2018-12-03T15:11:17+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 26
+
+2018-12-03T15:11:28+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 26
+
+2018-12-03T15:11:29+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 26
+
+2018-12-03T15:12:15+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 26
+
+2018-12-03T15:12:16+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 26
+
+2018-12-03T15:13:06+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 21
+
+2018-12-03T15:13:07+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 21
+
+2018-12-03T15:13:54+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 21
+
+2018-12-03T15:13:55+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 21
+
+2018-12-03T15:14:48+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 19
+
+2018-12-03T15:15:09+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 19
+
+2018-12-03T15:15:10+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 19
+
+2018-12-03T22:23:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\functions.php on line 105 and exactly 2 expected in C:\OSPanel\domains\cream-store.loc\wp-includes\plugin.php:176
+Stack trace:
+#0 C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\functions.php(105): apply_filters('woocommerce_gal...')
+#1 C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\single-product\product-image.php(44): wc_get_gallery_image_html_small(201)
+#2 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(208): include('C:\\OSPanel\\doma...')
+#3 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1361): wc_get_template('single-product/...')
+#4 C:\OSPanel\domains\cream-store.loc\wp-includes\class-wp-hook.php(286): woocommerce_show_product_images('')
+#5 C:\OSPanel\domains\cream-store.loc\wp-includes\class-wp-hook.php(310 in C:\OSPanel\domains\cream-store.loc\wp-includes\plugin.php on line 176
+
+2018-12-03T22:23:31+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\functions.php on line 105 and exactly 2 expected in C:\OSPanel\domains\cream-store.loc\wp-includes\plugin.php:176
+Stack trace:
+#0 C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\functions.php(105): apply_filters('woocommerce_gal...')
+#1 C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\single-product\product-image.php(44): wc_get_gallery_image_html_small(201)
+#2 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(208): include('C:\\OSPanel\\doma...')
+#3 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1361): wc_get_template('single-product/...')
+#4 C:\OSPanel\domains\cream-store.loc\wp-includes\class-wp-hook.php(286): woocommerce_show_product_images('')
+#5 C:\OSPanel\domains\cream-store.loc\wp-includes\class-wp-hook.php(310 in C:\OSPanel\domains\cream-store.loc\wp-includes\plugin.php on line 176
+
+2018-12-03T22:28:39+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\cart\cart.php on line 85
+
+2018-12-03T22:28:40+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\cart\cart.php on line 85
+

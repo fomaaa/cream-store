@@ -105,7 +105,7 @@ Class null_instagram_widget extends WP_Widget {
 					if ( locate_template( $template_part ) !== '' ) {
 						include locate_template( $template_part );
 					} else {
-						echo '<li class="' . esc_attr( $liclass ) . '"><a href="' . esc_url( $item['link'] ) . '" target="' . esc_attr( $target ) . '"  class="' . esc_attr( $aclass ) . '"><img src="' . esc_url( $item[$size] ) . '"    class="' . esc_attr( $imgclass ) . '"/></a></li>';
+						echo '<li class="' . esc_attr( $liclass ) . '"><a href="' . esc_url( $item['link'] ) . '" target="' . esc_attr( $target ) . '"  class="' . esc_attr( $aclass ) . '" style="background-image: url('. esc_url( $item[$size] ) .')"></a></li>';
 					}
 				}
 				?></ul><?php

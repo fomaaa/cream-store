@@ -97,7 +97,7 @@ $(document).ready(function(){
       var postcode = $('[name="billing_postcode"]').val();
 
       var res = address + ', ' + city + ', ' + postcode + ', ' + country;
-      $('.add-value-adress').html(res);
+      $('.add-value-address').html(res);
   })
   
 })

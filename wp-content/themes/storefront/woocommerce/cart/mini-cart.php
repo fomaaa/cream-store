@@ -59,10 +59,12 @@ do_action( 'woocommerce_before_mini_cart' ); ?>
 		                        </div>
 		                        <div class="card__info">
 		                          <ul>
-		                            <li> Initials for the monogram: <strong><?php if (!empty($cart_item['alg_wc_pif_local'][0]['_value'])) echo $cart_item['alg_wc_pif_local'][0]['_value']; ?></strong>
-		                            </li>
-		                            <li> Monogram colour: <span class="color" style="background-image: url('<?php echo get_template_directory_uri() ?>/img/<?php echo $cart_item['variation']['attribute_pa_text-color'] ?>.png');"></span>
-		                            </li>
+						                        <?php if (!empty($cart_item['alg_wc_pif_local'][0]['_value'])) : ?>
+						                          <li> Initials for the monogram: <strong><?php echo $cart_item['alg_wc_pif_local'][0]['_value']; ?></strong>
+						                          </li>
+						                          <li> Monogram colour: <span class="color" style="background-image: url('<?php echo get_template_directory_uri() ?>/img/<?php echo $cart_item['variation']['attribute_pa_text-color'] ?>.png');"></span>
+						                          </li>
+						                      <?php endif; ?>
 		                            <li> Complementary Gift Wrapping: <?php echo $cart_item['gift_wrapper'] ?> </li>
 		                          </ul>
 		                        </div>

@@ -102,7 +102,7 @@ function wc_get_gallery_image_html_big( $attachment_id, $main_image = false ) {
 
 function wc_get_gallery_image_html_small( $attachment_id, $main_image = false ) {
 	$gallery_thumbnail = wc_get_image_size( 'gallery_thumbnail' );
-	$thumbnail_size    = apply_filters( 'woocommerce_gallery_thumbnail_size', array( $gallery_thumbnail['width'], $gallery_thumbnail['height'] ) );
+	$thumbnail_size    = apply_filters( 'woocommerce_gallery_thumbnail_size', 'thumbnail' );
 	$thumbnail_src     = wp_get_attachment_image_src( $attachment_id, $thumbnail_size );
 
 	return $thumbnail_src[0];
@@ -214,7 +214,12 @@ function load_items() {
 
 	exit($html);
 }
+add_filter('widget_title','my_widget_title'); 
+function my_widget_title($t)
+{
 
+    return null;
+}
 
 // add_action( 'wp_ajax_nopriv_set_shipping', 'setShipping');
 // add_action( 'wp_ajax_set_shipping', 'setShipping');

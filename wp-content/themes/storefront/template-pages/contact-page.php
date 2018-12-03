@@ -32,7 +32,7 @@
                       <i class="icon-phone"></i>
                     </div>
                     <div class="contactsList__title">
-                      <a href="#" target="_blank">Whatsapp: <?php the_field("phone_number", 'option'); ?></a>
+                      <a href="whatsapp://send?phone=<?php the_field("phone_number", 'option'); ?>" target="_blank">Whatsapp: <?php the_field("phone_number", 'option'); ?></a>
                     </div>
                   </li>
                   <li class="contactsList__item">

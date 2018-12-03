@@ -15,13 +15,13 @@
   <body class="">
     <!-- BEGIN content -->
     <div class="out">
-      <header class="header <?php if (is_home() || (is_single() && !is_product()) || (is_archive() && !is_shop())  || get_page_template_slug() == "template-pages/content-page.php") echo 'header--white' ?>">
+      <header class="header <?php if (is_home() || (is_single() && !is_product()) || (is_archive() && !is_shop()  && !is_product_category())  || get_page_template_slug() == "template-pages/content-page.php") echo 'header--white' ?>">
         <div class="container-fluid header__inner">
           <div class="header__left">
             <div class="header__logo">
               <a <?php if (!is_front_page()) echo 'href="/"' ?>>
                 <img src="<?php 
-                 if (is_home() || (is_single() && !is_product()) || (is_archive() && !is_shop())  || get_page_template_slug() == "template-pages/content-page.php") {
+                 if (is_home() || (is_single() && !is_product()) || (is_archive() && !is_shop()   && !is_product_category())  || get_page_template_slug() == "template-pages/content-page.php") {
                   the_field("light_logo", 'option'); 
                  } else {
                   the_field("logo", 'option'); 
