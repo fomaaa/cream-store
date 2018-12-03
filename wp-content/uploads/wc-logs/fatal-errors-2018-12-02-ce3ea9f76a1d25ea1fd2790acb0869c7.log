@@ -1,0 +1,22 @@
+2018-12-02T21:20:18+00:00 CRITICAL syntax error, unexpected ')' in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\checkout\payment-method.php on line 26
+
+2018-12-02T21:28:04+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\checkout\payment-method.php on line 28
+
+2018-12-02T21:31:14+00:00 CRITICAL syntax error, unexpected 'if' (T_IF), expecting ':' in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\checkout\payment-method.php on line 28
+
+2018-12-02T21:31:36+00:00 CRITICAL syntax error, unexpected end of file in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\checkout\payment-method.php on line 49
+
+2018-12-02T21:31:40+00:00 CRITICAL syntax error, unexpected end of file in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\checkout\payment-method.php on line 49
+
+2018-12-02T21:32:19+00:00 CRITICAL syntax error, unexpected 'elseif' (T_ELSEIF) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\checkout\payment-method.php on line 28
+
+2018-12-02T22:57:44+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\class-wc-cart.php:1840
+Stack trace:
+#0 C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-product.php(34): WC_Cart->get_product_subtotal(NULL, NULL)
+#1 C:\OSPanel\domains\cream-store.loc\wp-includes\template.php(690): require('C:\\OSPanel\\doma...')
+#2 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(178): load_template('C:\\OSPanel\\doma...', false)
+#3 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(891): wc_get_template_part('content', 'product')
+#4 C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce.php(3): woocommerce_content()
+#5 C:\OSPanel\domains\cream-store.loc\wp-includes\template-loader.php(74): include('C:\\OSPanel\\doma...')
+#6 C:\OSPanel\domains\cream-store.loc\wp-blog-header.php(19): require_once('C:\\O in C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\class-wc-cart.php on line 1840
+

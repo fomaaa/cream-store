@@ -1,0 +1,37 @@
+2018-12-03T09:05:38+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\footer.php on line 24
+
+2018-12-03T11:22:39+00:00 CRITICAL Uncaught Error: Call to undefined function wc_template_function() in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\functions.php:224
+Stack trace:
+#0 C:\OSPanel\domains\cream-store.loc\wp-includes\class-wp-hook.php(286): setShipping('')
+#1 C:\OSPanel\domains\cream-store.loc\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\OSPanel\domains\cream-store.loc\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\OSPanel\domains\cream-store.loc\wp-admin\admin-ajax.php(100): do_action('wp_ajax_set_shi...')
+#4 {main}
+  thrown in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\functions.php on line 224
+
+2018-12-03T11:48:11+00:00 CRITICAL syntax error, unexpected '$html' (T_VARIABLE), expecting ',' or ';' in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\functions.php on line 227
+
+2018-12-03T11:48:13+00:00 CRITICAL syntax error, unexpected '$html' (T_VARIABLE), expecting ',' or ';' in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\functions.php on line 227
+
+2018-12-03T12:59:37+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::subtotal() in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\cart\totalbox.php:2
+Stack trace:
+#0 C:\OSPanel\domains\cream-store.loc\wp-includes\template.php(690): require()
+#1 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(178): load_template('C:\\OSPanel\\doma...', false)
+#2 C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\checkout\form-checkout.php(99): wc_get_template_part('cart/totalbox')
+#3 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(208): include('C:\\OSPanel\\doma...')
+#4 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(274): wc_get_template('checkout/form-c...', Array)
+#5 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#6 in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\cart\totalbox.php on line 2
+
+2018-12-03T13:48:21+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\footer.php on line 92
+
+2018-12-03T13:48:41+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\footer.php on line 92
+
+2018-12-03T13:49:19+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\footer.php on line 91
+
+2018-12-03T13:49:24+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\footer.php on line 91
+
+2018-12-03T13:49:48+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\footer.php on line 91
+
+2018-12-03T13:50:13+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\footer.php on line 91
+
