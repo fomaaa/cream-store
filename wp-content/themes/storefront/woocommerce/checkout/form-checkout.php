@@ -75,12 +75,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 									<?php woocommerce_form_field( $key, $field, $checkout->get_value( $key ) ); ?>
 									</div>
 								<?php endforeach; ?>
-                      			<div class="form__field form__field--checkbox">
-		                          	<div class="form__checkbox">
-			                            <input type="checkbox" name="keep" />
-			                            <span class="form__label"> Keep me up to date on news and&nbsp;exclusive offers </span>
-		                          	</div>
-		                        </div>
+		                        <?php do_action('mailchimp_checkbox'); ?>
                       		</div>
                       		<div class="form__row">
                       			<div class="form__title"> Shipping address </div>
@@ -124,14 +119,14 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 								<div class="formInfo">
 			                        <div class="formInfo__item">
 			                          <div class="formInfo__title"> Contact: </div>
-			                          <div class="formInfo__value add-value-contact"></div>
+			                          <div class="formInfo__value add-value-contact">Not filled</div>
 			                          <div class="formInfo__change">
 			                            <a href="/checkout#tab2" class="js-tab-prev">Change</a>
 			                          </div>
 			                        </div>
 			                        <div class="formInfo__item">
 			                          <div class="formInfo__title"> Ship to: </div>
-			                          <div class="formInfo__value add-value-address"></div>
+			                          <div class="formInfo__value add-value-address">Not filled</div>
 			                          <div class="formInfo__change">
 			                            <a href="/checkout#tab2" class="js-tab-prev">Change</a>
 			                          </div>
@@ -174,21 +169,21 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 								<div class="formInfo">
 			                        <div class="formInfo__item">
 			                          <div class="formInfo__title"> Contact: </div>
-			                          <div class="formInfo__value add-value-contact"></div>
+			                          <div class="formInfo__value add-value-contact">Not filled</div>
 			                          <div class="formInfo__change">
 			                            <a href="/checkout#tab3" class="js-tab-prev">Change</a>
 			                          </div>
 			                        </div>
 			                        <div class="formInfo__item">
 			                          <div class="formInfo__title"> Ship to: </div>
-			                          <div class="formInfo__value add-value-address"></div>
+			                          <div class="formInfo__value add-value-address">Not filled</div>
 			                          <div class="formInfo__change">
 			                            <a href="/checkout#tab3" class="js-tab-prev">Change</a>
 			                          </div>
 			                        </div>
 			                        <div class="formInfo__item">
-			                          <div class="formInfo__title formInfo__title--xs"> USPS Standard Tracked Shipping </div>
-			                          <!-- <div class="formInfo__value add-value-shipping">7-15 Business Days</div> -->
+			                          <div class="formInfo__title formInfo__title--xs"> Shipping: </div>
+			                          <div class="formInfo__value add-value-shipping">Not filled</div>
 			                          <div class="formInfo__change">
 			                            <a href="/checkout#tab3" class="js-tab-prev">Change</a>
 			                          </div>

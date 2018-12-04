@@ -7,7 +7,7 @@
               <div class="callback">
                 <div class="page__title"> Get updates </div>
                 <div class="callback__form">
-                  <form action="/" class="form form--callback">
+<!--                   <form action="/" class="form form--callback">
                     <div class="form__field form__field--icon">
                       <div class="form__icon">
                         <i class="icon-envelope"></i>
@@ -18,6 +18,8 @@
                       <button class="btn btn--link btn--md" type="submit">subscribe</button>
                     </div>
                   </form>
+ -->                
+ <?php echo do_shortcode('[contact-form-7 id="213" title="Subscribe" html_class="form form--callback"]') ?>
                 </div>
               </div>
             </div>
