@@ -53,8 +53,8 @@ $(document).ready(function(){
   $('.shipping_method').on('change', function(){
     var label = $(this).siblings('.form__label').find('strong').html();
     var text =  $(this).siblings('.form__label').text();
-    console.log(text);
-    $('.formInfo__title--xs').html(label);
+    
+    $('.add-value-shipping').html(label);
 
 
     var shipping = $('[name="shipping_method[0]"]:checked').val();
@@ -62,7 +62,6 @@ $(document).ready(function(){
     if (shipping == 'flat_rate:4') {
         $('[data-shipping]').html('$28.99 USD');
         subtotal = parseInt($('[data-subtotal]').data('subtotal'));
-        console.log(subtotal);
         total = subtotal + 28.99;
         $('[data-total').html('$' + total + ' USD');
     } else if (shipping == 'free_shipping:3') {

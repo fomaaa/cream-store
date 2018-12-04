@@ -66,6 +66,12 @@ function wc_template_redirect() {
 
 	}
 }
+add_action( 'mailchimp_checkbox', 'function88' );
+
+function function88() {
+	// echo 'hello';
+	return true;
+}
 add_action( 'template_redirect', 'wc_template_redirect' );
 
 /**

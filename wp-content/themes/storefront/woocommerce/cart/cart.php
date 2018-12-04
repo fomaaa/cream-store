@@ -77,8 +77,8 @@ do_action( 'woocommerce_before_cart' ); ?>
 												?> USD</div>
 						                      <div class="card__info">
 						                        <ul>
-						                        <?php if (!empty($cart_item['alg_wc_pif_local'][0]['_value'])) : ?>
-						                          <li> Initials for the monogram: <strong><?php echo $cart_item['alg_wc_pif_local'][0]['_value']; ?></strong>
+						                        <?php if (!empty($cart_item['initials'])) : ?>
+						                          <li> Initials for the monogram: <strong><?php echo $cart_item['initials']; ?></strong>
 						                          </li>
 						                          <li> Monogram colour: <span class="color" style="background-image: url('<?php echo get_template_directory_uri() ?>/img/<?php echo $cart_item['variation']['attribute_pa_text-color'] ?>.png');"></span>
 						                          </li>

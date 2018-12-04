@@ -124,6 +124,16 @@ function cfwc_create_custom_field() {
 }
 add_action( 'woocommerce_product_options_general_product_data', 'cfwc_create_custom_field' );
 
+function cfwc_create_initials() {
+	 $args = array(
+	 'id' => 'initials',
+	 'label' => 'Initials',
+	 'class' => 'cfwc-initials',
+	 );
+	 woocommerce_wp_text_input( $args );
+}
+add_action( 'woocommerce_product_options_general_product_data', 'cfwc_create_initials' );
+
 /**
  * Save the custom field
  * @since 1.0.0
@@ -136,6 +146,13 @@ function cfwc_save_custom_field( $post_id ) {
 }
 add_action( 'woocommerce_process_product_meta', 'cfwc_save_custom_field' );
 
+function cfwc_save_initials( $post_id ) {
+ $product = wc_get_product( $post_id );
+ $title = isset( $_POST['initials'] ) ? $_POST['initials'] : '';
+ $product->update_meta_data( 'initials', sanitize_text_field( $title ) );
+ $product->save();
+}
+add_action( 'woocommerce_process_product_meta', 'cfwc_save_initials' );
 
 
 function cfwc_add_custom_field_item_data( $cart_item_data, $product_id, $variation_id, $quantity ) {
@@ -148,6 +165,16 @@ function cfwc_add_custom_field_item_data( $cart_item_data, $product_id, $variati
  return $cart_item_data;
 }
 add_filter( 'woocommerce_add_cart_item_data', 'cfwc_add_custom_field_item_data', 10, 4 );
+
+
+function cfwc_initials_field_item_data( $cart_item_data, $product_id, $variation_id, $quantity ) {
+ if( ! empty( $_POST['initials'] ) ) {
+ // Add the item data
+ 	$cart_item_data['initials'] = $_POST['initials'];
+ }
+ return $cart_item_data;
+}
+add_filter( 'woocommerce_add_cart_item_data', 'cfwc_initials_field_item_data', 10, 4 );
 
 /**
  * Display the custom field value in the cart
@@ -164,6 +191,31 @@ function cfwc_cart_item_name( $name, $cart_item, $cart_item_key ) {
 }
 add_filter( 'woocommerce_cart_item_name', 'cfwc_cart_item_name', 10, 3 );
 
+// function cfwc_display_initials() {
+//  global $post;
+//  // Check for the custom field value
+//  $product = wc_get_product( $post->ID );
+//  $title = $product->get_meta( 'custom_text_field_title' );
+//  if( $title ) {
+//  // Only display our field if we've got a value for the field title
+//  printf(
+//  '<div class="cfwc-custom-field-wrapper"><label for="cfwc-title-field">%s</label><input type="text" id="cfwc-title-field" name="cfwc-title-field" value=""></div>',
+//  esc_html( $title )
+//  );
+//  }
+// }
+// add_action( 'woocommerce_before_add_to_cart_button', 'cfwc_display_initials' );
+
+function cfwc_cart_item_name_initials( $name, $cart_item, $cart_item_key ) {
+ if( isset( $cart_item['initials'] ) ) {
+ $name .= sprintf(
+ '<p>%s</p>',
+ esc_html( $cart_item['initials'] )
+ );
+ }
+ return $name;
+}
+add_filter( 'woocommerce_cart_item_name', 'cfwc_cart_item_name_initials', 10, 3 );
 /**
  * Add custom field to order object
  */
@@ -175,6 +227,15 @@ function cfwc_add_custom_data_to_order( $item, $cart_item_key, $values, $order )
  }
 }
 add_action( 'woocommerce_checkout_create_order_line_item', 'cfwc_add_custom_data_to_order', 10, 4 );
+
+function cfwc_add_initials_data_to_order( $item, $cart_item_key, $values, $order ) {
+ foreach( $item as $cart_item_key=>$values ) {
+ if( isset( $values['initials'] ) ) {
+ $item->add_meta_data('Initials', $values['initials'], true );
+ }
+ }
+}
+add_action( 'woocommerce_checkout_create_order_line_item', 'cfwc_add_initials_data_to_order', 10, 4 );
 
 
 add_action( 'wp_ajax_nopriv_loadmore_blog', 'load_items');
@@ -221,6 +282,29 @@ function my_widget_title($t)
     return null;
 }
 
+add_filter('wpcf7_form_elements', function($content) {
+	$content = preg_replace('/<(span).*?class="\s*(?:.*\s)?wpcf7-form-control-wrap(?:\s[^"]+)?\s*"[^\>]*>(.*)<\/\1>/i', '\2', $content);
+
+	return $content;
+});
+
+function getCorrectTitle(){
+	  if (is_product_category() ) {
+        single_cat_title(); 
+      } else if (is_archive()){
+        if (is_shop()) {
+          echo get_the_title(5);
+        } else {
+          single_term_title();
+        }
+      } else if (is_home()) {
+          echo get_the_title(119);
+      } else if (is_search()) {
+        echo "Search : "  . get_search_query();
+      } else {
+        echo get_the_title(get_the_ID());
+      }
+}
 // add_action( 'wp_ajax_nopriv_set_shipping', 'setShipping');
 // add_action( 'wp_ajax_set_shipping', 'setShipping');
 

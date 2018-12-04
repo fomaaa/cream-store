@@ -1,0 +1,729 @@
+2018-12-04T08:47:50+00:00 NOTICE sync.started :: Starting Sync :: Tue, Dec 4, 2018 8:47 AM
+2018-12-04T08:47:54+00:00 NOTICE product_sync.success :: addStoreProduct :: #9
+2018-12-04T08:47:56+00:00 NOTICE product_sync.success :: addStoreProduct :: #158
+2018-12-04T08:47:58+00:00 NOTICE product_sync.success :: addStoreProduct :: #162
+2018-12-04T08:47:59+00:00 NOTICE product_sync.success :: addStoreProduct :: #199
+2018-12-04T08:48:01+00:00 NOTICE product_sync.completed :: Done with the product sync :: queuing up the orders next!
+2018-12-04T08:48:08+00:00 NOTICE order_submit.success :: addStoreOrder :: #11 :: email: foma.izob@gmail.com
+2018-12-04T08:48:10+00:00 NOTICE order_submit.success :: addStoreOrder :: #13 :: email: foma.izob@gmail.com
+2018-12-04T08:48:12+00:00 NOTICE order_submit.success :: addStoreOrder :: #106 :: email: foma.izob@gmail.com
+2018-12-04T08:48:15+00:00 NOTICE order_submit.success :: addStoreOrder :: #107 :: email: foma.izob@gmail.com
+2018-12-04T08:48:17+00:00 NOTICE order_submit.success :: addStoreOrder :: #108 :: email: foma.izob@gmail.com
+2018-12-04T08:48:23+00:00 NOTICE order_submit.success :: addStoreOrder :: #109 :: email: foma.izob@gmail.com
+2018-12-04T08:48:25+00:00 NOTICE order_submit.success :: addStoreOrder :: #110 :: email: foma.izob@gmail.com
+2018-12-04T08:48:28+00:00 NOTICE order_submit.success :: addStoreOrder :: #111 :: email: foma.izob@gmail.com
+2018-12-04T08:48:30+00:00 NOTICE order_submit.success :: addStoreOrder :: #112 :: email: foma.izob@gmail.com
+2018-12-04T08:48:32+00:00 NOTICE order_submit.success :: addStoreOrder :: #113 :: email: foma.izob@gmail.com
+2018-12-04T08:48:37+00:00 NOTICE order_submit.success :: addStoreOrder :: #114 :: email: foma.izob@gmail.com
+2018-12-04T08:48:40+00:00 NOTICE order_submit.success :: addStoreOrder :: #115 :: email: foma.izob@gmail.com
+2018-12-04T08:48:42+00:00 NOTICE order_submit.success :: addStoreOrder :: #116 :: email: foma.izob@gmail.com
+2018-12-04T08:48:44+00:00 NOTICE order_submit.success :: addStoreOrder :: #117 :: email: foma.izob@gmail.com
+2018-12-04T08:48:46+00:00 NOTICE order_submit.success :: addStoreOrder :: #118 :: email: foma.izob@gmail.com
+2018-12-04T08:48:51+00:00 NOTICE order_submit.success :: addStoreOrder :: #196 :: email: foma.izob@gmail.com
+2018-12-04T08:48:51+00:00 NOTICE validation.bad_email :: Order #197 has an invalid email address. Skipping!
+2018-12-04T08:48:51+00:00 NOTICE validation.bad_email :: Order #198 has an invalid email address. Skipping!
+2018-12-04T08:48:53+00:00 NOTICE order_submit.completed :: Done with the order sync.
+2018-12-04T08:48:53+00:00 NOTICE sync.completed :: Finished Sync :: Tue, Dec 4, 2018 8:48 AM
+2018-12-04T09:47:57+00:00 DEBUG order_submit :: #214 :: Array
+(
+    [id] => 214
+    [customer] => Array
+        (
+            [id] => f8ae7ec9820d12cac27791554e9d8047
+            [email_address] => foma.izob@gmail.com
+            [opt_in_status] => 1
+            [first_name] => ILIA
+            [last_name] => asfasfasf
+            [orders_count] => 8
+            [total_spent] => 969.95
+            [address] => Array
+                (
+                    [name] => ILIA asfasfasf
+                    [address1] => noasfafa
+                    [city] => Moscow
+                    [postal_code] => 333333
+                    [phone] => +79896135155
+                )
+
+        )
+
+    [financial_status] => pending
+    [currency_code] => USD
+    [order_total] => 153.99
+    [order_url] => http://cream-store.loc/my-account/view-order/214/
+    [tax_total] => 0
+    [discount_total] => 0
+    [shipping_total] => 28.99
+    [processed_at_foreign] => 2018-12-04 09:46:11
+    [shipping_address] => Array
+        (
+            [name] => ILIA asfasfasf
+            [address1] => noasfafa
+            [city] => Moscow
+            [postal_code] => 333333
+            [phone] => +79896135155
+        )
+
+    [billing_address] => Array
+        (
+            [name] => ILIA asfasfasf
+            [address1] => noasfafa
+            [city] => Moscow
+            [postal_code] => 333333
+            [phone] => +79896135155
+        )
+
+    [lines] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 58
+                    [product_id] => 158
+                    [product_variant_id] => 161
+                    [quantity] => 2
+                    [price] => 50
+                )
+
+            [1] => Array
+                (
+                    [id] => 59
+                    [product_id] => 162
+                    [product_variant_id] => 163
+                    [quantity] => 1
+                    [price] => 25
+                )
+
+        )
+
+)
+
+2018-12-04T09:47:58+00:00 NOTICE order_submit.success :: addStoreOrder :: #214 :: email: foma.izob@gmail.com :: landing site http://cream-store.loc/shop/
+2018-12-04T09:50:02+00:00 DEBUG order_submit :: #215 :: Array
+(
+    [id] => 215
+    [customer] => Array
+        (
+            [id] => d41d8cd98f00b204e9800998ecf8427e
+            [opt_in_status] => 1
+            [first_name] => ILIA
+            [last_name] => asfasfasf
+            [orders_count] => 8
+            [total_spent] => 894.95
+            [address] => Array
+                (
+                    [name] => ILIA asfasfasf
+                    [address1] => noasfafa
+                    [city] => Moscow
+                    [postal_code] => 333333
+                    [phone] => +79896135155
+                )
+
+        )
+
+    [financial_status] => pending
+    [currency_code] => USD
+    [order_total] => 25
+    [order_url] => http://cream-store.loc/my-account/view-order/215/
+    [tax_total] => 0
+    [discount_total] => 0
+    [shipping_total] => 0
+    [processed_at_foreign] => 2018-12-04 09:48:31
+    [shipping_address] => Array
+        (
+            [name] => ILIA asfasfasf
+            [address1] => noasfafa
+            [city] => Moscow
+            [postal_code] => 333333
+            [phone] => +79896135155
+        )
+
+    [billing_address] => Array
+        (
+            [name] => ILIA asfasfasf
+            [address1] => noasfafa
+            [city] => Moscow
+            [postal_code] => 333333
+            [phone] => +79896135155
+        )
+
+    [lines] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 61
+                    [product_id] => 162
+                    [product_variant_id] => 163
+                    [quantity] => 1
+                    [price] => 25
+                )
+
+        )
+
+)
+
+2018-12-04T09:50:02+00:00 ERROR order_submit.failure :: addStoreOrder :: #215 :: email:  produced a blank response from MailChimp
+2018-12-04T09:57:19+00:00 DEBUG api.addCart :: Adding Cart :: fsb@mail.ru :: Array
+(
+    [id] => 27190aeaec7f118a273450e35130883b
+    [customer] => Array
+        (
+            [id] => 27190aeaec7f118a273450e35130883b
+            [email_address] => fsb@mail.ru
+            [opt_in_status] => 
+            [orders_count] => 0
+            [total_spent] => 0
+        )
+
+    [checkout_url] => http://cream-store.loc/checkout/?mc_cart_id=27190aeaec7f118a273450e35130883b
+    [currency_code] => USD
+    [order_total] => 50
+    [lines] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8d6aba8c2b40d685da61423b21ee9dde
+                    [product_id] => 158
+                    [product_variant_id] => 159
+                    [quantity] => 1
+                    [price] => 50
+                )
+
+        )
+
+)
+
+2018-12-04T09:57:20+00:00 NOTICE abandoned_cart.success :: email: fsb@mail.ru :: checkout_url: http://cream-store.loc/checkout/?mc_cart_id=27190aeaec7f118a273450e35130883b
+2018-12-04T09:59:53+00:00 DEBUG order_submit :: #216 :: Array
+(
+    [id] => 216
+    [customer] => Array
+        (
+            [id] => 27190aeaec7f118a273450e35130883b
+            [email_address] => fsb@mail.ru
+            [opt_in_status] => 1
+            [first_name] => ILIA
+            [last_name] => asfasfasf
+            [orders_count] => 1
+            [total_spent] => 50
+            [address] => Array
+                (
+                    [name] => ILIA asfasfasf
+                    [address1] => noasfafa
+                    [city] => Moscow
+                    [postal_code] => 333333
+                    [phone] => 9896135155
+                )
+
+        )
+
+    [financial_status] => pending
+    [currency_code] => USD
+    [order_total] => 50
+    [order_url] => http://cream-store.loc/my-account/view-order/216/
+    [tax_total] => 0
+    [discount_total] => 0
+    [shipping_total] => 0
+    [processed_at_foreign] => 2018-12-04 09:57:41
+    [shipping_address] => Array
+        (
+            [name] => ILIA asfasfasf
+            [address1] => noasfafa
+            [city] => Moscow
+            [postal_code] => 333333
+            [phone] => 9896135155
+        )
+
+    [billing_address] => Array
+        (
+            [name] => ILIA asfasfasf
+            [address1] => noasfafa
+            [city] => Moscow
+            [postal_code] => 333333
+            [phone] => 9896135155
+        )
+
+    [lines] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 63
+                    [product_id] => 158
+                    [product_variant_id] => 159
+                    [quantity] => 1
+                    [price] => 50
+                )
+
+        )
+
+)
+
+2018-12-04T09:59:55+00:00 NOTICE order_submit.success :: addStoreOrder :: #216 :: email: fsb@mail.ru :: landing site http://cream-store.loc/wp-admin/admin.php?page=checkout_form_designer&tab=fields&section=billing :: abandoned cart deleted [27190aeaec7f118a273450e35130883b]
+2018-12-04T11:05:54+00:00 DEBUG product_submit.debug :: #9 :: Array
+(
+    [id] => 9
+    [title] => Product 1
+    [handle] => product-1
+    [url] => http://cream-store.loc/product/product-1/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/phone_red-202x300.jpg
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 9
+                    [title] => Product 1
+                    [url] => http://cream-store.loc/product/product-1/
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 103
+                    [title] => Product 1 :: Model = x :: Text-color = 
+                    [url] => http://cream-store.loc/product/product-1/?attribute_pa_model=x
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 104
+                    [title] => Product 1 :: Model = xr :: Text-color = 
+                    [url] => http://cream-store.loc/product/product-1/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 105
+                    [title] => Product 1 :: Model = xs :: Text-color = 
+                    [url] => http://cream-store.loc/product/product-1/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-11-28 11:12:50
+)
+
+2018-12-04T11:05:55+00:00 NOTICE product_submit.success :: addStoreProduct :: #9
+2018-12-04T11:05:57+00:00 DEBUG product_submit.debug :: #9 :: Array
+(
+    [id] => 9
+    [title] => Product 1
+    [handle] => product-1
+    [url] => http://cream-store.loc/product/product-1/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/phone_red-202x300.jpg
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 9
+                    [title] => Product 1
+                    [url] => http://cream-store.loc/product/product-1/
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 103
+                    [title] => Product 1 :: Model = x :: Text-color = 
+                    [url] => http://cream-store.loc/product/product-1/?attribute_pa_model=x
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 104
+                    [title] => Product 1 :: Model = xr :: Text-color = 
+                    [url] => http://cream-store.loc/product/product-1/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 105
+                    [title] => Product 1 :: Model = xs :: Text-color = 
+                    [url] => http://cream-store.loc/product/product-1/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-11-28 11:12:50
+)
+
+2018-12-04T11:05:57+00:00 NOTICE product_submit.success :: addStoreProduct :: #9
+2018-12-04T11:08:10+00:00 DEBUG MailChimp_WooCommerce_User_Submit :: 1 is currently in motion - skipping this one.
+2018-12-04T11:10:05+00:00 DEBUG order_submit :: #217 :: Array
+(
+    [id] => 217
+    [customer] => Array
+        (
+            [id] => f8ae7ec9820d12cac27791554e9d8047
+            [email_address] => foma.izob@gmail.com
+            [opt_in_status] => 1
+            [first_name] => ILIA
+            [last_name] => asfasfasf
+            [orders_count] => 8
+            [total_spent] => 1
+            [address] => Array
+                (
+                    [name] => ILIA asfasfasf
+                    [address1] => noasfafa
+                    [city] => Moscow
+                    [postal_code] => 333333
+                    [phone] => 9896135155
+                )
+
+        )
+
+    [financial_status] => pending
+    [currency_code] => USD
+    [order_total] => 320.99
+    [order_url] => http://cream-store.loc/my-account/view-order/217/
+    [tax_total] => 0
+    [discount_total] => 0
+    [shipping_total] => 28.99
+    [processed_at_foreign] => 2018-12-04 11:08:10
+    [shipping_address] => Array
+        (
+            [name] => ILIA asfasfasf
+            [address1] => noasfafa
+            [city] => Moscow
+            [postal_code] => 333333
+            [phone] => 9896135155
+        )
+
+    [billing_address] => Array
+        (
+            [name] => ILIA asfasfasf
+            [address1] => noasfafa
+            [city] => Moscow
+            [postal_code] => 333333
+            [phone] => 9896135155
+        )
+
+    [lines] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 65
+                    [product_id] => 9
+                    [product_variant_id] => 103
+                    [quantity] => 1
+                    [price] => 50
+                )
+
+            [1] => Array
+                (
+                    [id] => 66
+                    [product_id] => 162
+                    [product_variant_id] => 163
+                    [quantity] => 1
+                    [price] => 25
+                )
+
+            [2] => Array
+                (
+                    [id] => 67
+                    [product_id] => 162
+                    [product_variant_id] => 164
+                    [quantity] => 1
+                    [price] => 50
+                )
+
+            [3] => Array
+                (
+                    [id] => 68
+                    [product_id] => 199
+                    [product_variant_id] => 200
+                    [quantity] => 2
+                    [price] => 39
+                )
+
+            [4] => Array
+                (
+                    [id] => 69
+                    [product_id] => 199
+                    [product_variant_id] => 200
+                    [quantity] => 1
+                    [price] => 39
+                )
+
+            [5] => Array
+                (
+                    [id] => 70
+                    [product_id] => 9
+                    [product_variant_id] => 104
+                    [quantity] => 1
+                    [price] => 50
+                )
+
+        )
+
+)
+
+2018-12-04T11:10:07+00:00 NOTICE order_submit.success :: addStoreOrder :: #217 :: email: foma.izob@gmail.com :: landing site http://cream-store.loc/?wc-ajax=get_refreshed_fragments
+2018-12-04T11:10:09+00:00 DEBUG order_submit :: #217 :: Array
+(
+    [id] => 217
+    [customer] => Array
+        (
+            [id] => f8ae7ec9820d12cac27791554e9d8047
+            [email_address] => foma.izob@gmail.com
+            [opt_in_status] => 1
+            [first_name] => ILIA
+            [last_name] => asfasfasf
+            [orders_count] => 8
+            [total_spent] => 1
+            [address] => Array
+                (
+                    [name] => ILIA asfasfasf
+                    [address1] => noasfafa
+                    [city] => Moscow
+                    [postal_code] => 333333
+                    [phone] => 9896135155
+                )
+
+        )
+
+    [financial_status] => pending
+    [currency_code] => USD
+    [order_total] => 320.99
+    [order_url] => http://cream-store.loc/my-account/view-order/217/
+    [tax_total] => 0
+    [discount_total] => 0
+    [shipping_total] => 28.99
+    [processed_at_foreign] => 2018-12-04 11:08:10
+    [shipping_address] => Array
+        (
+            [name] => ILIA asfasfasf
+            [address1] => noasfafa
+            [city] => Moscow
+            [postal_code] => 333333
+            [phone] => 9896135155
+        )
+
+    [billing_address] => Array
+        (
+            [name] => ILIA asfasfasf
+            [address1] => noasfafa
+            [city] => Moscow
+            [postal_code] => 333333
+            [phone] => 9896135155
+        )
+
+    [lines] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 65
+                    [product_id] => 9
+                    [product_variant_id] => 103
+                    [quantity] => 1
+                    [price] => 50
+                )
+
+            [1] => Array
+                (
+                    [id] => 66
+                    [product_id] => 162
+                    [product_variant_id] => 163
+                    [quantity] => 1
+                    [price] => 25
+                )
+
+            [2] => Array
+                (
+                    [id] => 67
+                    [product_id] => 162
+                    [product_variant_id] => 164
+                    [quantity] => 1
+                    [price] => 50
+                )
+
+            [3] => Array
+                (
+                    [id] => 68
+                    [product_id] => 199
+                    [product_variant_id] => 200
+                    [quantity] => 2
+                    [price] => 39
+                )
+
+            [4] => Array
+                (
+                    [id] => 69
+                    [product_id] => 199
+                    [product_variant_id] => 200
+                    [quantity] => 1
+                    [price] => 39
+                )
+
+            [5] => Array
+                (
+                    [id] => 70
+                    [product_id] => 9
+                    [product_variant_id] => 104
+                    [quantity] => 1
+                    [price] => 50
+                )
+
+        )
+
+)
+
+2018-12-04T11:10:11+00:00 NOTICE order_submit.success :: updateStoreOrder :: #217 :: email: foma.izob@gmail.com
+2018-12-04T11:10:38+00:00 DEBUG api.addCart :: Adding Cart :: zhora@fsb.ru :: Array
+(
+    [id] => 6fc386d2ec8855346c685e246e58abe9
+    [customer] => Array
+        (
+            [id] => 6fc386d2ec8855346c685e246e58abe9
+            [email_address] => zhora@fsb.ru
+            [opt_in_status] => 
+            [orders_count] => 0
+            [total_spent] => 0
+        )
+
+    [checkout_url] => http://cream-store.loc/checkout/?mc_cart_id=6fc386d2ec8855346c685e246e58abe9
+    [currency_code] => USD
+    [order_total] => 50
+    [lines] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 087f21b6a3b3d833f092f3546ab61b9a
+                    [product_id] => 9
+                    [product_variant_id] => 105
+                    [quantity] => 1
+                    [price] => 50
+                )
+
+        )
+
+)
+
+2018-12-04T11:10:38+00:00 NOTICE abandoned_cart.success :: email: zhora@fsb.ru :: checkout_url: http://cream-store.loc/checkout/?mc_cart_id=6fc386d2ec8855346c685e246e58abe9
+2018-12-04T11:14:25+00:00 DEBUG order_submit :: #218 :: Array
+(
+    [id] => 218
+    [customer] => Array
+        (
+            [id] => 6fc386d2ec8855346c685e246e58abe9
+            [email_address] => zhora@fsb.ru
+            [opt_in_status] => 1
+            [first_name] => ILIA
+            [last_name] => asfasfasf
+            [orders_count] => 1
+            [total_spent] => 50
+            [address] => Array
+                (
+                    [name] => ILIA asfasfasf
+                    [address1] => noasfafa
+                    [city] => Moscow
+                    [postal_code] => 333333
+                    [phone] => 9896135155
+                )
+
+        )
+
+    [financial_status] => pending
+    [currency_code] => USD
+    [order_total] => 50
+    [order_url] => http://cream-store.loc/my-account/view-order/218/
+    [tax_total] => 0
+    [discount_total] => 0
+    [shipping_total] => 0
+    [processed_at_foreign] => 2018-12-04 11:10:36
+    [shipping_address] => Array
+        (
+            [name] => ILIA asfasfasf
+            [address1] => noasfafa
+            [city] => Moscow
+            [postal_code] => 333333
+            [phone] => 9896135155
+        )
+
+    [billing_address] => Array
+        (
+            [name] => ILIA asfasfasf
+            [address1] => noasfafa
+            [city] => Moscow
+            [postal_code] => 333333
+            [phone] => 9896135155
+        )
+
+    [lines] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 72
+                    [product_id] => 9
+                    [product_variant_id] => 105
+                    [quantity] => 1
+                    [price] => 50
+                )
+
+        )
+
+)
+
+2018-12-04T11:14:27+00:00 NOTICE order_submit.success :: addStoreOrder :: #218 :: email: zhora@fsb.ru :: landing site http://cream-store.loc/wp-admin/post.php?post=217&action=edit :: abandoned cart deleted [6fc386d2ec8855346c685e246e58abe9]
