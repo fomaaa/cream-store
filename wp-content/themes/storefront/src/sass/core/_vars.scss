@@ -1,0 +1,34 @@
+// Colors
+$primary-color: #37B34A;
+$primary-color-lighten: #6CDA7D;
+$primary-color-light: #71C87E;
+
+$black: #010101;
+$black-lighten: #595959;
+
+$white: #fff;
+
+$gray: #d9d9d9;
+
+// Box shadow
+$box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.05);
+
+// Border radius
+$border-radius: 40px;
+
+// Transition
+$easing: cubic-bezier(0.58, 0.01, 0.41, 1);
+$transition: all 0.3s $easing;
+
+// Text shadow
+$text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+
+// Breakpoints
+$xlg-breakpoint: 1600;
+$lg-breakpoint: 1600;
+$md-breakpoint: 1100;
+$sm-breakpoint: 1025;
+$xs-breakpoint: 1025;
+
+
+$mob: $xs-breakpoint;

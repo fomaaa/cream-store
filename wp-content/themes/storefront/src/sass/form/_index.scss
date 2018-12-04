@@ -1,0 +1,366 @@
+@import "inputs";
+@import "range";
+
+.form__title {
+	font-size: 18px;
+	font-weight: 900;
+	letter-spacing: .1em;
+}
+
+.form__checkbox {
+	position: relative;
+	height: rem(50px);
+	display: flex;
+	align-items: center;
+	padding-left: 18px;
+
+	@include r($xs-breakpoint) {
+		padding-left: 0;
+	}
+
+	input {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		cursor: pointer;
+		z-index: 1;
+
+		&:checked + .form__label:after {
+			opacity: 1;
+		}
+	}
+
+	.form__label {
+		font-size: 14px;
+		line-height: 16px;
+		font-weight: 300;
+		position: relative;
+		padding-left: 40px;
+		letter-spacing: .1em;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(23px);
+			line-height: rem(27px);
+			padding-left: rem(74px);
+		}
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 12px;
+			left: 0;
+			border: 2px solid $black;
+			width: 26px;
+			height: 26px;
+
+			@include r($xs-breakpoint) {
+				width: rem(44px);
+				top: rem(4px);
+				height: rem(44px);
+			}
+		}
+
+		&:after {
+			content: '';
+			position: absolute;
+			top: 20px;
+			left: 8px;
+			width: 10px;
+			height: 10px;
+			background-color: $black;
+			opacity: 0;
+
+			@include r($xs-breakpoint) {
+				width: rem(18px);
+				height: rem(18px);
+				top: rem(18px);
+				left: rem(13px);
+			}
+		}
+	}
+}
+
+.formInfo {
+	padding: 8px 0 40px;
+	border-bottom: 1px solid #d9d9d9;
+
+	@include r($xs-breakpoint) {
+		padding: rem(4px) 0 rem(50px);
+	}
+
+	&__item {
+		position: relative;
+		padding-right: 70px;
+		display: flex;
+
+		@include r($xs-breakpoint) {
+			padding-right: rem(100px);
+			line-height: rem(49px);
+			display: inline-block;
+			width: 100%;
+		}
+
+		&:not(:first-child) {
+			margin-top: 22px;
+
+			@include r($xs-breakpoint) {
+				margin-top: rem(9px);
+			}
+		}
+	}
+
+	&__title {
+		font-size: 16px;
+		font-weight: 900;
+		letter-spacing: .1em;
+		position: relative;
+		top: -3px;
+		margin-right: 5px;
+		white-space: nowrap;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(25px);
+			margin-right: rem(3px);
+			display: inline;
+			top: 0;
+		}
+
+		&.formInfo__title--xs {
+			font-size: 14px;
+			top: -1px;
+
+			@include r($xs-breakpoint) {
+				font-size: rem(25px);
+				margin-right: rem(10px);
+				top: 0;
+			}
+		}
+	}
+
+	&__value {
+		font-size: 14px;
+		letter-spacing: .1em;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(25px);
+			display: inline;
+		}
+	}
+
+	&__change {
+		position: absolute;
+		top: 2px;
+		right: 0;
+		font-size: 12px;
+		letter-spacing: .1em;
+		font-weight: 300;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(22px);
+			top: rem(-2px);
+		}
+	}
+}
+
+.form__radio {
+	position: relative;
+
+	> input {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		cursor: pointer;
+		z-index: 2;
+		opacity: 0;
+
+		&:checked + .form__label:after {
+			opacity: 1;
+		}
+
+		&:checked + .form__label + .form__toggle {
+			display: flex;
+		}
+	}
+
+	.form__label {
+		font-size: 14px;
+		position: relative;
+		display: block;
+		padding: 8px 30px;
+		letter-spacing: .1em;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(25px);
+			line-height: rem(35px);
+			padding: rem(8px) rem(60px);
+
+			strong {
+				font-weight: normal;
+				display: block;
+			}
+		}
+
+		&.form__label--sm {
+			font-size: 16px;
+
+			@include r($xs-breakpoint) {
+				font-size: rem(25px);
+				line-height: rem(35px);
+				padding: rem(8px) rem(60px);
+
+				strong {
+					font-weight: normal;
+					display: block;
+				}
+			}
+		}
+
+		&:before {
+			content: '';
+			background-color: $gray;
+			position: absolute;
+			top: 5px;
+			left: 0;
+			width: 21px;
+			height: 21px;
+			border-radius: 50%;
+
+			@include r($xs-breakpoint) {
+				width: rem(36px);
+				height: rem(36px);
+				//top: rem(22px);
+			}
+		}
+
+		&:after {
+			content: '';
+			position: absolute;
+			top: 10px;
+			left: 5px;
+			background-color: $black;
+			width: 11px;
+			height: 11px;
+			border-radius: 50%;
+			opacity: 0;
+
+			@include r($xs-breakpoint) {
+				width: rem(20px);
+				height: rem(20px);
+				left: rem(8px);
+			}
+		}
+
+		&:after,
+		&:before {
+			margin-top: -2px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		.price {
+			position: absolute;
+			top: 9px;
+			right: 0;
+		}
+
+		.creditList {
+			position: absolute;
+			top: -3px;
+			right: -8px;
+
+			ul {
+				display: flex;
+			}
+		}
+	}
+
+	.form__toggle {
+		margin-top: 8px;
+		margin-left: -10px;
+		margin-right: -10px;
+		position: relative;
+		z-index: 10;
+		display: none;
+
+		@include r($xs-breakpoint) {
+			margin-top: rem(55px);
+		}
+
+		.form__text {
+			max-width: 400px;
+		}
+
+		.form__field {
+			width: 100%;
+			margin-top: 20px;
+			padding: 0 10px;
+
+			@include r($xs-breakpoint) {
+				margin-top: rem(30px);
+			}
+
+			&.form__field--sm {
+				width: percentage(240/494);
+
+				@include r($xs-breakpoint) {
+					width: 100%;
+				}
+			}
+
+			&.form__field--xs {
+				width: percentage(127/494);
+
+				@include r($xs-breakpoint) {
+					width: 50%;
+				}
+			}
+		}
+	}
+}
+
+.form__field--locked {
+	position: relative;
+
+	.btn--locked {
+		position: absolute;
+		top: 16px;
+		right: 30px;
+
+		@include r($xs-breakpoint) {
+			top: rem(29px);
+			right: rem(40px);
+		}
+	}
+}
+
+.form__field--question {
+	position: relative;
+
+	.btn--question {
+		position: absolute;
+		top: 18px;
+		right: 21px;
+
+		@include r($xs-breakpoint) {
+			top: rem(30px);
+			right: rem(40px);
+		}
+	}
+
+}
+
+.form__text {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+
+	@include r($xs-breakpoint) {
+		font-size: rem(25px);
+		line-height: rem(36px);
+	}
+}

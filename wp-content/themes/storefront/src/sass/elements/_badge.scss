@@ -1,0 +1,31 @@
+.badge {
+	color: #fff;
+	font-weight: 900;
+	font-size: 15px;
+	text-align: center;
+	background-color: $black;
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 100%;
+
+	@include r($xs-breakpoint) {
+		font-size: rem(20px);
+		padding: rem(3px) rem(8px) 0;
+	}
+}
+
+
+.badge.badge--xs {
+	font-size: rem(14px);
+	padding: rem(4px) rem(8px) rem(2px);
+}
+
+.badge.badge--xxs {
+	font-size: rem(12px);
+	width: 18px;
+	height: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+}

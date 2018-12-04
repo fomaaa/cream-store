@@ -1,0 +1,116 @@
+@import "grid";
+
+.container-fluid,
+.container {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.container {
+	max-width: 1230px;
+	padding: 0 15px;
+}
+
+.container-fluid {
+	padding: 0 82px;
+
+	@include r($lg-breakpoint) {
+		padding: 0 50px;
+	}
+
+	@include r($xs-breakpoint) {
+		padding: 0 rem(72px);
+	}
+}
+
+.container-sm {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 952px;
+
+	@include r($xs-breakpoint) {
+		padding: 0 rem(58px);
+	}
+}
+
+.i-content {
+	//max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 310px;
+
+	@include r($lg-breakpoint) {
+		padding: 0 240px;
+	}
+
+	@include r($xs-breakpoint) {
+		padding: 0 rem(72px);
+	}
+}
+
+.color-black {
+	color: $black;
+}
+
+.title-lg {
+
+}
+.title-sm {
+
+}
+.title-md {
+
+}
+
+.text-center {
+	text-align: center;
+}
+
+.full-vp {
+	height: 100vh;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	display: flex;
+	flex-flow: wrap;
+}
+
+.flex-vbottom {
+	display: flex;
+	align-items: flex-end;
+}
+
+.flex-vcenter {
+	display: flex;
+	align-items: center;
+}
+
+.flex-hcenter {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-vhcenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hidden-mobile {
+	@include r($mob) {
+		display: none !important;
+	}
+}
+
+.hidden-desktop {
+
+	@include rmin($mob) {
+		display: none !important;
+	}
+}
+

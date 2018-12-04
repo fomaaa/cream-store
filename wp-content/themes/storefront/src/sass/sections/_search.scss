@@ -1,0 +1,146 @@
+.section--search {
+	padding-bottom: 150px;
+
+	@include r($xs-breakpoint) {
+		padding-bottom: rem(270px);
+	}
+
+	.section__inner {
+		padding-top: 84px;
+
+		@include r($xs-breakpoint) {
+			padding-top: rem(76px);
+		}
+	}
+
+}
+
+.search__title {
+	font-size: 111px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 0.2em;
+
+	@include r($xs-breakpoint) {
+		font-size: rem(103px);
+		line-height: rem(122px);
+		padding: 0 rem(40px);
+	}
+}
+
+.searchResult {
+	margin-top: 45px;
+
+	@include r($xs-breakpoint) {
+		margin-top: rem(45px);
+	}
+
+	&__title {
+		font-size: 18px;
+		text-transform: uppercase;
+		letter-spacing: .2em;
+		text-align: center;
+		border-bottom: 1px solid #c8c8c8;
+		max-width: 953px;
+		margin: 0 auto;
+		padding-bottom: 68px;
+
+		@include r($xs-breakpoint) {
+			border: 0;
+			font-size: rem(25px);
+			padding-bottom: rem(35px);
+		}
+	}
+
+	&__list {
+		display: flex;
+		flex-flow: wrap;
+		justify-content: center;
+		padding: 70px 40px;
+		margin: 0 -100px;
+
+		@include r($xs-breakpoint) {
+			padding-bottom: rem(70px);
+			padding-top: rem(70px);
+		}
+
+		li {
+			width: 33.33%;
+			padding: 0 100px;
+
+			@include r($xs-breakpoint) {
+				width: 100%;
+
+				&:not(:first-child) {
+					margin-top: rem(63px);
+				}
+			}
+		}
+	}
+}
+
+.searchForm {
+	margin-top: 14px;
+
+	@include r($xs-breakpoint) {
+		margin-top: rem(105px);
+	}
+}
+
+.form--search {
+	max-width: 953px;
+	margin: 0 auto;
+
+	@include r($xs-breakpoint) {
+		max-width: rem(605px);
+	}
+
+	.form__field {
+		position: relative;
+	}
+
+	.btn--search {
+		position: absolute;
+		right: 0;
+		top: 0;
+		height: 100%;
+		width: 60px;
+		text-align: center;
+
+		@include r($xs-breakpoint) {
+			width: rem(94px);
+		}
+
+		svg {
+			width: 27px;
+			height: 26px;
+
+			@include r($xs-breakpoint) {
+				width: rem(42px);
+				height: rem(41px);
+				position: relative;
+				top: rem(-5px);
+			}
+		}
+	}
+
+	input {
+		height: 95px;
+		border-bottom: 1px solid $black;
+		text-align: center;
+		font-size: 18px;
+		font-family: inherit;
+		letter-spacing: .2em;
+		width: 100%;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(35px);
+			height: rem(130px);
+		}
+
+		&::placeholder {
+			text-transform: uppercase;
+		}
+	}
+}

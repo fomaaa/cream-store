@@ -1,0 +1,66 @@
+.out {
+	position: relative;
+	overflow: hidden;
+	min-height: 100vh;
+}
+
+.no-scroll {
+	overflow: hidden;
+}
+
+.is-fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.section__title {
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	font-weight: 900;
+	text-align: center;
+	font-size: rem(30px);
+}
+
+
+.section--first {
+	margin-top: -156px;
+	padding-top: 156px;
+
+	@include r($xs-breakpoint) {
+		margin-top: rem(-170px);
+		padding-top: rem(170px);
+	}
+}
+
+.page {
+
+	&__title {
+		font-size: 64px;
+		line-height: 78px;
+		letter-spacing: 0.238em;
+		text-transform: uppercase;
+		font-weight: 900;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(70px);
+			line-height: rem(78px);
+			letter-spacing: .2em;
+		}
+	}
+
+	&__subtitle {
+		font-weight: 300;
+		font-size: 18px;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(20px);
+		}
+	}
+}
+
+.color-white {
+	color: #fff;
+}

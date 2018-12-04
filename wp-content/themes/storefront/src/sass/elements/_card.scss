@@ -1,0 +1,283 @@
+.card {
+	position: relative;
+}
+
+.card--good.card--good-md {
+	font-weight: 300;
+	min-height: rem(251px);
+
+	.card__photo {
+		//width: 170px;
+		width: rem(127px);
+		height: rem(251px);
+		@include cover();
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		.badge {
+			position: absolute;
+			top: 0;
+			left: 100%;
+			margin-left: rem(24px);
+			margin-top: rem(6px);
+			font-weight: normal;
+
+
+			@include rmin($xs-breakpoint) {
+				width: 26px;
+				height: 26px;
+			}
+
+			@include r($lg-breakpoint) {
+				margin-left: rem(10px);
+			}
+
+			@include r($xs-breakpoint) {
+				margin-left: rem(24px);
+			}
+		}
+	}
+
+	.card__body {
+		padding-top: rem(10px);
+		padding-left: rem(205px);
+
+		@include r($lg-breakpoint) {
+			padding-left: 180px;
+		}
+
+		@include r($xs-breakpoint) {
+			padding-left: rem(205px);
+		}
+	}
+
+	.card__category {
+		font-size: rem(20px);
+		text-transform: uppercase;
+		letter-spacing: .2em;
+	}
+
+	.card__title {
+		font-size: rem(40px);
+		font-weight: 900;
+		margin-left: rem(-6px);
+		margin-top: rem(8px);
+		letter-spacing: .1em;
+		text-transform: uppercase;
+	}
+
+	.card__price {
+		margin-top: rem(13px);
+		font-size: rem(20px);
+		letter-spacing: .1em;
+	}
+
+	.card__info {
+		margin-top: rem(26px);
+		font-size: rem(15.69px);
+		letter-spacing: .1em;
+		margin-right: rem(-20px);
+
+
+		li:not(:first-child) {
+			margin-top: rem(13px);
+		}
+
+		.color {
+			margin-left: rem(7px);
+		}
+	}
+}
+
+
+.card--good.card--good-sm {
+	font-weight: 300;
+	min-height: rem(101px);
+
+	.card__photo {
+		width: rem(51px);
+		height: rem(101px);
+		@include cover();
+		position: absolute;
+		top: rem(10px);
+		left: 0;
+
+		.badge {
+			position: absolute;
+			top: 0;
+			left: 100%;
+			margin-left: -19px;
+			font-weight: normal;
+
+			@include r($lg-breakpoint) {
+				margin-left: rem(10px);
+			}
+
+			@include r($xs-breakpoint) {
+				margin-left: rem(-15px);
+			}
+		}
+	}
+
+	.card__body {
+		padding-top: rem(10px);
+		padding-left: rem(85px);
+		text-align: left;
+
+		@include r($lg-breakpoint) {
+			padding-left: 180px;
+		}
+
+		@include r($xs-breakpoint) {
+			padding-left: rem(76px);
+			padding-top: rem(12px);
+		}
+	}
+
+	.card__head {
+		display: flex;
+		flex-flow: wrap;
+		margin: 0 -4px 13px;
+
+		@include r($xs-breakpoint) {
+			display: block;
+		}
+
+		> div {
+			margin: 0 4px;
+		}
+
+		.card__price {
+			margin-left: auto;
+		}
+	}
+
+	.card__category {
+		font-size: rem(18px);
+		text-transform: uppercase;
+		letter-spacing: .2em;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(22px);
+		}
+	}
+
+	.card__title {
+		font-size: rem(18px);
+		font-weight: 900;
+		letter-spacing: .1em;
+		text-transform: uppercase;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(22px);
+		}
+	}
+
+	.card__price {
+		margin-top: rem(13px);
+		font-size: rem(16px);
+		letter-spacing: .1em;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(22px);
+			margin-top: rem(20px) !important;
+			padding-left: 5px;
+		}
+	}
+
+	.card__info {
+		font-size: rem(14px);
+		letter-spacing: .1em;
+
+		@include r($xs-breakpoint) {
+			display: none;
+		}
+
+		li:not(:first-child) {
+			margin-top: rem(6px);
+		}
+
+		.color {
+			margin-left: rem(7px);
+			width: 21px;
+			height: 21px;
+		}
+	}
+}
+
+
+.color {
+	width: rem(30px);
+	height: rem(30px);
+	@include cover();
+	border-radius: 100%;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.card--good-lg {
+
+	@include r($xs-breakpoint) {
+		text-align: center;
+	}
+
+	.card__photo {
+		width: 230px;
+		//width: 309px;
+		height: 458px;
+		@include cover();
+
+		@include r($xs-breakpoint) {
+			width: rem(569px);
+			height: rem(843px);
+			margin: 0 auto;
+		}
+	}
+
+	.card__body {
+		padding: 40px 0;
+
+		@include r($xs-breakpoint) {
+			padding: rem(50px) 0;
+		}
+	}
+
+	.card__category {
+		text-transform: uppercase;
+		font-weight: 300;
+		font-size: 20px;
+		letter-spacing: .3em;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(25px);
+		}
+	}
+
+	.card__title {
+		text-transform: uppercase;
+		font-size: 25px;
+		font-weight: 900;
+		letter-spacing: .3em;
+		margin-top: 2px;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(45px);
+			margin-top: rem(6px);
+		}
+	}
+
+	.card__price {
+		font-size: 20px;
+		font-weight: 300;
+		letter-spacing: .3em;
+		text-transform: uppercase;
+		margin-top: 22px;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(35px);
+			margin-top: rem(43px);
+		}
+	}
+}

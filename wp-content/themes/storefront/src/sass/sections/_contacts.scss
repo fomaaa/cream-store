@@ -1,0 +1,266 @@
+.section--contacts {
+	padding-bottom: 145px;
+
+	@include r($xs-breakpoint) {
+		padding-bottom: rem(160px);
+	}
+
+	.section__inner {
+		padding-top: 90px;
+
+		@include r($xs-breakpoint) {
+			padding-top: rem(90px);
+		}
+	}
+
+	.contacts {
+		margin-top: 168px;
+
+		@include r($xs-breakpoint) {
+			margin-top: rem(140px);
+		}
+	}
+}
+
+.contacts__title {
+	font-size: 105px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: .2em;
+
+	@include r($xs-breakpoint) {
+		font-size: rem(90px);
+		line-height: rem(100px);
+	}
+}
+
+.contacts {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: wrap;
+
+	&__column:nth-child(1) {
+		width: percentage(240/952);
+	}
+	&__column:nth-child(2) {
+		width: percentage(340/952);
+
+		@include r($xs-breakpoint) {
+			margin-top: rem(46px);
+		}
+	}
+	&__column:nth-child(3) {
+		width: percentage(217/952);
+		display: flex;
+		justify-content: flex-end;
+
+		@include r($xs-breakpoint) {
+			justify-content: center;
+			margin-top: rem(75px);
+		}
+	}
+
+	&__column {
+		@include r($xs-breakpoint) {
+			width: 100% !important;
+		}
+	}
+
+}
+
+.contactsList {
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: .2em;
+
+	@include r($xs-breakpoint) {
+		font-size: rem(30px);
+		line-height: rem(40px);
+	}
+
+	&__item {
+		position: relative;
+		padding-left: 50px;
+
+		@include r($xs-breakpoint) {
+			padding-left: rem(77px);
+		}
+
+		&:not(:first-child) {
+			margin-top: 20px;
+
+			@include r($xs-breakpoint) {
+				margin-top: rem(40px);
+			}
+		}
+	}
+
+	&__icon {
+		position: absolute;
+		top: -2px;
+		left: 0;
+
+		@include r($xs-breakpoint) {
+			top: rem(-8px);
+			width: rem(30px);
+
+			i {
+				position: relative;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+		}
+	}
+}
+
+.icon-phone {
+	display: inline-block;
+	background-image: url('../img/icons/phone.svg');
+	@include cover();
+	width: 12px;
+	height: 22px;
+
+	@include r($xs-breakpoint) {
+		width: rem(28px);
+		height: rem(52px);
+	}
+}
+
+.icon-world {
+	width: 20px;
+	height: 20px;
+	background-image: url('../img/icons/world.svg');
+	@include cover();
+	display: inline-block;
+
+	@include r($xs-breakpoint) {
+		width: rem(47px);
+		height: rem(47px);
+	}
+}
+
+.icon-mail {
+	width: 19px;
+	height: 18px;
+	background-image: url('../img/icons/mail.svg');
+	@include cover();
+	display: inline-block;
+
+	@include r($xs-breakpoint) {
+		width: rem(45px);
+		height: rem(43px);
+	}
+}
+
+.socials {
+	display: flex;
+	flex-flow: wrap;
+	margin: 0 -20px;
+
+	@include r($xs-breakpoint) {
+		margin: 0 rem(-35px);
+	}
+
+	li {
+		padding: 0 20px;
+
+		@include r($xs-breakpoint) {
+			padding: 0 rem(35px);
+		}
+	}
+}
+
+.social__telegram {
+	width: 47px;
+
+	@include r($xs-breakpoint) {
+		width: rem(82px);
+	}
+}
+
+.social__viber {
+	width: 45px;
+
+	@include r($xs-breakpoint) {
+		width: rem(80px);
+	}
+}
+
+.social__whatsapp {
+	width: 43px;
+
+	@include r($xs-breakpoint) {
+		width: rem(78px);
+	}
+}
+
+.faq {
+	margin-top: 95px;
+	border-top: 1px solid $black;
+	padding-top: 118px;
+
+	@include r($xs-breakpoint) {
+		margin-top: rem(75px);
+		padding-top: rem(90px);
+	}
+
+	.faqList__item:not(:first-child) {
+		margin-top: 45px;
+
+		@include r($xs-breakpoint) {
+			margin-top: rem(64px);
+		}
+	}
+}
+
+
+.accordion {
+
+	&__head {
+		font-size: 18px;
+		line-height: 20px;
+		letter-spacing: .2em;
+		cursor: pointer;
+		display: inline-block;
+		transition: .3s all;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(25px);
+			line-height: rem(35px);
+		}
+
+
+		span {
+			border-bottom: 1px solid transparent;
+			padding-bottom: 5px;
+
+			&:hover {
+				border-color: $black;
+			}
+		}
+	}
+
+	&__body {
+		font-size: 16px;
+		line-height: 20px;
+		letter-spacing: .2em;
+		margin-top: 35px;
+		margin-bottom: 78px;
+		display: none;
+
+		@include r($xs-breakpoint) {
+			margin-top: rem(63px);
+			font-size: rem(25px);
+			line-height: rem(35px);
+		}
+
+		p:not(:first-child) {
+			margin-top: 40px;
+
+			@include r($xs-breakpoint) {
+				margin-top: rem(70px);
+			}
+		}
+	}
+}

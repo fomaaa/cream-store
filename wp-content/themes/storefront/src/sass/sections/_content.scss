@@ -1,0 +1,319 @@
+div.section--hero {
+	@include cover();
+	height: 567px;
+	text-align: center;
+	padding-top: 0;
+	display: flex;
+	align-items: center;
+	position: relative;
+
+	@include r($xs-breakpoint) {
+		height: rem(569px);
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: #000;
+			opacity: .6;
+			pointer-events: none;
+		}
+	}
+
+	&.section--darken {
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: #000;
+			opacity: .5;
+			pointer-events: none;
+		}
+	}
+
+	.hero__bottom {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding-bottom: 128px;
+	}
+}
+
+.category {
+	position: relative;
+
+	&.is-active {
+
+		.category__body {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+
+	&.category--black {
+
+		.category__head {
+			color: $black;
+			font-size: 16px;
+			letter-spacing: .18em;
+		}
+	}
+
+	&__head {
+		cursor: pointer;
+		text-align: center;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 20px;
+		font-weight: 300;
+		letter-spacing: .3em;
+	}
+
+	&__body {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		top: -38px;
+		background-color: #fff;
+		padding: 72px 90px;
+		letter-spacing: .3em;
+		opacity: 0;
+		visibility: hidden;
+		transition: .3s all;
+		z-index: 10;
+
+		.close {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 60px;
+			height: 58px;
+			background-image: url('../img/close.png');
+			background-size: 27px 27px;
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+
+
+		.list-container {
+			display: flex;
+			text-align: left;
+			margin: 0 -45px;
+
+			.list-column {
+				padding: 0 55px;
+				width: 33.33%;
+
+				a {
+					white-space: nowrap;
+				}
+
+				li:not(:first-child) {
+					margin-top: 29px;
+				}
+			}
+		}
+
+		ul {
+
+			a {
+				font-size: 16px;
+				font-weight: 300;
+				text-transform: uppercase;
+
+				&.is-active {
+					background-color: $black;
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+.hero__title {
+	font-size: 111px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: .2em;
+
+	@include r($xs-breakpoint) {
+		font-size: rem(90px);
+	}
+}
+
+
+.section--content {
+	padding: 103px 0;
+
+	@include r($xs-breakpoint) {
+		padding: rem(65px) rem(52px);
+	}
+
+
+	article {
+		max-width: 940px;
+		margin: 0 auto;
+
+		p {
+			font-size: 16px;
+			line-height: 20px;
+			letter-spacing: .2em;
+			font-weight: 300;
+			margin: 40px 0;
+
+			@include r($xs-breakpoint) {
+				font-size: rem(25px);
+				line-height: rem(35px);
+				margin: rem(70px) 0;
+			}
+
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+}
+
+.gallery {
+	display: flex;
+	flex-flow: wrap;
+
+	&__item {
+		height: 319px;
+		width: 25%;
+
+		@include r($xs-breakpoint) {
+			width: 100%;
+			height: rem(504px);
+		}
+
+		a {
+			display: block;
+			height: 100%;
+			@include cover();
+		}
+	}
+}
+
+.postBox {
+	padding: 160px 0 115px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	@include r($xs-breakpoint) {
+		padding: rem(135px) 0 rem(144px);
+		display: block;
+		text-align: center;
+	}
+
+	.nextPage {
+
+		@include r($xs-breakpoint) {
+			margin-top: rem(107px);
+		}
+	}
+}
+
+.nextPage {
+
+	a {
+		display: flex;
+		align-items: center;
+		font-size: 16px;
+		font-weight: 300;
+		letter-spacing: .2em;
+
+		@include r($xs-breakpoint) {
+			justify-content: center;
+			font-size: rem(30px);
+		}
+
+		.arrow {
+			width: 107px;
+			margin-left: 23px;
+
+			&:after,
+			&:before {
+				width: 16px;
+				right: -2px;
+			}
+
+			&:after {
+				margin-top: 6px;
+			}
+
+			&:before {
+				margin-top: -6px;
+			}
+		}
+	}
+}
+
+.container-custom {
+	margin: 0 auto;
+	position: relative;
+	max-width: 927px;
+}
+
+
+.share {
+	display: flex;
+	align-items: center;
+
+	@include r($xs-breakpoint) {
+		display: block;
+	}
+
+	.share__title {
+		font-size: 16px;
+		font-weight: 300;
+		letter-spacing: .2em;
+		margin-right: 10px;
+
+		@include r($xs-breakpoint) {
+			margin-right: 0;
+			font-size: rem(30px);
+		}
+	}
+}
+
+
+.shareSocials {
+	display: flex;
+	flex-flow: wrap;
+
+	@include r($xs-breakpoint) {
+		margin-top: rem(75px);
+		justify-content: center;
+	}
+
+	li {
+		margin: 0 10px;
+
+		@include r($xs-breakpoint) {
+			margin: 0 rem(35px);
+		}
+	}
+
+	a {
+		display: block;
+		@include cover();
+		width: 54px;
+		height: 54px;
+
+		@include r($xs-breakpoint) {
+			width: rem(100px);
+			height: rem(100px);
+		}
+	}
+}

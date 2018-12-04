@@ -18,7 +18,7 @@
                       <button class="btn btn--link btn--md" type="submit">subscribe</button>
                     </div>
                   </form>
- -->                
+ -->
  <?php echo do_shortcode('[contact-form-7 id="213" title="Subscribe" html_class="form form--callback"]') ?>
                 </div>
               </div>
@@ -30,10 +30,10 @@
             <div class="copyright">  <?php the_field("coopyright_text", 'option'); ?> © <?php echo date('Y') ?> </div>
           </div>
           <div class="footer__center">
-          	<?php 
+          	<?php
                   wp_nav_menu( array(
-                    'menu'            => 'footer_links', 
-                    'menu_class'      => 'footerLinks', 
+                    'menu'            => 'footer_links',
+                    'menu_class'      => 'footerLinks',
                     'echo'            => true,
                     'fallback_cb'     => 'wp_page_menu',
                     'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
@@ -50,10 +50,10 @@
                 <img src="<?php echo get_stylesheet_directory_uri() ?>/img/inst.png" alt="">
               </a>
             </div>
-              <?php 
+              <?php
                   wp_nav_menu( array(
-                    'menu'            => 'footer_links2', 
-                    'menu_class'      => 'footerLinks footerLinks--secondary', 
+                    'menu'            => 'footer_links2',
+                    'menu_class'      => 'footerLinks footerLinks--secondary',
                     'echo'            => true,
                     'fallback_cb'     => 'wp_page_menu',
                     'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
@@ -84,7 +84,7 @@
       var ajax_url = '<?php echo admin_url('admin-ajax.php'); ?>';
     </script>
   <script src="<?php echo get_stylesheet_directory_uri() ?>/js/app.js"></script>
-	<script src="<?php echo get_stylesheet_directory_uri() ?>/js/ajax.js"></script>
+	<script src="<?php echo get_stylesheet_directory_uri() ?>/js_custom/ajax.js"></script>
 	<?php wp_footer(); ?>
 
   </body>

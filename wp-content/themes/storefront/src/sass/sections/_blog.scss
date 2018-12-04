@@ -1,0 +1,54 @@
+.section--blog {
+	padding: 130px 0 142px;
+}
+
+.grid {
+	display: flex;
+	flex-flow: wrap;
+
+	&.grid--3 {
+		margin: 0 -64px;
+
+		.grid__item {
+			width: 33.33%;
+			padding: 0 64px;
+
+			&:nth-child(n+4) {
+				margin-top: 105px;
+			}
+		}
+	}
+}
+
+.card--article {
+	position: relative;
+
+	.card__link {
+		@include coverdiv();
+	}
+
+	.card__photo {
+		@include cover();
+		height: 213px;
+	}
+
+	.card__body {
+		padding-top: 37px;
+	}
+
+	.card__title {
+		font-size: 25px;
+		font-weight: 900;
+		text-transform: uppercase;
+		letter-spacing: .3em;
+	}
+
+	.card__text {
+		margin-top: 14px;
+		font-size: 14px;
+		font-weight: 300;
+		letter-spacing: .3em;
+		padding-right: 20px;
+		margin-bottom: 25px;
+	}
+}

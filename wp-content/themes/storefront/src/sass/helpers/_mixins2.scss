@@ -1,0 +1,30 @@
+@mixin font-smoothing() {
+	text-rendering: optimizelegibility;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-tap-highlight-color: rgba(0, 0, 0, 0);
+	-moz-text-size-adjust: none;
+	-moz-font-smoothing: antialiased;
+	-ms-tap-highlight-color: rgba(0, 0, 0, 0);
+	-ms-text-size-adjust: none;
+	-ms-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@mixin top-menu-items-transition($items: 5, $initial-transition-delay: 100ms, $next-transition-delay: 50ms) {
+	@for $i from 0 through $items {
+		&:nth-child(#{$i + 1}) {
+			transition-delay: (
+					$initial-transition-delay + ($next-transition-delay * $i)
+			),
+					($initial-transition-delay + ($next-transition-delay * $i));
+		}
+	}
+}
+
+
+@mixin i-content() {
+	width: 1280px;
+	margin: 0 auto;
+}

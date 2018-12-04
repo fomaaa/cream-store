@@ -1,0 +1,99 @@
+.textfield {}
+
+textarea {
+	border-radius: 0;
+}
+
+.input:not(.input--white) {
+	background-color: #f3f3f3;
+	font-family: inherit;
+	color: $black;
+	font-size: 16px;
+	height: 54px;
+	width: 100%;
+	padding-left: 20px;
+	letter-spacing: .1em;
+	padding-top: 3px;
+	border-radius: 0;
+
+	@include r($xs-breakpoint) {
+		height: rem(90px);
+		font-size: rem(30px);
+		padding-top: 0;
+		padding-left: rem(34px);
+	}
+
+	&::placeholder {
+		color: $black;
+		font-family: inherit;
+	}
+}
+
+
+.input--white {
+	border-radius: 0;
+	border: 0;
+	border-bottom: 1px solid #353535;
+	font-family: inherit;
+	font-size: 20px;
+	font-weight: 300;
+	height: 63px;
+	padding-left: 20px;
+	letter-spacing: .2em;
+
+	@include r($xs-breakpoint) {
+		height: rem(90px);
+		font-size: rem(30px);
+	}
+
+	&::placeholder {
+		color: $black;
+		font-family: inherit;
+	}
+
+	&.input--sm {
+		padding-left: 0;
+		font-size: 18px;
+		letter-spacing: .092em;
+		height: 58px;
+		padding-top: 5px;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(30px);
+			padding-top: rem(5px);
+			height: rem(100px);
+		}
+	}
+}
+
+.form__field--icon {
+	position: relative;
+
+	.form__icon {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		transform: translateY(-50%);
+	}
+
+	.input {
+		padding-left: 53px;
+
+		@include r($xs-breakpoint) {
+			padding-left: rem(78px);
+		}
+	}
+}
+
+.icon-envelope {
+	background-image: url('../img/icons/envelop.svg');
+	@include cover();
+	width: 24px;
+	height: 23px;
+	display: inline-block;
+
+	@include r($xs-breakpoint) {
+		width: rem(39px);
+		height: rem(38px);
+	}
+}

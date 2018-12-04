@@ -1,0 +1,15 @@
+.section--text {
+	padding: 190px 0 167px;
+
+	@include r($xs-breakpoint) {
+		padding: rem(112px) 0 rem(120px);
+	}
+
+	.text__bottom {
+		margin-top: 70px;
+
+		@include r($xs-breakpoint) {
+			margin-top: rem(60px);
+		}
+	}
+}

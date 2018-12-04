@@ -1,0 +1,384 @@
+.section--cart {
+
+	.tabsBox {
+		max-width: 1040px;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+
+		@include r($xs-breakpoint) {
+			flex-flow: column-reverse;
+		}
+
+		.tabs__con {
+			width: percentage(494/1040);
+
+			@include r($xs-breakpoint) {
+				width: 100%;
+			}
+
+			&.tabs__con_tab1 {
+				width: 100%;
+			}
+
+			&:not(.tabs__con_tab1) {
+				.cart__left {
+					width: 100%;
+				}
+			}
+		}
+
+		.cart__right {
+			width: percentage(486/1040);
+
+			@include r($xs-breakpoint) {
+				width: 100%;
+			}
+
+			.goodsList {
+				max-width: 445px;
+				margin-bottom: 35px;
+
+				@include r($xs-breakpoint) {
+					display: flex;
+					flex-flow: wrap;
+					margin-top: rem(50px);
+					max-width: 100%;
+
+					&__item {
+						width: 50%;
+					}
+				}
+
+				&__item:not(:first-child) {
+					margin-top: 37px;
+
+					@include r($xs-breakpoint) {
+						margin-top: 0;
+					}
+				}
+			}
+
+			.totalBox {
+				padding-top: 10px;
+
+				@include r($xs-breakpoint) {
+					margin-top: rem(80px);
+				}
+
+				&:not(:first-child) {
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+.cartTop {
+	margin-top: -78px;
+	margin-bottom: 65px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	z-index: 100;
+
+
+	@include r($xs-breakpoint) {
+		display: none;
+	}
+}
+
+.cart {
+	max-width: 1040px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 50px;
+
+	@include r($xs-breakpoint) {
+		display: block;
+	}
+
+	&.cart--mobileReverse {
+
+		@include r($xs-breakpoint) {
+			display: flex;
+			flex-flow: column-reverse;
+		}
+	}
+
+	.cart__left {
+		width: percentage(494/1040);
+
+		@include r($xs-breakpoint) {
+			width: 100%;
+			margin-top: rem(48px);
+		}
+	}
+
+	.cart__right {
+		text-align: right;
+		width: percentage(486/1040);
+
+		@include r($xs-breakpoint) {
+			width: 100%;
+		}
+
+		.goodsList {
+			max-width: 445px;
+			margin-bottom: 35px;
+
+			@include r($xs-breakpoint) {
+				display: flex;
+				flex-flow: wrap;
+				margin-top: rem(50px);
+				max-width: 100%;
+
+				&__item {
+					width: 50%;
+				}
+			}
+
+			&__item:not(:first-child) {
+				margin-top: 37px;
+
+				@include r($xs-breakpoint) {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+
+	.totalBox {
+		padding-top: 10px;
+
+		@include r($xs-breakpoint) {
+			margin-top: rem(80px);
+		}
+
+		&:not(:first-child) {
+			display: block;
+		}
+	}
+}
+
+
+.goodsList {
+
+	&__item:not(:first-child) {
+		margin-top: 56px;
+	}
+}
+
+
+.form--cart {
+	padding: 5px 0;
+
+	@include r($xs-breakpoint) {
+		margin-top: -43px;
+	}
+
+	.form__payments:first-child {
+		margin-bottom: 37px;
+
+		@include r($xs-breakpoint) {
+			margin-bottom: rem(62px);
+		}
+	}
+
+	.form__row:not(:last-child) {
+		margin-bottom: 37px;
+
+		@include r($xs-breakpoint) {
+			margin-bottom: rem(62px);
+		}
+	}
+
+	.form__row {
+		display: flex;
+		flex-flow: wrap;
+		margin: 0 -10px;
+
+		> div {
+			padding: 8px 10px;
+
+			@include r($xs-breakpoint) {
+				padding: rem(15px) rem(10px);
+			}
+		}
+
+		> .form__field {
+			width: 50%;
+
+			@include r($xs-breakpoint) {
+				width: 100%;
+			}
+		}
+	}
+
+	.form__title {
+		margin-bottom: 20px;
+		width: 100%;
+
+		@include r($xs-breakpoint) {
+			text-align: center;
+			font-size: rem(30px);
+			text-transform: uppercase;
+			letter-spacing: .2em;
+			margin-bottom: rem(28px);
+		}
+	}
+
+	.form__payments {
+
+		@include r($xs-breakpoint) {
+			width: 100%;
+			margin-top: 20px;
+		}
+
+		ul {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			flex-flow: wrap;
+			margin: 0 -8px;
+		}
+
+	}
+
+	.totalBox {
+		@include r($xs-breakpoint) {
+			margin-top: rem(30px);
+
+
+			ul {
+				font-size: rem(25px);
+
+				li:not(:first-child) {
+					margin-top: rem(10px);
+				}
+
+				li:last-child {
+					margin-top: rem(20px);
+					font-size: rem(30px);
+				}
+			}
+		}
+	}
+
+	.form__field--checkbox {
+
+		@include r($xs-breakpoint) {
+			margin-top: rem(20px);
+		}
+	}
+
+	.form__bottom {
+		margin-top: 52px;
+		width: 100%;
+
+		@include r($xs-breakpoint) {
+			margin-top: rem(46px);
+		}
+
+		.btn--primary {
+			width: 100%;
+			height: 73px;
+			letter-spacing: .12em;
+
+			@include r($xs-breakpoint) {
+				height: rem(127px);
+				letter-spacing: 0.06em;
+			}
+		}
+
+		.btn--back {
+			margin-top: 20px;
+			height: 50px;
+
+			@include r($xs-breakpoint) {
+				margin-top: rem(50px);
+			}
+		}
+	}
+
+	.formInfo {
+		margin-bottom: 33px;
+
+		@include r($xs-breakpoint) {
+			margin-bottom: rem(43px);
+		}
+	}
+
+	.form__row .form__field--radio {
+		width: 100%;
+
+		@include r($xs-breakpoint) {
+			margin-top: rem(-8px);
+			margin-bottom: rem(-6px);
+		}
+	}
+
+	.form__radio:not(:first-child) {
+		margin-top: 11px;
+
+		@include r($xs-breakpoint) {
+			margin-top: rem(28px);
+		}
+	}
+}
+
+.apple-pay {
+	width: 91px;
+
+	@include r($xs-breakpoint) {
+		width: rem(107px);
+	}
+}
+
+.paypal {
+	width: 128px;
+
+	@include r($xs-breakpoint) {
+		width: rem(146px);
+	}
+}
+
+.visa-mc {
+	width: 142px;
+
+	@include r($xs-breakpoint) {
+		width: rem(204px);
+	}
+}
+
+.ae {
+	width: 76px;
+
+	@include r($xs-breakpoint) {
+		width: rem(125px);
+	}
+}
+
+.form--cart.form--cart-payment {
+
+	.form__field--radio {
+		border-bottom: 1px solid $gray;
+		padding-bottom: 18px;
+	}
+
+	.form__row:not(:last-child) {
+		.form__radio:not(:first-child) {
+			margin-top: 40px;
+
+
+			.paypal {
+				margin-left: 8px;
+			}
+		}
+
+		.form__radio:last-child {
+			margin-top: 15px;
+		}
+	}
+}

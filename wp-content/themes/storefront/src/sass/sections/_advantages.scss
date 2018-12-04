@@ -1,0 +1,85 @@
+.section--advantages {
+	padding: 175px 0 167px;
+
+	@include r($xs-breakpoint) {
+		padding: rem(164px) 0;
+	}
+}
+
+.advantages {
+	display: flex;
+	justify-content: space-between;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 26px;
+	text-transform: uppercase;
+	margin-right: -13px;
+
+	@include r($xs-breakpoint) {
+		flex-flow: column;
+		justify-content: center;
+		align-items: center;
+		font-size: rem(30px);
+		line-height: rem(39px);
+	}
+
+	&__item {
+		display: flex;
+		align-items: center;
+		
+		@include r($xs-breakpoint) {
+			position: relative;
+			padding-left: rem(90px);
+
+			&:not(:first-child) {
+				margin-top: rem(155px);
+			}
+		}
+	}
+
+	&__icon {
+
+		@include r($xs-breakpoint) {
+			position: absolute;
+			top: rem(-12px);
+			left: rem(-55px);
+			min-width: rem(132px);
+			text-align: right;
+		}
+	}
+
+	&__title {
+		max-width: 130px;
+		letter-spacing: .2em;
+		margin-left: 25px;
+
+		@include r($xs-breakpoint) {
+			max-width: rem(160px);
+			margin-left: rem(25px);
+		}
+	}
+}
+
+.icon-advantages1 {
+	width: 64px;
+
+	@include r($xs-breakpoint) {
+		width: rem(96px);
+	}
+}
+
+.icon-advantages2 {
+	width: 65px;
+
+	@include r($xs-breakpoint) {
+		width: rem(98px);
+	}
+}
+
+.icon-advantages3 {
+	width: 87px;
+
+	@include r($xs-breakpoint) {
+		width: rem(132px);
+	}
+}

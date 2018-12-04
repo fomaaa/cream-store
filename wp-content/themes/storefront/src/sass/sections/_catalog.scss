@@ -1,0 +1,126 @@
+.section--catalog {
+	margin-bottom: -75px;
+
+	@include r($xs-breakpoint) {
+		margin-bottom: 0;
+	}
+
+	.section__inner {
+		padding-top: 84px;
+
+		@include r($xs-breakpoint) {
+			padding-top: rem(65px);
+		}
+	}
+
+	.category {
+		margin-top: 115px;
+
+		@include r($xs-breakpoint) {
+			margin-top: rem(70px);
+			padding: 0 rem(55px);
+
+			ul {
+				display: flex;
+				flex-flow: wrap;
+				margin: 0 rem(-20px);
+
+				li {
+					margin: 0 rem(20px);
+				}
+			}
+		}
+
+		&__head {
+
+			@include r($xs-breakpoint) {
+				display: none;
+			}
+		}
+
+		&__body {
+
+			@include r($xs-breakpoint) {
+				position: relative;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				transform: none;
+				opacity: 1;
+				visibility: visible;
+				padding: 0;
+
+				a {
+					font-size: rem(25px);
+					letter-spacing: .3em;
+					line-height: rem(74px);
+				}
+
+				.close {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.goodList {
+		display: flex;
+		flex-flow: wrap;
+		justify-content: center;
+		margin: 143px -63px 0;
+
+		@include r($xs-breakpoint) {
+			margin-top: rem(66px);
+		}
+
+		.goodList__item {
+			width: 33.33%;
+			padding: 0 63px;
+
+			@include r($xs-breakpoint) {
+				width: 100%;
+			}
+
+			&:nth-child(n+4) {
+				margin-top: 22px;
+
+				@include r($xs-breakpoint) {
+					margin-top: 0;
+				}
+			}
+
+			&:not(:first-child) {
+
+				@include r($xs-breakpoint) {
+					margin-top: rem(70px);
+				}
+			}
+		}
+	}
+}
+
+.catalog__title {
+	font-size: 111.81px;
+	letter-spacing: .2em;
+	font-weight: 900;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 -60px;
+
+	br {
+		display: none;
+	}
+
+	@include r($xs-breakpoint) {
+		margin: 0;
+		font-size: rem(103px);
+		line-height: rem(121px);
+		word-break: break-all;
+		padding: 0 rem(100px);
+
+		br {
+			display: inline;
+		}
+	}
+}

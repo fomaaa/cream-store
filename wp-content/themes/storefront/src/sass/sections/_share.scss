@@ -1,0 +1,55 @@
+.section--share {
+
+
+	.page__title {
+		letter-spacing: .23em;
+
+		@include r($xs-breakpoint) {
+			letter-spacing: .2em;
+			padding: 0 rem(30px);
+		}
+	}
+
+	.page__subtitle {
+		margin-top: 32px;
+		
+		@include r($xs-breakpoint) {
+			margin-top: rem(32px);
+		}
+	}
+
+	.shareList {
+		margin-top: 52px;
+
+		@include r($xs-breakpoint) {
+			margin: rem(68px) rem(-72px) 0;
+		}
+	}
+}
+
+
+.shareList {
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+
+	&__item {
+
+		@include r($xs-breakpoint) {
+			width: 50%;
+		}
+
+		a {
+			width: 258px;
+			height: 258px;
+			@include cover();
+			display: block;
+			border-radius: 3px;
+
+			@include r($xs-breakpoint) {
+				width: 100%;
+				height: rem(376px);
+			}
+		}
+	}
+}

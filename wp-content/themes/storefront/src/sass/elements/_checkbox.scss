@@ -1,0 +1,102 @@
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+	position: absolute;
+	left: -9999px;
+}
+
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+	position: relative;
+	padding-left: 50px;
+	cursor: pointer;
+
+	@include r($breakpoint3) {
+		padding-left: 40px;
+	}
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	//top: 50%;
+	//transform: translateY(-50%);
+	margin-top: -5px;
+	border: 1px solid #D6D6D6;
+	box-sizing: border-box;
+	border-radius: 2px;
+	width: 27px;
+	height: 27px;
+	background: #fff;
+}
+.form__checkbox p {
+	position: relative;
+
+	[type="checkbox"] {
+		//width: 100%;
+		//height: 100%;
+		//left: 0;
+		//top: 0;
+	}
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+	content: '';
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	color: $primary-color;
+	background-repeat: no-repeat;
+	font-size: 20px;
+	left: 0;
+	top: 0;
+	background-image: url('../img/galkachekbox.svg');
+	background-position: center 25%;
+}
+
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+	opacity: 0;
+	//transform: scale(0);
+}
+
+[type="checkbox"]:checked + label:after {
+	opacity: 1;
+	//transform: scale(1);
+}
+
+[type="checkbox"]:checked + label:before {
+	//background-color: #cacaca;
+}
+
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+	box-shadow: none;
+	border-color: #cacaca;
+	background-color: #ddd;
+}
+
+[type="checkbox"]:disabled:checked + label:after {
+	color: #999;
+}
+
+[type="checkbox"]:disabled + label {
+	color: #aaa;
+}
+
+/* accessibility */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+	//border: 2px dotted blue;
+}
+
+/* hover style just for information */
+label:hover:before {
+	border: 1px solid  $red !important;
+}

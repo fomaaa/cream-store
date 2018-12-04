@@ -1,0 +1,151 @@
+.header {
+	padding: 63px 0 45px;
+	position: relative;
+	z-index: 100;
+
+	@include r($xs-breakpoint) {
+		padding: rem(72px) 0 rem(56px);
+	}
+
+	.header__inner {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.header.header--white {
+	color: #fff;
+	
+	.nav a {
+		color: #fff;
+	}
+
+	.btn--cart {
+
+		.badge {
+			background-color: #fff;
+			color: $black;
+		}
+
+		svg {
+
+			.basket-st0,
+			.basket-st1 {
+				stroke: #fff;
+			}
+		}
+	}
+	
+	.btn--burger .bar {
+		background-color: #fff;
+	}
+}
+
+.header__left {
+	position: relative;
+
+	.nav {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		text-align: left;
+		margin-top: 53px;
+
+		@include r($xs-breakpoint) {
+			display: none;
+		}
+	}
+}
+
+.header__logo {
+
+	img {
+		width: 99px;
+
+		@include r($xs-breakpoint) {
+			width: rem(86px);
+		}
+	}
+}
+
+.header__center {
+	width: percentage(1392/1900);
+	margin-left: 130px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0;
+
+	@include r($lg-breakpoint) {
+		padding: 0;
+	}
+
+	@include r($xs-breakpoint) {
+		width: auto;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		margin-left: 0;
+		max-width: rem(288px);
+		padding: 0;
+	}
+
+	.pageNav {
+
+		@include r($xs-breakpoint) {
+			display: none;
+		}
+	}
+}
+
+.sloganSecondary,
+.slogan {
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+
+	@include r($xs-breakpoint) {
+		font-size: rem(16px);
+		line-height: rem(24px);
+	}
+}
+
+.sloganSecondary {
+
+	@include r($xs-breakpoint) {
+		display: none;
+	}
+}
+
+.header__right {
+	margin-top: -11px;
+	margin-left: auto;
+	position: relative;
+	text-align: right;
+
+	@include r($xs-breakpoint) {
+		display: flex;
+		flex-flow: column;
+		margin-top: rem(-5px);
+
+		.btn--cart {
+			position: absolute;
+			top: 100%;
+			margin-top: rem(64px);
+		}
+	}
+
+	.nav {
+		position: absolute;
+		right: 0;
+		top: 100%;
+		margin-top: 60px;
+
+		@include r($xs-breakpoint) {
+			display: none;
+		}
+	}
+}
