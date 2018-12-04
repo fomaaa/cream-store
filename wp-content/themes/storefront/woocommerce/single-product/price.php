@@ -25,5 +25,5 @@ global $product;
 ?>
 <div class="good__info">
 	<div class="good__price"><?php echo $product->get_price_html(); ?> USD</div>
-	<div class="good__descr"> Bovine pebble grain leather </div>
+	<div class="good__descr"><?php echo $product->post->post_excerpt ?> </div>
 </div>

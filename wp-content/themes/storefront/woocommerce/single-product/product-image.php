@@ -39,6 +39,7 @@ $attachment_ids = $product->get_gallery_image_ids();
   	<div class="swiper-container">
     	<div class="swiper-wrapper">
 				<?php 
+					echo ' <div class="swiper-slide" style="background-image: url(' . wc_get_gallery_image_html_small( get_field('image_for_initials') )  . ');"></div>';
 					if ( $attachment_ids && $product->get_image_id() ) {
 						foreach ( $attachment_ids as $attachment_id ) {
 							echo ' <div class="swiper-slide" style="background-image: url(' . wc_get_gallery_image_html_small( $attachment_id )  . ');"></div>';
@@ -56,6 +57,7 @@ $attachment_ids = $product->get_gallery_image_ids();
         <div class="swiper-wrapper">
 			<?php 
 				if ( $attachment_ids && $product->get_image_id() ) {
+					echo '<div class="swiper-slide" style="background-image: url(' . wc_get_gallery_image_html_big( get_field('image_for_initials') ) . ');"></div>';
 					foreach ( $attachment_ids as $attachment_id ) {
 						echo '<div class="swiper-slide" style="background-image: url(' . wc_get_gallery_image_html_big( $attachment_id ) . ');"></div>';
 					}
@@ -64,3 +66,4 @@ $attachment_ids = $product->get_gallery_image_ids();
 		</div>
  	</div>
  </div>
+
