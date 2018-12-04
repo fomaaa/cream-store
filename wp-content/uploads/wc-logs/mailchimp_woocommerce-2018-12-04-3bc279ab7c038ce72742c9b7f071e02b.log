@@ -727,3 +727,233 @@ All items will be delivered with our signature packaging.
 )
 
 2018-12-04T11:14:27+00:00 NOTICE order_submit.success :: addStoreOrder :: #218 :: email: zhora@fsb.ru :: landing site http://cream-store.loc/wp-admin/post.php?post=217&action=edit :: abandoned cart deleted [6fc386d2ec8855346c685e246e58abe9]
+2018-12-04T13:05:16+00:00 DEBUG product_submit.debug :: #9 :: Array
+(
+    [id] => 9
+    [title] => Product 1
+    [handle] => product-1
+    [url] => http://cream-store.loc/product/product-1/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/phone_red-202x300.jpg
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 9
+                    [title] => Product 1
+                    [url] => http://cream-store.loc/product/product-1/
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 103
+                    [title] => Product 1 :: Model = x :: Text-color = 
+                    [url] => http://cream-store.loc/product/product-1/?attribute_pa_model=x
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 104
+                    [title] => Product 1 :: Model = xr :: Text-color = 
+                    [url] => http://cream-store.loc/product/product-1/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 105
+                    [title] => Product 1 :: Model = xs :: Text-color = 
+                    [url] => http://cream-store.loc/product/product-1/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-11-28 11:12:50
+)
+
+2018-12-04T13:05:17+00:00 NOTICE product_submit.success :: addStoreProduct :: #9
+2018-12-04T13:12:12+00:00 NOTICE product.deleted :: deleted product 199
+2018-12-04T13:12:15+00:00 DEBUG product_submit.debug :: #158 :: Array
+(
+    [id] => 158
+    [title] => Product 2
+    [handle] => product-2
+    [url] => http://cream-store.loc/product/product-2/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/black-154x300.png
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 158
+                    [title] => Product 2
+                    [url] => http://cream-store.loc/product/product-2/
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 159
+                    [title] => Product 2 :: Model = x :: Text-color = 
+                    [url] => http://cream-store.loc/product/product-2/?attribute_pa_model=x
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 160
+                    [title] => Product 2 :: Model = xr :: Text-color = 
+                    [url] => http://cream-store.loc/product/product-2/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 161
+                    [title] => Product 2 :: Model = xs :: Text-color = 
+                    [url] => http://cream-store.loc/product/product-2/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-02 23:12:42
+)
+
+2018-12-04T13:12:16+00:00 NOTICE product_submit.success :: addStoreProduct :: #158
+2018-12-04T13:13:06+00:00 DEBUG product_submit.debug :: #162 :: Array
+(
+    [id] => 162
+    [title] => Product 3
+    [handle] => product-3
+    [url] => http://cream-store.loc/product/product-3/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream-store.loc/wp-content/uploads/2018/12/phone_red-202x300.jpg
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 162
+                    [title] => Product 3
+                    [url] => http://cream-store.loc/product/product-3/
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 163
+                    [title] => Product 3 :: Model = x :: Text-color = 
+                    [url] => http://cream-store.loc/product/product-3/?attribute_pa_model=x
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 164
+                    [title] => Product 3 :: Model = xr :: Text-color = 
+                    [url] => http://cream-store.loc/product/product-3/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 165
+                    [title] => Product 3 :: Model = xs :: Text-color = 
+                    [url] => http://cream-store.loc/product/product-3/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-02 23:13:07
+)
+
+2018-12-04T13:13:07+00:00 NOTICE product_submit.success :: addStoreProduct :: #162
+2018-12-04T13:25:24+00:00 DEBUG MailChimp_WooCommerce_User_Submit :: 1 is currently in motion - skipping this one.
