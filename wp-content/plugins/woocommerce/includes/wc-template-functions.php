@@ -896,6 +896,15 @@ if ( ! function_exists( 'woocommerce_content' ) ) {
 						<?php the_post(); ?>
 						<?php wc_get_template_part( 'content', 'product' ); ?>
 					<?php endwhile; ?>
+					
+					<?php if(is_product_category()) {
+						$cate = get_queried_object();
+						$cateID = $cate->term_id;
+
+						echo '<script>var category_id = "' . $cate->term_id . '"</script>';
+					} else {
+						echo '<script>var category_id = "all"</script>';
+					} ?>
 				<?php endif; ?>
 
 				<?php woocommerce_product_loop_end(); ?>

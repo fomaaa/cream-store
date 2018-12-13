@@ -1,0 +1,1354 @@
+2018-12-05T09:13:42+00:00 DEBUG api.addCart :: Adding Cart :: foma-wow@qip.ru :: Array
+(
+    [id] => efeaaef6c3a484144ba76429a88b0b90
+    [customer] => Array
+        (
+            [id] => efeaaef6c3a484144ba76429a88b0b90
+            [email_address] => foma-wow@qip.ru
+            [opt_in_status] => 
+            [orders_count] => 0
+            [total_spent] => 0
+        )
+
+    [checkout_url] => https://cream.remygin.ru/checkout/?mc_cart_id=efeaaef6c3a484144ba76429a88b0b90
+    [currency_code] => USD
+    [order_total] => 25
+    [lines] => Array
+        (
+            [0] => Array
+                (
+                    [id] => a187cba9af9cd6f8c92f4aec5d20397a
+                    [product_id] => 162
+                    [product_variant_id] => 163
+                    [quantity] => 1
+                    [price] => 25
+                )
+
+        )
+
+)
+
+2018-12-05T09:13:42+00:00 ERROR abandoned_cart.error :: email: foma-wow@qip.ru :: attempting product update ::  :: 
+2018-12-05T09:13:42+00:00 DEBUG product_submit.debug :: #162 :: Array
+(
+    [id] => 162
+    [title] => Product 3
+    [handle] => product-3
+    [url] => http://cream.remygin.ru/product/product-3/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 162
+                    [title] => Product 3
+                    [url] => http://cream.remygin.ru/product/product-3/
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 163
+                    [title] => Product 3 :: Model = x :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-3/?attribute_pa_model=x
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 164
+                    [title] => Product 3 :: Model = xr :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-3/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 165
+                    [title] => Product 3 :: Model = xs :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-3/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-02 23:13:07
+)
+
+2018-12-05T09:13:42+00:00 NOTICE product_submit.error :: addStoreProduct :: #162 ::  ::  on 1470 in /home/c/co57247/cream/public_html/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2018-12-05T09:13:42+00:00 DEBUG api.addCart :: Adding Cart :: foma-wow@qip.ru :: Array
+(
+    [id] => efeaaef6c3a484144ba76429a88b0b90
+    [customer] => Array
+        (
+            [id] => efeaaef6c3a484144ba76429a88b0b90
+            [email_address] => foma-wow@qip.ru
+            [opt_in_status] => 
+            [orders_count] => 0
+            [total_spent] => 0
+        )
+
+    [checkout_url] => https://cream.remygin.ru/checkout/?mc_cart_id=efeaaef6c3a484144ba76429a88b0b90
+    [currency_code] => USD
+    [order_total] => 25
+    [lines] => Array
+        (
+            [0] => Array
+                (
+                    [id] => a187cba9af9cd6f8c92f4aec5d20397a
+                    [product_id] => 162
+                    [product_variant_id] => 163
+                    [quantity] => 1
+                    [price] => 25
+                )
+
+        )
+
+)
+
+2018-12-05T09:13:42+00:00 ERROR abandoned_cart.error ::  ::  on 1470 in /home/c/co57247/cream/public_html/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2018-12-05T21:25:05+00:00 DEBUG product_submit.debug :: #239 :: Array
+(
+    [id] => 239
+    [title] => Product 4
+    [handle] => product-4
+    [url] => http://cream.remygin.ru/product/product-4/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 239
+                    [title] => Product 4
+                    [url] => http://cream.remygin.ru/product/product-4/
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 240
+                    [title] => Product 4 :: Model = x :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-4/?attribute_pa_model=x
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 241
+                    [title] => Product 4 :: Model = xr :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-4/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 242
+                    [title] => Product 4 :: Model = xs :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-4/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-05 21:24:39
+)
+
+2018-12-05T21:25:05+00:00 NOTICE product_submit.error :: addStoreProduct :: #239 ::  ::  on 1470 in /home/c/co57247/cream/public_html/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2018-12-05T21:25:18+00:00 DEBUG product_submit.debug :: #243 :: Array
+(
+    [id] => 243
+    [title] => Product 5
+    [handle] => product-5
+    [url] => http://cream.remygin.ru/product/product-5/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 243
+                    [title] => Product 5
+                    [url] => http://cream.remygin.ru/product/product-5/
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 244
+                    [title] => Product 5 :: Model = x :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-5/?attribute_pa_model=x
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 245
+                    [title] => Product 5 :: Model = xr :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-5/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 246
+                    [title] => Product 5 :: Model = xs :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-5/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-05 21:24:56
+)
+
+2018-12-05T21:25:18+00:00 NOTICE product_submit.error :: addStoreProduct :: #243 ::  ::  on 1470 in /home/c/co57247/cream/public_html/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2018-12-05T21:25:36+00:00 DEBUG product_submit.debug :: #247 :: Array
+(
+    [id] => 247
+    [title] => Product 6
+    [handle] => product-6
+    [url] => http://cream.remygin.ru/product/product-6/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 247
+                    [title] => Product 6
+                    [url] => http://cream.remygin.ru/product/product-6/
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 248
+                    [title] => Product 6 :: Model = x :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-6/?attribute_pa_model=x
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 249
+                    [title] => Product 6 :: Model = xr :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-6/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 250
+                    [title] => Product 6 :: Model = xs :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-6/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-05 21:25:11
+)
+
+2018-12-05T21:25:36+00:00 NOTICE product_submit.error :: addStoreProduct :: #247 ::  ::  on 1470 in /home/c/co57247/cream/public_html/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2018-12-05T21:25:49+00:00 DEBUG product_submit.debug :: #251 :: Array
+(
+    [id] => 251
+    [title] => Product 7
+    [handle] => product-7
+    [url] => http://cream.remygin.ru/product/product-7/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 251
+                    [title] => Product 7
+                    [url] => http://cream.remygin.ru/product/product-7/
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 252
+                    [title] => Product 7 :: Model = x :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-7/?attribute_pa_model=x
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 253
+                    [title] => Product 7 :: Model = xr :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-7/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 254
+                    [title] => Product 7 :: Model = xs :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-7/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-05 21:25:29
+)
+
+2018-12-05T21:25:50+00:00 NOTICE product_submit.error :: addStoreProduct :: #251 ::  ::  on 1470 in /home/c/co57247/cream/public_html/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2018-12-05T21:26:03+00:00 DEBUG product_submit.debug :: #255 :: Array
+(
+    [id] => 255
+    [title] => Product 8
+    [handle] => product-8
+    [url] => http://cream.remygin.ru/product/product-8/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 255
+                    [title] => Product 8
+                    [url] => http://cream.remygin.ru/product/product-8/
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 256
+                    [title] => Product 8 :: Model = x :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-8/?attribute_pa_model=x
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 257
+                    [title] => Product 8 :: Model = xr :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-8/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 258
+                    [title] => Product 8 :: Model = xs :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-8/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-05 21:25:42
+)
+
+2018-12-05T21:26:03+00:00 NOTICE product_submit.error :: addStoreProduct :: #255 ::  ::  on 1470 in /home/c/co57247/cream/public_html/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2018-12-05T21:26:16+00:00 DEBUG product_submit.debug :: #259 :: Array
+(
+    [id] => 259
+    [title] => Product 9
+    [handle] => product-9
+    [url] => http://cream.remygin.ru/product/product-9/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 259
+                    [title] => Product 9
+                    [url] => http://cream.remygin.ru/product/product-9/
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 260
+                    [title] => Product 9 :: Model = x :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-9/?attribute_pa_model=x
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 261
+                    [title] => Product 9 :: Model = xr :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-9/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 262
+                    [title] => Product 9 :: Model = xs :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-9/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-05 21:25:55
+)
+
+2018-12-05T21:26:16+00:00 NOTICE product_submit.error :: addStoreProduct :: #259 ::  ::  on 1470 in /home/c/co57247/cream/public_html/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2018-12-05T21:26:27+00:00 DEBUG product_submit.debug :: #263 :: Array
+(
+    [id] => 263
+    [title] => Product 10
+    [handle] => product-10
+    [url] => http://cream.remygin.ru/product/product-10/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 263
+                    [title] => Product 10
+                    [url] => http://cream.remygin.ru/product/product-10/
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 264
+                    [title] => Product 10 :: Model = x :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-10/?attribute_pa_model=x
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 265
+                    [title] => Product 10 :: Model = xr :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-10/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 266
+                    [title] => Product 10 :: Model = xs :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-10/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-05 21:26:08
+)
+
+2018-12-05T21:26:27+00:00 NOTICE product_submit.error :: addStoreProduct :: #263 ::  ::  on 1470 in /home/c/co57247/cream/public_html/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2018-12-05T21:26:43+00:00 DEBUG product_submit.debug :: #267 :: Array
+(
+    [id] => 267
+    [title] => Product 11
+    [handle] => product-11
+    [url] => http://cream.remygin.ru/product/product-11/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 267
+                    [title] => Product 11
+                    [url] => http://cream.remygin.ru/product/product-11/
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 268
+                    [title] => Product 11 :: Model = x :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-11/?attribute_pa_model=x
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 269
+                    [title] => Product 11 :: Model = xr :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-11/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 270
+                    [title] => Product 11 :: Model = xs :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-11/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-05 21:26:21
+)
+
+2018-12-05T21:26:43+00:00 NOTICE product_submit.error :: addStoreProduct :: #267 ::  ::  on 1470 in /home/c/co57247/cream/public_html/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2018-12-05T21:26:49+00:00 DEBUG product_submit.debug :: #271 :: Array
+(
+    [id] => 271
+    [title] => Product 12
+    [handle] => product-9-copy
+    [url] => http://cream.remygin.ru/product/product-9-copy/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 271
+                    [title] => Product 12
+                    [url] => http://cream.remygin.ru/product/product-9-copy/
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 272
+                    [title] => Product 12 :: Model = x :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-9-copy/?attribute_pa_model=x
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 273
+                    [title] => Product 12 :: Model = xr :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-9-copy/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 274
+                    [title] => Product 12 :: Model = xs :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-9-copy/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-05 21:26:37
+)
+
+2018-12-05T21:26:49+00:00 NOTICE product_submit.error :: addStoreProduct :: #271 ::  ::  on 1470 in /home/c/co57247/cream/public_html/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2018-12-05T21:27:00+00:00 DEBUG product_submit.debug :: #271 :: Array
+(
+    [id] => 271
+    [title] => Product 12
+    [handle] => product-9-copy
+    [url] => http://cream.remygin.ru/product/product-9-copy/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 271
+                    [title] => Product 12
+                    [url] => http://cream.remygin.ru/product/product-9-copy/
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 272
+                    [title] => Product 12 :: Model = x :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-9-copy/?attribute_pa_model=x
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 273
+                    [title] => Product 12 :: Model = xr :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-9-copy/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 274
+                    [title] => Product 12 :: Model = xs :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-9-copy/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-05 21:26:37
+)
+
+2018-12-05T21:27:00+00:00 NOTICE product_submit.error :: addStoreProduct :: #271 ::  ::  on 1470 in /home/c/co57247/cream/public_html/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2018-12-05T21:27:16+00:00 DEBUG product_submit.debug :: #275 :: Array
+(
+    [id] => 275
+    [title] => Product 13
+    [handle] => product-13
+    [url] => http://cream.remygin.ru/product/product-13/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 275
+                    [title] => Product 13
+                    [url] => http://cream.remygin.ru/product/product-13/
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 276
+                    [title] => Product 13 :: Model = x :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-13/?attribute_pa_model=x
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 277
+                    [title] => Product 13 :: Model = xr :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-13/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 278
+                    [title] => Product 13 :: Model = xs :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-13/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-05 21:26:54
+)
+
+2018-12-05T21:27:16+00:00 NOTICE product_submit.error :: addStoreProduct :: #275 ::  ::  on 1470 in /home/c/co57247/cream/public_html/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2018-12-05T21:27:28+00:00 DEBUG product_submit.debug :: #279 :: Array
+(
+    [id] => 279
+    [title] => Product 14
+    [handle] => product-14
+    [url] => http://cream.remygin.ru/product/product-14/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 279
+                    [title] => Product 14
+                    [url] => http://cream.remygin.ru/product/product-14/
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 280
+                    [title] => Product 14 :: Model = x :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-14/?attribute_pa_model=x
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 281
+                    [title] => Product 14 :: Model = xr :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-14/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 282
+                    [title] => Product 14 :: Model = xs :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-14/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-05 21:27:08
+)
+
+2018-12-05T21:27:28+00:00 NOTICE product_submit.error :: addStoreProduct :: #279 ::  ::  on 1470 in /home/c/co57247/cream/public_html/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2018-12-05T21:27:42+00:00 DEBUG product_submit.debug :: #283 :: Array
+(
+    [id] => 283
+    [title] => Product 15
+    [handle] => product-13-copy
+    [url] => http://cream.remygin.ru/product/product-13-copy/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 283
+                    [title] => Product 15
+                    [url] => http://cream.remygin.ru/product/product-13-copy/
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 284
+                    [title] => Product 15 :: Model = x :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-13-copy/?attribute_pa_model=x
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 285
+                    [title] => Product 15 :: Model = xr :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-13-copy/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 286
+                    [title] => Product 15 :: Model = xs :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-13-copy/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-05 21:27:22
+)
+
+2018-12-05T21:27:42+00:00 NOTICE product_submit.error :: addStoreProduct :: #283 ::  ::  on 1470 in /home/c/co57247/cream/public_html/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2018-12-05T21:27:54+00:00 DEBUG product_submit.debug :: #283 :: Array
+(
+    [id] => 283
+    [title] => Product 15
+    [handle] => product-13-copy
+    [url] => http://cream.remygin.ru/product/product-13-copy/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 283
+                    [title] => Product 15
+                    [url] => http://cream.remygin.ru/product/product-13-copy/
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 284
+                    [title] => Product 15 :: Model = x :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-13-copy/?attribute_pa_model=x
+                    [price] => 25
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 285
+                    [title] => Product 15 :: Model = xr :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-13-copy/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 286
+                    [title] => Product 15 :: Model = xs :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-13-copy/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/12/phone_red-202x300.jpg
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-05 21:27:22
+)
+
+2018-12-05T21:27:54+00:00 NOTICE product_submit.error :: addStoreProduct :: #283 ::  ::  on 1470 in /home/c/co57247/cream/public_html/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2018-12-05T21:28:08+00:00 DEBUG product_submit.debug :: #287 :: Array
+(
+    [id] => 287
+    [title] => Product 16
+    [handle] => product-16
+    [url] => http://cream.remygin.ru/product/product-16/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 287
+                    [title] => Product 16
+                    [url] => http://cream.remygin.ru/product/product-16/
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 288
+                    [title] => Product 16 :: Model = x :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-16/?attribute_pa_model=x
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 289
+                    [title] => Product 16 :: Model = xr :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-16/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 290
+                    [title] => Product 16 :: Model = xs :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-16/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-05 21:27:47
+)
+
+2018-12-05T21:28:08+00:00 NOTICE product_submit.error :: addStoreProduct :: #287 ::  ::  on 1470 in /home/c/co57247/cream/public_html/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php
+2018-12-05T21:29:45+00:00 DEBUG product_submit.debug :: #291 :: Array
+(
+    [id] => 291
+    [title] => Product 17
+    [handle] => product-17
+    [url] => http://cream.remygin.ru/product/product-17/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 291
+                    [title] => Product 17
+                    [url] => http://cream.remygin.ru/product/product-17/
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 292
+                    [title] => Product 17 :: Model = x :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-17/?attribute_pa_model=x
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 293
+                    [title] => Product 17 :: Model = xr :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-17/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 294
+                    [title] => Product 17 :: Model = xs :: Text-color = 
+                    [url] => http://cream.remygin.ru/product/product-17/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-05 21:27:59
+)
+
+2018-12-05T21:29:45+00:00 NOTICE product_submit.error :: addStoreProduct :: #291 ::  ::  on 1470 in /home/c/co57247/cream/public_html/wp-content/plugins/mailchimp-for-woocommerce/includes/api/class-mailchimp-api.php

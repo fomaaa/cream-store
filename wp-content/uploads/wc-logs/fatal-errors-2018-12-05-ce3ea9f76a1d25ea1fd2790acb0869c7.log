@@ -1,0 +1,52 @@
+2018-12-05T21:37:12+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home/c/co57247/cream/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 905
+
+2018-12-05T21:37:13+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home/c/co57247/cream/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 905
+
+2018-12-05T21:37:15+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home/c/co57247/cream/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 905
+
+2018-12-05T21:37:25+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /home/c/co57247/cream/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php:902
+Stack trace:
+#0 /home/c/co57247/cream/public_html/wp-content/themes/storefront/woocommerce.php(3): woocommerce_content()
+#1 /home/c/co57247/cream/public_html/wp-includes/template-loader.php(74): include('/home/c/co57247...')
+#2 /home/c/co57247/cream/public_html/wp-blog-header.php(19): require_once('/home/c/co57247...')
+#3 /home/c/co57247/cream/public_html/index.php(17): require('/home/c/co57247...')
+#4 {main}
+  thrown in /home/c/co57247/cream/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 902
+
+2018-12-05T21:50:18+00:00 CRITICAL syntax error, unexpected '2' (T_LNUMBER) in /home/c/co57247/cream/public_html/wp-content/themes/storefront/functions.php on line 348
+
+2018-12-05T21:52:16+00:00 CRITICAL syntax error, unexpected '.' in /home/c/co57247/cream/public_html/wp-content/themes/storefront/functions.php on line 348
+
+2018-12-05T21:52:16+00:00 CRITICAL syntax error, unexpected '.' in /home/c/co57247/cream/public_html/wp-content/themes/storefront/functions.php on line 348
+
+2018-12-05T21:52:18+00:00 CRITICAL syntax error, unexpected '.' in /home/c/co57247/cream/public_html/wp-content/themes/storefront/functions.php on line 348
+
+2018-12-05T21:52:30+00:00 CRITICAL syntax error, unexpected '.' in /home/c/co57247/cream/public_html/wp-content/themes/storefront/functions.php on line 348
+
+2018-12-05T21:52:31+00:00 CRITICAL syntax error, unexpected '.' in /home/c/co57247/cream/public_html/wp-content/themes/storefront/functions.php on line 348
+
+2018-12-05T21:56:40+00:00 CRITICAL syntax error, unexpected '.' in /home/c/co57247/cream/public_html/wp-content/themes/storefront/functions.php on line 346
+
+2018-12-05T21:56:42+00:00 CRITICAL syntax error, unexpected '.' in /home/c/co57247/cream/public_html/wp-content/themes/storefront/functions.php on line 346
+
+2018-12-05T21:57:06+00:00 CRITICAL syntax error, unexpected '.' in /home/c/co57247/cream/public_html/wp-content/themes/storefront/functions.php on line 346
+
+2018-12-05T22:06:25+00:00 CRITICAL syntax error, unexpected '.' in /home/c/co57247/cream/public_html/wp-content/themes/storefront/functions.php on line 349
+
+2018-12-05T22:06:26+00:00 CRITICAL syntax error, unexpected '.' in /home/c/co57247/cream/public_html/wp-content/themes/storefront/functions.php on line 349
+
+2018-12-05T22:19:31+00:00 CRITICAL syntax error, unexpected '.' in /home/c/co57247/cream/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 900
+
+2018-12-05T22:19:42+00:00 CRITICAL syntax error, unexpected '.' in /home/c/co57247/cream/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 900
+
+2018-12-05T22:19:44+00:00 CRITICAL syntax error, unexpected '.' in /home/c/co57247/cream/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 900
+
+2018-12-05T22:20:33+00:00 CRITICAL Uncaught Error: Call to a member function get_queried_object() on null in /home/c/co57247/cream/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php:900
+Stack trace:
+#0 /home/c/co57247/cream/public_html/wp-content/themes/storefront/woocommerce.php(3): woocommerce_content()
+#1 /home/c/co57247/cream/public_html/wp-includes/template-loader.php(74): include('/home/c/co57247...')
+#2 /home/c/co57247/cream/public_html/wp-blog-header.php(19): require_once('/home/c/co57247...')
+#3 /home/c/co57247/cream/public_html/index.php(17): require('/home/c/co57247...')
+#4 {main}
+  thrown in /home/c/co57247/cream/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 900
+

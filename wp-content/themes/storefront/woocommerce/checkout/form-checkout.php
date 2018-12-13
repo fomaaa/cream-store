@@ -54,9 +54,9 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
         </div>
         <div class="section__title hidden-desktop">YOur cart</div>
 		<form name="checkout" method="post" class="form form--order checkout woocommerce-checkout" action="<?php echo esc_url( wc_get_checkout_url() ); ?>" enctype="multipart/form-data">
-			<?php do_action( 'woocommerce_checkout_before_customer_details' ); ?>
+
 			<div class="tabsBox">
-				
+
 				<div class="tabs__con tabs__con_tab2 is-active">
 					<div class="cart cart--mobileReverse">
 						<div class="form form--cart">
@@ -136,7 +136,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 			                      	<div class="form__title"> Shipping method </div>
 			                      		<div class="form__field form__field--radio">
 			                      			<?php wc_get_template_part('checkout/shipping-methods') ?>
-											<?php //do_action( 'woocommerce_checkout_order_review' ); ?> 
+											<?php //do_action( 'woocommerce_checkout_order_review' ); ?>
 										</div>
 										<?php do_action( 'woocommerce_checkout_after_order_review' ); ?>
 							       		<div class="totalBox hidden-desktop">
@@ -156,11 +156,11 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 				                              <span>Return to customer information</span>
 				                            </a>
 				                        </div>
-				                    </div> 
-			                    </div> 
+				                    </div>
+			                    </div>
 							</div>
 						</div>
-					</div>		
+					</div>
 				</div>
 				<div class="tabs__con tabs__con_tab4">
 					<div class="cart cart--mobileReverse">
@@ -189,7 +189,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 			                          </div>
 			                        </div>
 			                    </div>
-								<div class="form__row">	
+								<div class="form__row">
 									<div class="form__title"> Payment method </div>
 									<div class="form__field form__field--radio">
 										<?php do_action( 'woocommerce_checkout_payment' ); ?>
@@ -220,6 +220,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 
 
 			                        <div class="form__bottom">
+										<div class="form__apply-pay"><?php do_action( 'woocommerce_checkout_before_customer_details' ); ?></div>
 			                          <div class="form__button">
 
 											<?php //wc_get_template( 'checkout/terms.php' ); ?>

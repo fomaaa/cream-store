@@ -24,19 +24,23 @@ if ( ! is_ajax() ) {
 
 	<?php if ( WC()->cart->needs_payment() ) : ?>
 			<?php
-			if ( ! empty( $available_gateways ) ) { 
-				foreach ( $available_gateways as $gateway ) { ?> 
+			if ( ! empty( $available_gateways ) ) {
+				foreach ( $available_gateways as $gateway ) { ?>
+					<?php //print_r($available_gateways); ?>
 					<?php wc_get_template( 'checkout/payment-method.php', array( 'gateway' => $gateway ) ); ?>
 				<?php } ?>
+				<?php //echo '<pre>'; print_r($available_gateways); echo '</pre>';  ?>
 				<!-- HARD CODE KUES -->
-                          <div class="form__radio">
+                         <div class="form__radio">
                             <input type="radio" name="payment_method" />
                             <span class="form__label form__label--sm">
                               <img src="<?php echo get_template_directory_uri() ?>/img/payments/apple_pay.jpg" alt="" class="apple-pay">
                             </span>
                             <div class="form__toggle flex-wrap">
                               <div class="form__text">After clicking �Complete order�, you will be redirected to Apple Pay to complete your purchase securely. </div>
-                            </div>
+
+							</div>
+
                           </div>
                 <!-- END HARD CODE -->
 			<?php } else {

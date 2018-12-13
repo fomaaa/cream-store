@@ -28,9 +28,30 @@ if ( post_password_required() ) {
 	echo get_the_password_form(); // WPCS: XSS ok.
 	return;
 }
+$next_post = get_next_post();
 ?>
 <div class="section section--good" id="product-<?php the_ID(); ?>" <?php wc_product_class(); ?>>
-	<a href="good.html" class="btn btn--next"><span class="arrow"></span></a>
+	<a href="<?php echo get_permalink( $next_post->ID ); ?>" class="btn btn--next"><span class="arrow"></span></a>
+	<?php
+			$next_post = get_next_post();
+			if (!empty($next_post)):
+				?>
+				<a href="<?php echo get_permalink( $next_post->ID ); ?>" class="btn btn--next"><span class="arrow"></span></a>
+			<?php else:
+				$posts = query_posts(array(
+						'post_type' => 'product',
+						'posts_per_page'  => 1,
+						'orderby' => 'date_add',
+						'order' => 'ASC' )
+					);
+				?>
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post();?>
+					<a href="<?php echo get_permalink(); ?>" class="btn btn--next"><span class="arrow"></span></a>
+				<?php endwhile; endif ?>
+				<?php wp_reset_query(); ?>
+				
+
+			<?php endif; ?>
 	<div class="container section__inner">
 		<div class="good">
 		 	<div class="good__left">
