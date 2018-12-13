@@ -135,3 +135,7 @@ eval("/**\n * Swiper 4.4.2\n * Most modern mobile touch slider and framework wit
 
 /***/ })
 /******/ ]);
+
+if ($('.add-value-shipping').length > 0) {
+	$('.add-value-shipping').html($('[name="shipping_method[0]"]:checked').siblings('.form__label').find('strong').eq(0).text());
+}
