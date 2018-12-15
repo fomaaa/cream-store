@@ -957,3 +957,89 @@ All items will be delivered with our signature packaging.
 
 2018-12-04T13:13:07+00:00 NOTICE product_submit.success :: addStoreProduct :: #162
 2018-12-04T13:25:24+00:00 DEBUG MailChimp_WooCommerce_User_Submit :: 1 is currently in motion - skipping this one.
+2018-12-04T21:15:54+00:00 DEBUG MailChimp_WooCommerce_User_Submit :: 1 is currently in motion - skipping this one.
+2018-12-04T21:19:52+00:00 DEBUG MailChimp_WooCommerce_User_Submit :: 1 is currently in motion - skipping this one.
+2018-12-04T21:20:11+00:00 DEBUG MailChimp_WooCommerce_User_Submit :: 1 is currently in motion - skipping this one.
+2018-12-04T21:21:50+00:00 DEBUG order_submit :: #237 :: Array
+(
+    [id] => 237
+    [customer] => Array
+        (
+            [id] => f8ae7ec9820d12cac27791554e9d8047
+            [email_address] => foma.izob@gmail.com
+            [opt_in_status] => 1
+            [first_name] => ILIA
+            [last_name] => asfasfasf
+            [orders_count] => 8
+            [total_spent] => 1
+            [address] => Array
+                (
+                    [name] => ILIA asfasfasf
+                    [address1] => noasfafa
+                    [city] => Moscow
+                    [postal_code] => 333333
+                    [phone] => 9896135155
+                )
+
+        )
+
+    [financial_status] => pending
+    [currency_code] => USD
+    [order_total] => 125
+    [order_url] => http://cream.remygin.ru/my-account/view-order/237/
+    [tax_total] => 0
+    [discount_total] => 0
+    [shipping_total] => 0
+    [processed_at_foreign] => 2018-12-04 21:15:54
+    [shipping_address] => Array
+        (
+            [name] => ILIA asfasfasf
+            [address1] => noasfafa
+            [city] => Moscow
+            [postal_code] => 333333
+            [phone] => 9896135155
+        )
+
+    [billing_address] => Array
+        (
+            [name] => ILIA asfasfasf
+            [address1] => noasfafa
+            [city] => Moscow
+            [postal_code] => 333333
+            [phone] => 9896135155
+        )
+
+    [lines] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 84
+                    [product_id] => 162
+                    [product_variant_id] => 164
+                    [quantity] => 1
+                    [price] => 50
+                )
+
+            [1] => Array
+                (
+                    [id] => 85
+                    [product_id] => 162
+                    [product_variant_id] => 164
+                    [quantity] => 1
+                    [price] => 50
+                )
+
+            [2] => Array
+                (
+                    [id] => 86
+                    [product_id] => 162
+                    [product_variant_id] => 163
+                    [quantity] => 1
+                    [price] => 25
+                )
+
+        )
+
+)
+
+2018-12-04T21:21:51+00:00 NOTICE order_submit.success :: addStoreOrder :: #237 :: email: foma.izob@gmail.com :: landing site http://cream.remygin.ru/?wc-ajax=wc_stripe_get_cart_details

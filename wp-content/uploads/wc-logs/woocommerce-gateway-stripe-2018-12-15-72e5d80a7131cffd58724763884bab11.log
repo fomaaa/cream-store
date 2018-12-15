@@ -1,0 +1,199 @@
+2018-12-15T10:16:38+00:00 DEBUG 
+====Stripe Version: 4.1.13====
+====Start Log====
+sources/src_1DhaCPIeCl2ChwDqJYDDKY4C
+====End Log====
+
+
+2018-12-15T10:16:39+00:00 DEBUG 
+====Stripe Version: 4.1.13====
+====Start Log====
+Info: Begin processing payment for order 298 for the amount of 100.00
+====End Log====
+
+
+2018-12-15T10:16:39+00:00 DEBUG 
+====Stripe Version: 4.1.13====
+====Start Log====
+charges request: Array
+(
+    [currency] => usd
+    [amount] => 10000
+    [description] => Cream - Order 298
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => ILIA asfasfasf
+            [customer_email] => foma.izob@gmail.com
+            [order_id] => 298
+        )
+
+    [source] => src_1DhaCPIeCl2ChwDqJYDDKY4C
+)
+
+====End Log====
+
+
+2018-12-15T10:16:40+00:00 DEBUG 
+====Stripe Version: 4.1.13====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1DhaCUIeCl2ChwDqgiIHLYhi
+    [object] => charge
+    [amount] => 10000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1DhaCUIeCl2ChwDqXi33PJXi
+            [object] => balance_transaction
+            [amount] => 10000
+            [available_on] => 1545436800
+            [created] => 1544869010
+            [currency] => usd
+            [description] => Cream - Order 298
+            [exchange_rate] => 
+            [fee] => 320
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 320
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 9680
+            [source] => ch_1DhaCUIeCl2ChwDqgiIHLYhi
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1544869010
+    [currency] => usd
+    [customer] => 
+    [description] => Cream - Order 298
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => ILIA asfasfasf
+            [customer_email] => foma.izob@gmail.com
+            [order_id] => 298
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 10
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1DhaCUIeCl2ChwDqgiIHLYhi/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1DhaCPIeCl2ChwDqJYDDKY4C
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2018
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => Visa
+                    [country] => US
+                    [cvc_check] => pass
+                    [fingerprint] => t0i7WJS4LcjFM2pO
+                    [funding] => credit
+                    [last4] => 4242
+                    [three_d_secure] => optional
+                    [name] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_E9u0GgTj5GGm6tvD9eUNxxYj
+            [created] => 1544869010
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Moscow
+                            [country] => 
+                            [line1] => noasfafa
+                            [line2] => 
+                            [postal_code] => 333333
+                            [state] => 
+                        )
+
+                    [email] => foma.izob@gmail.com
+                    [name] => ILIA asfasfasf
+                    [phone] => 9896135155
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+====End Log====
+
+

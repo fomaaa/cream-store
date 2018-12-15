@@ -84,9 +84,9 @@ if( function_exists('acf_add_options_page') ) {
 		'capability' => 'edit_posts',
 		'redirect' => false,
 		'icon_url' => 'dashicons-phone',
-	));	
+	));
 
-}	
+}
 
 function cc_mime_types($mimes) {
 		$mimes['svg'] = 'image/svg+xml';
@@ -244,7 +244,7 @@ add_action( 'wp_ajax_loadmore_blog', 'load_items');
 function load_items() {
 	$current = $_POST['current'];
 	$posts = query_posts(
-		array( 
+		array(
 	        'post_type' => 'post',
 	        'posts_per_page'  => 6,
 	        'orderby' => 'date_add',
@@ -255,27 +255,28 @@ function load_items() {
 	);
 	$html ='';
 
-	if ( have_posts() ) : while ( have_posts() ) : 
+	if ( have_posts() ) : while ( have_posts() ) :
 		the_post();
-		$html .= '<div class="grid__item">';            
-			$html .= '<div class="card card--article">';            
-				$html .= ' <a href="' . get_the_permalink() .'" class="card__link"></a>';            
-				$html .= '<div class="card__photo" style="background-image: url('. get_the_post_thumbnail_url('', 'medium_large')  .');"></div>';            
-				$html .= '<div class="card__body">';            
-					$html .= ' <div class="card__title">'.  get_the_title() .'</div>';            
-					$html .= '<div class="card__text">'.  get_field('short_desciption').'</div>';            
-					$html .= '<div class="card__button">';            
-						$html .= '<a href="'. get_the_permalink() .'" class="btn btn--link">read</a>';            
-					$html .= '</div>';            
-				$html .= '</div>';            
-			$html .= '</div>';            
-		$html .= '</div>';                     
+		$html .= '<div class="grid__item">';
+			$html .= '<div class="card card--article">';
+				$html .= ' <a href="' . get_the_permalink() .'" class="card__link"></a>';
+				$html .= '<div class="card__photo" style="background-image: url('. get_the_post_thumbnail_url('', 'medium_large')  .');"></div>';
+				$html .= '<div class="card__body">';
+					$html .= ' <div class="card__title">'.  get_the_title() .'</div>';
+					$html .= '<div class="card__text">'.  get_field('short_desciption').'</div>';
+					$html .= '<div class="card__button">';
+						$html .= '<a href="'. get_the_permalink() .'" class="btn btn--link">read</a>';
+					$html .= '</div>';
+				$html .= '</div>';
+			$html .= '</div>';
+		$html .= '</div>';
 	endwhile; endif;
 	wp_reset_query();
 
 	exit($html);
 }
-add_filter('widget_title','my_widget_title'); 
+
+add_filter('widget_title','my_widget_title');
 function my_widget_title($t)
 {
 
@@ -290,7 +291,7 @@ add_filter('wpcf7_form_elements', function($content) {
 
 function getCorrectTitle(){
 	  if (is_product_category() ) {
-        single_cat_title(); 
+        single_cat_title();
       } else if (is_archive()){
         if (is_shop()) {
           echo get_the_title(5);
@@ -305,14 +306,70 @@ function getCorrectTitle(){
         echo get_the_title(get_the_ID());
       }
 }
-// add_action( 'wp_ajax_nopriv_set_shipping', 'setShipping');
-// add_action( 'wp_ajax_set_shipping', 'setShipping');
 
-// function setShipping(){
-// 	// WC()->session->set( 'chosen_shipping_methods', $_POST['shipping'] );
+add_filter( 'loop_shop_per_page', 'new_loop_shop_per_page', 20 );
 
-// 	// WC()->cart->calculate_totals();
+function new_loop_shop_per_page( $cols ) {
 
-// 	//$html = wc_get_template_part('cart/totalbox');
-// 	exit(json_encode($_POST['shipping']));
-// }
+  $cols = 6;
+  return $cols;
+}
+
+
+add_action( 'wp_ajax_nopriv_load_product', 'load_product');
+add_action( 'wp_ajax_load_product', 'load_product');
+
+function load_product() {
+
+	$current = $_POST['current'];
+
+	$category = $_POST['category'];
+    $args = array(
+	    'post_type'             => 'product',
+	    'posts_per_page'  		=> 6,
+	    'orderby' 				=> 'date_add',
+	    'order' 				=> 'DESC',
+	    'offset' 				=> $current * 6,
+	    'paged' 				=> $current + 1,
+	);
+
+	if ($category != 'all') {
+		$args['tax_query'] = array(
+	        array(
+	            'taxonomy'      => 'product_cat',
+	            'field' => 'term_id',
+	            'terms'         => $category,
+	            'operator'      => 'IN'
+	        ),
+	    );
+	}
+
+	$posts = query_posts($args);
+
+	$html ='';
+
+	if ( have_posts() ) : while ( have_posts() ) :
+		the_post();
+		$terms = get_the_terms( get_the_ID(), 'product_cat' );
+		global $product;
+		$html .= '<li class="goodList__item">';
+			$html .= '<a href="'. get_the_permalink() .'" class="card card--good-lg">';
+				$html .= '<div class="card__photo" style="background-image: url('.  get_the_post_thumbnail_url() .');"></div>';
+				$html .= '<div class="card__body">';
+					$html .= ' <div class="card__category">'. $terms[0]->name . '</div>';
+					$html .= '<div class="card__title">'. get_the_title() .'</div>';
+					$html .= ' <div class="card__price">';
+						$html .= '$'. number_format($product->get_price(), '2', ',', ' ') .' USD';
+					$html .= ' </div>';
+				$html .= '</div>';
+			$html .= '</a>';
+		$html .= '</li>';
+	endwhile; endif;
+	wp_reset_query();
+
+	exit($html);
+}
+
+add_filter( 'wc_stripe_show_payment_request_on_checkout', '__return_true' );
+
+

@@ -17,7 +17,7 @@ get_header(); ?>
         'orderby' => 'name',
         'order' => 'ASC',
         'parent' => 0,
-        'hide_empty' => false,
+        'hide_empty' => true,
     );
     $cats = get_categories($args_cat); 
 ?>

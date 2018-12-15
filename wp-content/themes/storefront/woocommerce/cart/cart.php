@@ -82,10 +82,21 @@ do_action( 'woocommerce_before_cart' ); ?>
 						                          </li>
 						                          <li> Monogram colour: <span class="color" style="background-image: url('<?php echo get_template_directory_uri() ?>/img/<?php echo $cart_item['variation']['attribute_pa_text-color'] ?>.png');"></span>
 						                          </li>
-						                      <?php endif; ?>
+						                      	<?php endif; ?>
 						                          <li> Complementary Gift Wrapping: <?php echo $cart_item['gift_wrapper'] ?> </li>
 						                        </ul>
 						                      </div>
+						                      <?php 								
+						                      echo apply_filters( 'woocommerce_cart_item_remove_link', sprintf(
+													'<a href="%s" class="card__remove remove" aria-label="%s" data-product_id="%s" data-product_sku="%s">					                              <svg class="icon icon-cross">
+					                                <use xlink:href="'. get_stylesheet_directory_uri(). '/img/sprite.svg#icon-cross"></use>
+					                              </svg></a>',
+													esc_url( wc_get_cart_remove_url( $cart_item_key ) ),
+													__( 'Remove this item', 'woocommerce' ),
+													esc_attr( $product_id ),
+													esc_attr( $_product->get_sku() )
+												), $cart_item_key ); 
+											?>
 				                    	</div>
 												<?php
 											}

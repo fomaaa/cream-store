@@ -6,6 +6,7 @@
  * and other user handling.
  *
  * @package WordPress
+ 
  */
 
 /** Make sure that the WordPress bootstrap has run before continuing. */

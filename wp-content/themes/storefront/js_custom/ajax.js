@@ -1,32 +1,52 @@
 $(document).ready(function(){
   let ajaxFlag = true;
   var current_tab = 1;
+  var current_product_tab = 1;
 
-  if ($('.section--blog .grid').length) {
 
     $(window).scroll(function () {
-      if ($(window).scrollTop() >= ($('.section--blog .grid').offset().top + $('.section--blog .grid').outerHeight() - 1000) && ajaxFlag === true) {
-        
+      if ($('.section--blog .grid').length) {
+        if ($(window).scrollTop() >= ($('.section--blog .grid').offset().top + $('.section--blog .grid').outerHeight() - 1000) && ajaxFlag === true) {
+          
+          var data = {
+            'action': 'loadmore_blog',
+            'current' : current_tab,
+          };
 
-        var data = {
-          'action': 'loadmore_blog',
-          'current' : current_tab,
-        };
 
+          $.post( ajax_url, data, function(response) {
+                if (response) {
+                  ajaxFlag = false;
+                  $(response).appendTo('.grid');
+                  ajaxFlag = true;
+                } 
 
-        $.post( ajax_url, data, function(response) {
-              if (response) {
-                ajaxFlag = false;
-                console.log(response);
-                $(response).appendTo('.grid');
-                ajaxFlag = true;
-              } 
+          });
+          current_tab  += 1;
+        }
+      }
+      
+      if ($('.goodList__item').length) {
+        if ($(window).scrollTop() >= ($('.goodList__item').offset().top + $('.goodList__item').outerHeight() - 1000) && ajaxFlag === true) {
+     
+            var data = {
+              'action': 'load_product',
+              'current' : current_product_tab,
+              'category' : category_id,
+            };
 
-        });
-        current_tab  += 1;
+            $.post( ajax_url, data, function(response) {
+                  if (response) {
+                    ajaxFlag = false;
+                    $(response).appendTo('.goodList');
+                    ajaxFlag = true;
+                  } 
+            });
+            current_product_tab  += 1;
+        }
       }
     });
-  }
+
 
   Share = {
           facebook: function(purl, ptitle, pimg, text) {
@@ -98,6 +118,11 @@ $(document).ready(function(){
       var res = address + ', ' + city + ', ' + postcode + ', ' + country;
       $('.add-value-address').html(res);
   })
+
+  if ($('.add-value-shipping').length > 0) {
+    $('.add-value-shipping').html($('[name="shipping_method[0]"]:checked').siblings('.form__label').find('strong').eq(0).text());
+  }
+
   
 })
 

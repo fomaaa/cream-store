@@ -12,10 +12,10 @@ defined( 'ABSPATH' ) || exit;
 global $product;
 ?>
 <!-- <div class="woocommerce-variation-add-to-cart variations_button"> -->
-	
+
 
 	<?php
-	do_action( 'woocommerce_before_add_to_cart_quantity' );
+	//sdo_action( 'woocommerce_before_add_to_cart_quantity' );
 
 	// woocommerce_quantity_input( array(
 	// 	'min_value'   => apply_filters( 'woocommerce_quantity_input_min', $product->get_min_purchase_quantity(), $product ),
@@ -23,7 +23,7 @@ global $product;
 	// 	'input_value' => isset( $_POST['quantity'] ) ? wc_stock_amount( wp_unslash( $_POST['quantity'] ) ) : $product->get_min_purchase_quantity(), // WPCS: CSRF ok, input var ok.
 	// ) );
 
-	do_action( 'woocommerce_after_add_to_cart_quantity' );
+	//do_action( 'woocommerce_after_add_to_cart_quantity' );
 	?>
 	<div class="form__button">
 		<button type="submit" class="btn btn--secondary single_add_to_cart_button button alt">buy now</button>

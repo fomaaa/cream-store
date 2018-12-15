@@ -1,0 +1,112 @@
+2018-12-13T13:42:59+00:00 CRITICAL syntax error, unexpected '?>', expecting ')' in /home/c/co57247/cream/public_html/wp-content/themes/storefront/woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php on line 27
+
+2018-12-13T16:13:35+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\search.php on line 23
+
+2018-12-13T16:49:34+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-product.php:37
+Stack trace:
+#0 C:\OSPanel\domains\cream-store.loc\wp-includes\template.php(690): require()
+#1 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(178): load_template('C:\\OSPanel\\doma...', false)
+#2 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(897): wc_get_template_part('content', 'product')
+#3 C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce.php(3): woocommerce_content()
+#4 C:\OSPanel\domains\cream-store.loc\wp-includes\template-loader.php(74): include('C:\\OSPanel\\doma...')
+#5 C:\OSPanel\domains\cream-store.loc\wp-blog-header.php(19): require_once('C:\\OSPanel\\doma...')
+#6 C:\OSPanel\domains\cream-store.loc\index.php(17): require('C:\\OSPanel\\doma...')
+#7 {main}
+  thrown in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-product.php on line 37
+
+2018-12-13T16:49:57+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-product.php:37
+Stack trace:
+#0 C:\OSPanel\domains\cream-store.loc\wp-includes\template.php(690): require()
+#1 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(178): load_template('C:\\OSPanel\\doma...', false)
+#2 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(897): wc_get_template_part('content', 'product')
+#3 C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce.php(3): woocommerce_content()
+#4 C:\OSPanel\domains\cream-store.loc\wp-includes\template-loader.php(74): include('C:\\OSPanel\\doma...')
+#5 C:\OSPanel\domains\cream-store.loc\wp-blog-header.php(19): require_once('C:\\OSPanel\\doma...')
+#6 C:\OSPanel\domains\cream-store.loc\index.php(17): require('C:\\OSPanel\\doma...')
+#7 {main}
+  thrown in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-product.php on line 37
+
+2018-12-13T16:50:45+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-product.php:37
+Stack trace:
+#0 C:\OSPanel\domains\cream-store.loc\wp-includes\template.php(690): require()
+#1 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(178): load_template('C:\\OSPanel\\doma...', false)
+#2 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(897): wc_get_template_part('content', 'product')
+#3 C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce.php(3): woocommerce_content()
+#4 C:\OSPanel\domains\cream-store.loc\wp-includes\template-loader.php(74): include('C:\\OSPanel\\doma...')
+#5 C:\OSPanel\domains\cream-store.loc\wp-blog-header.php(19): require_once('C:\\OSPanel\\doma...')
+#6 C:\OSPanel\domains\cream-store.loc\index.php(17): require('C:\\OSPanel\\doma...')
+#7 {main}
+  thrown in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-product.php on line 37
+
+2018-12-13T16:51:14+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-product.php:37
+Stack trace:
+#0 C:\OSPanel\domains\cream-store.loc\wp-includes\template.php(690): require()
+#1 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(178): load_template('C:\\OSPanel\\doma...', false)
+#2 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(897): wc_get_template_part('content', 'product')
+#3 C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce.php(3): woocommerce_content()
+#4 C:\OSPanel\domains\cream-store.loc\wp-includes\template-loader.php(74): include('C:\\OSPanel\\doma...')
+#5 C:\OSPanel\domains\cream-store.loc\wp-blog-header.php(19): require_once('C:\\OSPanel\\doma...')
+#6 C:\OSPanel\domains\cream-store.loc\index.php(17): require('C:\\OSPanel\\doma...')
+#7 {main}
+  thrown in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-product.php on line 37
+
+2018-12-13T16:51:16+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-product.php:37
+Stack trace:
+#0 C:\OSPanel\domains\cream-store.loc\wp-includes\template.php(690): require()
+#1 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(178): load_template('C:\\OSPanel\\doma...', false)
+#2 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(897): wc_get_template_part('content', 'product')
+#3 C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce.php(3): woocommerce_content()
+#4 C:\OSPanel\domains\cream-store.loc\wp-includes\template-loader.php(74): include('C:\\OSPanel\\doma...')
+#5 C:\OSPanel\domains\cream-store.loc\wp-blog-header.php(19): require_once('C:\\OSPanel\\doma...')
+#6 C:\OSPanel\domains\cream-store.loc\index.php(17): require('C:\\OSPanel\\doma...')
+#7 {main}
+  thrown in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-product.php on line 37
+
+2018-12-13T16:51:38+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-product.php:37
+Stack trace:
+#0 C:\OSPanel\domains\cream-store.loc\wp-includes\template.php(690): require()
+#1 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(178): load_template('C:\\OSPanel\\doma...', false)
+#2 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(897): wc_get_template_part('content', 'product')
+#3 C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce.php(3): woocommerce_content()
+#4 C:\OSPanel\domains\cream-store.loc\wp-includes\template-loader.php(74): include('C:\\OSPanel\\doma...')
+#5 C:\OSPanel\domains\cream-store.loc\wp-blog-header.php(19): require_once('C:\\OSPanel\\doma...')
+#6 C:\OSPanel\domains\cream-store.loc\index.php(17): require('C:\\OSPanel\\doma...')
+#7 {main}
+  thrown in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-product.php on line 37
+
+2018-12-13T16:52:13+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-product.php:37
+Stack trace:
+#0 C:\OSPanel\domains\cream-store.loc\wp-includes\template.php(690): require()
+#1 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(178): load_template('C:\\OSPanel\\doma...', false)
+#2 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(897): wc_get_template_part('content', 'product')
+#3 C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce.php(3): woocommerce_content()
+#4 C:\OSPanel\domains\cream-store.loc\wp-includes\template-loader.php(74): include('C:\\OSPanel\\doma...')
+#5 C:\OSPanel\domains\cream-store.loc\wp-blog-header.php(19): require_once('C:\\OSPanel\\doma...')
+#6 C:\OSPanel\domains\cream-store.loc\index.php(17): require('C:\\OSPanel\\doma...')
+#7 {main}
+  thrown in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-product.php on line 37
+
+2018-12-13T16:52:15+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-product.php:37
+Stack trace:
+#0 C:\OSPanel\domains\cream-store.loc\wp-includes\template.php(690): require()
+#1 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(178): load_template('C:\\OSPanel\\doma...', false)
+#2 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(897): wc_get_template_part('content', 'product')
+#3 C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce.php(3): woocommerce_content()
+#4 C:\OSPanel\domains\cream-store.loc\wp-includes\template-loader.php(74): include('C:\\OSPanel\\doma...')
+#5 C:\OSPanel\domains\cream-store.loc\wp-blog-header.php(19): require_once('C:\\OSPanel\\doma...')
+#6 C:\OSPanel\domains\cream-store.loc\index.php(17): require('C:\\OSPanel\\doma...')
+#7 {main}
+  thrown in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-product.php on line 37
+
+2018-12-13T16:52:22+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-product.php:37
+Stack trace:
+#0 C:\OSPanel\domains\cream-store.loc\wp-includes\template.php(690): require()
+#1 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-core-functions.php(178): load_template('C:\\OSPanel\\doma...', false)
+#2 C:\OSPanel\domains\cream-store.loc\wp-content\plugins\woocommerce\includes\wc-template-functions.php(897): wc_get_template_part('content', 'product')
+#3 C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce.php(3): woocommerce_content()
+#4 C:\OSPanel\domains\cream-store.loc\wp-includes\template-loader.php(74): include('C:\\OSPanel\\doma...')
+#5 C:\OSPanel\domains\cream-store.loc\wp-blog-header.php(19): require_once('C:\\OSPanel\\doma...')
+#6 C:\OSPanel\domains\cream-store.loc\index.php(17): require('C:\\OSPanel\\doma...')
+#7 {main}
+  thrown in C:\OSPanel\domains\cream-store.loc\wp-content\themes\storefront\woocommerce\content-product.php on line 37
+

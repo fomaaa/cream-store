@@ -78,6 +78,29 @@
           </div>
         </div>
       </footer>
+      <div class="menuBox">
+        <nav class="nav">
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="#">SHOP</a>
+            </li>
+            <li class="menu__item">
+              <a href="#">CONTACT</a>
+            </li>
+            <li class="menu__item">
+              <a href="#">ABOUT</a>
+            </li>
+            <li class="menu__item">
+              <a href="#">blog</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="search.html" class="btn btn--search">
+          <svg class="icon icon-search">
+            <use xlink:href="img/sprite.svg#icon-search"></use>
+          </svg>
+        </a>
+      </div>
     </div>
     <!-- END content -->
     <script>

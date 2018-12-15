@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg"><symbol id="icon-arrow-left" viewBox="0 0 18 35">
     <path fill-rule="evenodd" d="M17.146.146l.708.708-17 17-.708-.708 17-17z"/>
     <path fill-rule="evenodd" d="M.854 17.146l-.708.708 17 17 .708-.708-17-17z"/>
+</symbol><symbol id="icon-cross" viewBox="0 0 22 22">
+    <style>
+        .st0{fill:none;stroke:#000;stroke-miterlimit:10}
+    </style>
+    <path class="st0" d="M.4.4l21.2 21.2"/>
+    <path class="st0" d="M.4 21.6L21.6.4"/>
 </symbol><symbol id="icon-facebook" viewBox="0 0 10 19">
     <title>
         facebook
     </title>
     <path d="M9.766.157v2.946H8.014c-.64 0-1.071.134-1.295.402-.223.268-.335.67-.335 1.205v2.11h3.27l-.435 3.303H6.384v8.471H2.97v-8.47H.123V6.82H2.97V4.387c0-1.384.387-2.457 1.161-3.22C4.904.404 5.934.023 7.222.023c1.093 0 1.941.045 2.544.134z" fill-rule="evenodd"/>
+</symbol><symbol id="icon-search" viewBox="0 0 82.3 83.4">
+    <style>
+        .st0{fill-rule:evenodd;clip-rule:evenodd;fill:#231f20}
+    </style>
+    <path class="st0" d="M25.8 57.3c-2.2-2.2-4.1-4.7-5.5-7.4L2 68.2c-2.5 2.5-2.6 6.3-.3 8.6l4.9 4.9c2.3 2.3 6.1 2.1 8.6-.3L33.6 63c-2.8-1.5-5.4-3.4-7.8-5.7z"/>
+    <path class="st0" d="M72.9 9.5C60.2-3.2 39.7-3.2 27.1 9.5c-12.6 12.6-12.6 33.1 0 45.8 12.6 12.6 33.1 12.6 45.8 0 12.6-12.7 12.6-33.2 0-45.8zm-7.8 38c-8.3 8.3-21.9 8.3-30.3 0-8.3-8.3-8.3-21.9 0-30.3 8.3-8.3 21.9-8.3 30.3 0 8.3 8.4 8.3 22 0 30.3z"/>
 </symbol></svg>
