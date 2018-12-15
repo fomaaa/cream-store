@@ -111,4 +111,3 @@ $next_post = get_next_post();
 </div>
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>
->>>>>>> 2ea74192df6ef401c2f507099baeaa623e295248
