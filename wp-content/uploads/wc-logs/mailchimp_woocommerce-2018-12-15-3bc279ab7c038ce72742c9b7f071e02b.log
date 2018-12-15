@@ -783,3 +783,79 @@ All items will be delivered with our signature packaging.
 )
 
 2018-12-15T10:19:37+00:00 NOTICE order_submit.success :: updateStoreOrder :: #298 :: email: foma.izob@gmail.com
+2018-12-15T10:48:02+00:00 DEBUG product_submit.debug :: #297 :: Array
+(
+    [id] => 297
+    [title] => Super case
+    [handle] => super-case
+    [url] => https://cream.remygin.ru/product/super-case/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => https://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 297
+                    [title] => Super case
+                    [url] => https://cream.remygin.ru/product/super-case/
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => https://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 298
+                    [title] => Super case :: Model = x :: Text-color = 
+                    [url] => https://cream.remygin.ru/product/super-case/?attribute_pa_model=x
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => https://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 299
+                    [title] => Super case :: Model = xr :: Text-color = 
+                    [url] => https://cream.remygin.ru/product/super-case/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => https://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 300
+                    [title] => Super case :: Model = xs :: Text-color = 
+                    [url] => https://cream.remygin.ru/product/super-case/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => https://cream.remygin.ru/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-15 10:46:51
+)
+
+2018-12-15T10:48:03+00:00 NOTICE product_submit.success :: addStoreProduct :: #297
