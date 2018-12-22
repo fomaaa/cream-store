@@ -7,19 +7,7 @@
               <div class="callback">
                 <div class="page__title"> Get updates </div>
                 <div class="callback__form">
-<!--                   <form action="/" class="form form--callback">
-                    <div class="form__field form__field--icon">
-                      <div class="form__icon">
-                        <i class="icon-envelope"></i>
-                      </div>
-                      <input type="text" class="input input--white" name="email" placeholder="Enter Your e-mail" />
-                    </div>
-                    <div class="form__button">
-                      <button class="btn btn--link btn--md" type="submit">subscribe</button>
-                    </div>
-                  </form>
- -->
- <?php echo do_shortcode('[contact-form-7 id="213" title="Subscribe" html_class="form form--callback"]') ?>
+                  <?php echo do_shortcode('[contact-form-7 id="213" title="Subscribe" html_class="form form--callback"]') ?>
                 </div>
               </div>
             </div>
@@ -79,7 +67,19 @@
         </div>
       </footer>
       <div class="menuBox">
-        <nav class="nav">
+              <?php 
+                  wp_nav_menu( array(
+                    'menu'            => 'right_nav', 
+                    'container'       => 'nav', 
+                    'container_class' => 'nav', 
+                    'menu_class'      => 'menu', 
+                    'echo'            => true,
+                    'fallback_cb'     => 'wp_page_menu',
+                    'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                    'depth'           => 0,
+                  ) );
+              ?>
+<!--         <nav class="nav">
           <ul class="menu">
             <li class="menu__item">
               <a href="#">SHOP</a>
@@ -94,10 +94,10 @@
               <a href="#">blog</a>
             </li>
           </ul>
-        </nav>
+        </nav> -->
         <a href="search.html" class="btn btn--search">
           <svg class="icon icon-search">
-            <use xlink:href="img/sprite.svg#icon-search"></use>
+            <use xlink:href="<?php echo get_stylesheet_directory_uri() ?>/img/sprite.svg#icon-search"></use>
           </svg>
         </a>
       </div>
