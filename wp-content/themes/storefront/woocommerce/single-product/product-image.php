@@ -57,7 +57,7 @@ $attachment_ids = $product->get_gallery_image_ids();
         <div class="swiper-wrapper">
 			<?php 
 				if ( $attachment_ids && $product->get_image_id() ) {
-					echo '<div class="swiper-slide" style="background-image: url(' . wc_get_gallery_image_html_big( get_field('image_for_initials') ) . ');"></div>';
+					echo '<div class="swiper-slide" style="background-image: url(' . wc_get_gallery_image_html_big( get_field('image_for_initials') ) . ');"><div class="js-area-text" style="background: -webkit-linear-gradient(top, transparent, transparent), url(' . get_stylesheet_directory_uri() . '/img/gold_text.png) repeat;"></div></div>';
 					foreach ( $attachment_ids as $attachment_id ) {
 						echo '<div class="swiper-slide" style="background-image: url(' . wc_get_gallery_image_html_big( $attachment_id ) . ');"></div>';
 					}
