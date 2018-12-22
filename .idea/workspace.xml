@@ -2,117 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67544d22-a9aa-44fd-8b6e-7eab6d0660a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/icons/cross.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/icons/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/gold_text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/silver_text.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_goodNotification.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_menuBox.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_error.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/storefront/img/cross.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/cross.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/build/img/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/build/img/sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-gateway-stripe.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-gateway-stripe.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/css/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/css/app.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/gulp/tasks/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/gulp/tasks/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/js/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/js/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/icons/arrow-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/icons/arrow-left.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/icons/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/icons/facebook.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/advantages/item1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/advantages/item1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/advantages/item2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/advantages/item2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/advantages/item3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/advantages/item3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/advantage1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/advantage1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/advantage2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/advantage2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/basket.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/basket.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/envelop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/envelop.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/locked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/locked.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/mail.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/mail.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/phone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/phone.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/telegram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/telegram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/viber.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/viber.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/whatsapp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/whatsapp.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/world.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/icons/world.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/svgo/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/svgo/facebook.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/_const.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/_const.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/anchors.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/anchors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/burgerMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/burgerMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/countdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/countdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/detectTouch.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/detectTouch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/faqDrop.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/faqDrop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/jquery.sTabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/jquery.sTabs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/jquery.splitter.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/jquery.splitter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/map/index-webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/map/index-webpack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/map/infobox-webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/map/infobox-webpack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/map/markerwithlabel-webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/map/markerwithlabel-webpack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/map/style-webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/map/style-webpack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/remcalc.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/remcalc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/resizesensor.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/resizesensor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/sayHello.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/sayHello.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/showMore.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/showMore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/sliders.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/sliders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/sticky-head.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/sticky-head.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/togglepopup.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/togglepopup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/videoInit.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/components/videoInit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/libs/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/libs/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/_common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/app.sass" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/app.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_all.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_pageNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_pageNav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_tabs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_totalBox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_totalBox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/core/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/core/_all.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/core/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/core/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/core/_framework.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/core/_framework.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/core/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/core/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/core/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/core/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_all.sass" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_all.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_badge.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_checkbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_modals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_goodNotification.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_goodNotification.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/form/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/form/_index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/form/_inputs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/form/_inputs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/generated/_sprite-svg.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/generated/_sprite-svg.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/helpers/_all.sass" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/helpers/_all.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/helpers/_helpers.sass" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/helpers/_helpers.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/helpers/_mixin-rem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/helpers/_mixin-rem.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/helpers/_mixins.sass" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/helpers/_mixins.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/helpers/_mixins2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/helpers/_mixins2.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/helpers/_reset.sass" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/helpers/_reset.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/layout/_all.sass" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/layout/_all.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/layout/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/layout/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/lib/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/lib/_all.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/lib/_fancybox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/lib/_fancybox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/lib/_fullpage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/lib/_fullpage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/lib/_selectric.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/lib/_selectric.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/lib/_simplebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/lib/_simplebar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/lib/_swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/lib/_swiper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_advantages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_advantages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_all.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_banner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_blog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_cart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_cart.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_case.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_case.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_catalog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_good.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_good.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_preview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_preview.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_search.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_share.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_share.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/sections/_text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/checkout/form-checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/checkout/form-checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/checkout/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/checkout/payment.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,11 +26,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_badge.scss">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/src/sass/form/_index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="394">
+              <caret line="371" column="23" selection-start-line="371" selection-start-column="23" selection-end-line="371" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/src/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-gateway-stripe.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="460" column="51" selection-start-line="460" selection-start-column="51" selection-end-line="460" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/checkout/payment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="34" column="75" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -137,6 +68,16 @@
     <findStrings>
       <find>btn--pri</find>
       <find>goodNotification__title</find>
+      <find>__close</find>
+      <find>HARD CODE</find>
+      <find>form__apply-pay</find>
+      <find>woocommerce_checkout_before_customer_details</find>
+      <find>form__ra</find>
+      <find>style</find>
+      <find>.css</find>
+      <find>wc_stripe_show_payment_request_on_checkout</find>
+      <find>stripe</find>
+      <find>applePay</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,11 +90,17 @@
         <option value="$PROJECT_DIR$/wp-content/themes/storefront/.gitignore" />
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_buttons.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_goodNotification.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/storefront/gulp/tasks/server.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/storefront/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/helpers/_helpers.sass" />
         <option value="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_badge.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_goodNotification.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/form/_inputs.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/checkout/form-checkout.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/checkout/payment.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/form/_index.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/src/js/app.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-gateway-stripe.php" />
       </list>
     </option>
   </component>
@@ -187,31 +134,22 @@
               <item name="cream.local" type="b2602c69:ProjectViewProjectNode" />
               <item name="cream.local" type="462c0819:PsiDirectoryNode" />
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cream.local" type="b2602c69:ProjectViewProjectNode" />
               <item name="cream.local" type="462c0819:PsiDirectoryNode" />
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="storefront" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="woocommerce-gateway-stripe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cream.local" type="b2602c69:ProjectViewProjectNode" />
               <item name="cream.local" type="462c0819:PsiDirectoryNode" />
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="storefront" type="462c0819:PsiDirectoryNode" />
-              <item name="gulp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cream.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cream.local" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="storefront" type="462c0819:PsiDirectoryNode" />
-              <item name="gulp" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="woocommerce-gateway-stripe" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -229,6 +167,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/storefront/img" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/storefront/src/img" />
       <recent name="$PROJECT_DIR$/wp-content/themes/storefront/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -257,18 +197,18 @@
       <updated>1543847543654</updated>
       <workItem from="1543847546297" duration="1575000" />
       <workItem from="1543925667081" duration="76000" />
-      <workItem from="1545496795902" duration="2099000" />
+      <workItem from="1545496795902" duration="4562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5066000" />
+    <option name="totallyTimeSpent" value="7529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22246066" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22246066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -281,7 +221,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -293,13 +233,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce-gateway-stripe/includes/payment-methods/class-wc-stripe-payment-request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="630" column="10" lean-forward="true" selection-start-line="630" selection-start-column="10" selection-end-line="630" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -325,13 +258,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_goodNotification.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -363,10 +289,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_goodNotification.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="67" column="24" lean-forward="true" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_badge.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="276">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/src/sass/form/_inputs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+          <folding>
+            <element signature="e#477#1036#0" />
+            <element signature="e#1222#1244#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/cart/cart-shipping.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="77" column="23" lean-forward="true" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce-gateway-stripe/includes/payment-methods/class-wc-stripe-payment-request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="613" column="51" lean-forward="true" selection-start-line="613" selection-start-column="51" selection-end-line="613" selection-end-column="51" />
+          <folding>
+            <element signature="e#18292#18329#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/checkout/form-checkout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="223" column="106" selection-start-line="223" selection-start-column="62" selection-end-line="223" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="372" column="55" selection-start-line="372" selection-start-column="13" selection-end-line="372" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/checkout/payment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/src/sass/form/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="371" column="23" selection-start-line="371" selection-start-column="23" selection-end-line="371" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-gateway-stripe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="460" column="51" selection-start-line="460" selection-start-column="51" selection-end-line="460" selection-end-column="51" />
         </state>
       </provider>
     </entry>

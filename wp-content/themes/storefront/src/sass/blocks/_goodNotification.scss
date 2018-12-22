@@ -65,14 +65,23 @@
 		top: 50%;
 		right: 82px;
 		transform: translateY(-50%);
+		cursor: pointer;
+
+		&:after {
+			content: '';
+			position: absolute;
+			@include vcenter();
+			width: 21px;
+			height: 21px;
+			background-image: url('../img/cross.svg');
+		}
 
 		@include r($xs-breakpoint) {
 			display: none;
 		}
 
 		svg {
-			width: 20px;
-			height: 21px;
+
 			stroke: $black;
 		}
 	}

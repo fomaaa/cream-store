@@ -459,7 +459,7 @@ class WC_Gateway_Stripe extends WC_Stripe_Payment_Gateway {
 		 */
 		if ( current_user_can( 'administrator' ) ) {
 			//wp_register_style( 'stripe_styles', plugins_url( 'assets/css/stripe-future-styles.css', WC_STRIPE_MAIN_FILE ), array(), WC_STRIPE_VERSION );
-			// wp_enqueue_style( 'stripe_styles' );			
+			// wp_enqueue_style( 'stripe_styles' );
 		} else {
 			//wp_register_style( 'stripe_styles', plugins_url( 'assets/css/stripe-styles.css', WC_STRIPE_MAIN_FILE ), array(), WC_STRIPE_VERSION );
 			// wp_enqueue_style( 'stripe_styles' );

@@ -15,6 +15,19 @@ svg4everybody();
 (function($) {
   $(function() {
 
+    $(document).on('change', '[name="payment_method"]', function() {
+      if (this.value === 'applePayMethod') {
+        $('.form__apply-pay').addClass('is-active');
+      } else {
+        $('.form__apply-pay').removeClass('is-active');
+      }
+    });
+
+    if (!window.ApplePaySession) {
+      $('.applePay').remove();
+      $('.form__apply-pay').remove();
+    }
+
     $('.btn--burger').on('click', function(e) {
       e.preventDefault();
 
