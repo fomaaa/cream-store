@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 wp-config.php
 
+=======
+.DS_Store
+.idea
+wp-config.php
+>>>>>>> 3fa57b29970c1845cde40f6925ebc24cbf2aaa99
