@@ -1,20 +1,48 @@
 .section--blog {
 	padding: 130px 0 142px;
+
+	@include r($xs-breakpoint) {
+		padding: 113px 0;
+	}
 }
 
 .grid {
 	display: flex;
 	flex-flow: wrap;
 
+	@include r($xs-breakpoint) {
+		width: 607px;
+	}
+
 	&.grid--3 {
 		margin: 0 -64px;
+
+		@include r($xs-breakpoint) {
+			margin: 0 auto;
+		}
 
 		.grid__item {
 			width: 33.33%;
 			padding: 0 64px;
 
+			@include r($xs-breakpoint) {
+				width: 100%;
+				padding: 0;
+			}
+
 			&:nth-child(n+4) {
 				margin-top: 105px;
+
+				@include r($xs-breakpoint) {
+					margin-top: 0;
+				}
+			}
+
+			&:not(:first-child) {
+
+				@include r($xs-breakpoint) {
+					margin-top: rem(158px);
+				}
 			}
 		}
 	}
@@ -30,10 +58,18 @@
 	.card__photo {
 		@include cover();
 		height: 213px;
+
+		@include r($xs-breakpoint) {
+			height: rem(409px);
+		}
 	}
 
 	.card__body {
 		padding-top: 37px;
+
+		@include r($xs-breakpoint) {
+			padding-top: 68px;
+		}
 	}
 
 	.card__title {
@@ -41,6 +77,10 @@
 		font-weight: 900;
 		text-transform: uppercase;
 		letter-spacing: .3em;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(50px);
+		}
 	}
 
 	.card__text {
@@ -50,5 +90,13 @@
 		letter-spacing: .3em;
 		padding-right: 20px;
 		margin-bottom: 25px;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(26px);
+			margin-top: rem(25px);
+			padding-right: rem(40px);
+			margin-bottom: rem(47px);
+			line-height: 1.2;
+		}
 	}
 }

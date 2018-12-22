@@ -1,9 +1,10 @@
 .section--banner {
-	height: 916px;
+	height: 100vh;
+	max-height: 916px;
 
 	@include r($xs-breakpoint) {
 		max-height: 100%;
-		height: auto;
+		height: calc(100vh - var(--browser-address-bar));
 		padding-bottom: rem(80px);
 		position: relative;
 
@@ -21,6 +22,7 @@
 
 .bannerSlider {
 	padding-top: 87px;
+	height: 100%;
 
 	@include r($xs-breakpoint) {
 		padding-top: 14px;
@@ -93,16 +95,19 @@
 
 .banner {
 	display: flex;
+	height: 100%;
 
 	@include r($xs-breakpoint) {
 		display: block;
 	}
 
 	&__photo {
-		height: 673px;
+		height: 73vh;
+		max-height: 673px;
 		width: percentage(952/1900);
 		position: relative;
 		@include cover();
+		margin-top: auto;
 
 		@include r($xs-breakpoint) {
 			width: percentage(587/750);
@@ -123,7 +128,7 @@
 			height: 1px;
 			left: 100%;
 			top: 32%;
-			margin-top: -2px;
+			margin-top:4px;
 			position: absolute;
 			background-color: $black;
 		}
@@ -133,7 +138,7 @@
 			height: 1px;
 			right: 0;
 			top: 32%;
-			margin-top: -2px;
+			margin-top:4px;
 			position: absolute;
 			background-color: #fff;
 		}
@@ -141,7 +146,8 @@
 
 	&__body {
 		width: percentage(948/1900);
-		padding-left: 152px;
+		//padding-left: 152px;
+		padding-left: 8vw;
 		padding-top: 71px;
 
 		@include r($xs-breakpoint) {
@@ -160,8 +166,10 @@
 
 	&__title {
 		text-transform: uppercase;
-		font-size: 112px;
-		line-height: 107px;
+		//font-size: 112px;
+		font-size: 5.9vw;
+		line-height: 5.6vw;
+		//line-height: 107px;
 		font-weight: 900;
 		letter-spacing: 0.2em;
 		position: relative;

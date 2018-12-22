@@ -1,13 +1,28 @@
 .nav {
 	text-align: right;
 
+	@include r($xs-breakpoint) {
+		text-align: center;
+	}
+
 	.menu__item:not(:first-child) {
 		margin-top: 14px;
+
+		@include r($xs-breakpoint) {
+			margin-top: 0;
+		}
 	}
 
 	a:not(.btn) {
 		font-size: 12px;
+		text-transform: uppercase;
 		letter-spacing: .25em;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(50px);
+			font-weight: 300;
+			line-height: rem(150px);
+		}
 	}
 
 	.page__current {

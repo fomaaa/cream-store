@@ -28,6 +28,28 @@
 	&:hover {
 
 	}
+
+	&.btn--xs {
+		font-size: 16px;
+		padding: 9.5px 27px;
+	}
+}
+
+.restore-item,
+.wc-forward {
+	background-color: $black;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 18px;
+	letter-spacing: .2em;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 16px;
+	padding: 9.5px 27px;
 }
 
 .btn--secondary {
@@ -106,6 +128,11 @@
 	font-size: 16px;
 	letter-spacing: .2em;
 	text-transform: uppercase;
+
+	@include r($xs-breakpoint) {
+		font-size: rem(28px);
+		letter-spacing: .3em;
+	}
 
 	&.btn--sm {
 		font-size: 20px;
@@ -196,3 +223,11 @@
 	}
 }
 
+
+.btn--search {
+
+	svg {
+		width: 26px;
+		height: 26px;
+	}
+}
