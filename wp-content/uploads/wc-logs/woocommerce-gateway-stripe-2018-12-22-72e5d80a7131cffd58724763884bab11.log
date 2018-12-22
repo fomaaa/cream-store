@@ -1,0 +1,199 @@
+2018-12-22T15:22:57+00:00 DEBUG 
+====Stripe Version: 4.1.13====
+====Start Log====
+sources/src_1DkCJdIeCl2ChwDqp7HeCiMw
+====End Log====
+
+
+2018-12-22T15:22:58+00:00 DEBUG 
+====Stripe Version: 4.1.13====
+====Start Log====
+Info: Begin processing payment for order 300 for the amount of 50.00
+====End Log====
+
+
+2018-12-22T15:22:58+00:00 DEBUG 
+====Stripe Version: 4.1.13====
+====Start Log====
+charges request: Array
+(
+    [currency] => usd
+    [amount] => 5000
+    [description] => Cream - Order 300
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => ILIA asfasfasf
+            [customer_email] => fasaff@mail.ru
+            [order_id] => 300
+        )
+
+    [source] => src_1DkCJdIeCl2ChwDqp7HeCiMw
+)
+
+====End Log====
+
+
+2018-12-22T15:23:00+00:00 DEBUG 
+====Stripe Version: 4.1.13====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1DkCJhIeCl2ChwDqsIFohVeH
+    [object] => charge
+    [amount] => 5000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1DkCJhIeCl2ChwDq3gZYSXjQ
+            [object] => balance_transaction
+            [amount] => 5000
+            [available_on] => 1546041600
+            [created] => 1545492185
+            [currency] => usd
+            [description] => Cream - Order 300
+            [exchange_rate] => 
+            [fee] => 175
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 175
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 4825
+            [source] => ch_1DkCJhIeCl2ChwDqsIFohVeH
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1545492185
+    [currency] => usd
+    [customer] => 
+    [description] => Cream - Order 300
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => ILIA asfasfasf
+            [customer_email] => fasaff@mail.ru
+            [order_id] => 300
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 31
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1DkCJhIeCl2ChwDqsIFohVeH/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1DkCJdIeCl2ChwDqp7HeCiMw
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 10
+                    [exp_year] => 2022
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [brand] => Visa
+                    [country] => US
+                    [cvc_check] => pass
+                    [fingerprint] => t0i7WJS4LcjFM2pO
+                    [funding] => credit
+                    [last4] => 4242
+                    [three_d_secure] => optional
+                    [name] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_ECbW8beZR6l2cSGjJjIbd6Qe
+            [created] => 1545492185
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Moscow
+                            [country] => 
+                            [line1] => noasfafa
+                            [line2] => 
+                            [postal_code] => 333333
+                            [state] => 
+                        )
+
+                    [email] => fasaff@mail.ru
+                    [name] => ILIA asfasfasf
+                    [phone] => 9896135155
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+====End Log====
+
+

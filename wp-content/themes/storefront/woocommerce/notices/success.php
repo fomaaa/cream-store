@@ -24,11 +24,17 @@ if ( ! $messages ) {
 }
 
 ?>
+<div class="goodNotification">
+    <div class="container-fluid">
+	<?php foreach ( $messages as $message ) : ?>
+		<div class="woocommerce-message" role="alert">
 
-<?php foreach ( $messages as $message ) : ?>
-	<div class="woocommerce-message" role="alert">
-		<?php
-			echo wc_kses_notice( $message );
-		?>
+         <span class="goodNotification__title">
+			<?php
+				echo wc_kses_notice( $message );
+			?>
+		</span>
+		</div>
+	<?php endforeach; ?>
 	</div>
-<?php endforeach; ?>
+</div>

@@ -219,12 +219,12 @@ function wc_add_wp_error_notices( $errors ) {
 function wc_kses_notice( $message ) {
 	return wp_kses( $message,
 		array_replace_recursive( // phpcs:ignore PHPCompatibility.PHP.NewFunctions.array_replace_recursiveFound
-			wp_kses_allowed_html( 'post' ),
 			array(
 				'a' => array(
 					'tabindex' => true,
 				),
-			)
+			),
+			wp_kses_allowed_html( 'post' )
 		)
 	);
 }

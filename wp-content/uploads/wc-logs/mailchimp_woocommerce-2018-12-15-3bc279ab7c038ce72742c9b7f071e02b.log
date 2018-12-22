@@ -783,3 +783,5 @@ All items will be delivered with our signature packaging.
 )
 
 2018-12-15T10:19:37+00:00 NOTICE order_submit.success :: updateStoreOrder :: #298 :: email: foma.izob@gmail.com
+2018-12-15T11:12:31+00:00 DEBUG MailChimp_WooCommerce_User_Submit :: 1 is currently in motion - skipping this one.
+2018-12-15T11:13:21+00:00 DEBUG MailChimp_WooCommerce_User_Submit :: 1 is currently in motion - skipping this one.

@@ -34,6 +34,11 @@
               </div>
             </div>
             <div class="header__right">
+              <a href="/?s=" class="btn btn--search">
+                <svg class="icon icon-search">
+                  <use xlink:href="<?php echo get_stylesheet_directory_uri() ?>/img/sprite.svg#icon-search"></use>
+                </svg>
+              </a>
               <button class="btn btn--burger hidden-desktop">
                 <span class="bar"></span>
                 <span class="bar"></span>
