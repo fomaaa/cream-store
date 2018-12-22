@@ -2863,7 +2863,7 @@ if ( ! function_exists( 'wc_dropdown_variation_attribute_color' ) ) {
 							$checked = '';
 						}
 
-						$html .= '<div class="colorItem"><input id="' . esc_attr( $id ) . '" class="' . esc_attr( $class ) . '" name="' . esc_attr( $name ) . '"  type="radio" '. $checked .' value="' . esc_attr( $term->slug ) . '" ><span style="background-image: url('.get_stylesheet_directory_uri() . '/img/'. $term->slug.'.png);"></span></div>';
+						$html .= '<div class="colorItem"><input data-text-gradient="'.get_stylesheet_directory_uri() . '/img/' . $term->slug .'_text.png" id="' . esc_attr( $id ) . '" class="' . esc_attr( $class ) . ' js-text-color" name="' . esc_attr( $name ) . '"  type="radio" '. $checked .' value="' . esc_attr( $term->slug ) . '" ><span style="background-image: url('.get_stylesheet_directory_uri() . '/img/'. $term->slug.'.png);"></span></div>';
 					}
 					$count ++;
 				}

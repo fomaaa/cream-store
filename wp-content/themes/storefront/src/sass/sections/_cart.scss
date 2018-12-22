@@ -108,7 +108,7 @@
 	}
 
 	.cart__left {
-		width: percentage(494/1040);
+		width: percentage(565/1040);
 
 		@include r($xs-breakpoint) {
 			width: 100%;
@@ -178,14 +178,6 @@
 		margin-top: -43px;
 	}
 
-	.form__payments:first-child {
-		margin-bottom: 37px;
-
-		@include r($xs-breakpoint) {
-			margin-bottom: rem(62px);
-		}
-	}
-
 	.form__row:not(:last-child) {
 		margin-bottom: 37px;
 
@@ -230,8 +222,10 @@
 	}
 
 	.form__payments {
+		margin-bottom: 50px;
 
 		@include r($xs-breakpoint) {
+			margin-bottom: 0;
 			width: 100%;
 			margin-top: 20px;
 		}
@@ -379,6 +373,51 @@
 
 		.form__radio:last-child {
 			margin-top: 15px;
+		}
+	}
+}
+
+.cartEmpty {
+	min-height: calc(100vh - 155px);
+
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+	justify-content: center;
+	padding-bottom: 100px;
+
+	@include r($md-breakpoint) {
+		min-height: calc(100vh - 10.5625rem);
+		padding-bottom: 0;
+	}
+
+	&__title {
+		font-weight: 900;
+		font-size: 20px;
+		text-transform: uppercase;
+		letter-spacing: .2em;
+		margin-bottom: 65px;
+
+		@include r($xs-breakpoint) {
+			font-size: rem(35px);
+			margin-bottom: rem(110px);
+		}
+	}
+
+	&__button {
+
+		@include r($xs-breakpoint) {
+			width: 100%;
+		}
+	}
+
+	.btn--primary {
+		width: 348px;
+		height: 73px;
+
+		@include r($xs-breakpoint) {
+			width: 100%;
+			height: rem(128px);
 		}
 	}
 }

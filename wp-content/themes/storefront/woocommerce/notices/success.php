@@ -24,11 +24,21 @@ if ( ! $messages ) {
 }
 
 ?>
-
-<?php foreach ( $messages as $message ) : ?>
-	<div class="woocommerce-message" role="alert">
-		<?php
-			echo wc_kses_notice( $message );
-		?>
+<div class="goodNotification">
+    <div class="container-fluid">
+	<?php foreach ( $messages as $message ) : ?>
+		<div class="woocommerce-message" role="alert">
+	         <span class="goodNotification__title">
+				<?php
+					echo wc_kses_notice( $message );
+				?>
+			</span>
+			<div href="javascript:void(0)" class="goodNotification__close">
+	            <svg class="icon icon-cross">
+	              <use xlink:href="<?php echo get_stylesheet_directory_uri() ?>/img/sprite.svg#icon-cross"></use>
+	            </svg>
+	        </div>
+		</div>
+	<?php endforeach; ?>
 	</div>
-<?php endforeach; ?>
+</div>

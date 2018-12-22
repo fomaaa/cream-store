@@ -46,7 +46,7 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 								<?php } else { ?>
 									<div class="form__body">
 										<div class="form__field">
-											<input type="text" id="initials" name="initials" class="input input--white input--sm" placeholder="Enter you initials">
+											<input maxlength="4" type="text" id="initials" name="initials" class="input input--white input--sm js-enter-text" placeholder="Enter you initials">
 											<!-- <?php do_action( 'woocommerce_before_add_to_cart_button' ); ?> -->
 										</div>
 										<div class="form__colors">

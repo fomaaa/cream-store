@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67544d22-a9aa-44fd-8b6e-7eab6d0660a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/storefront/img/cross.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/img/cross.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-gateway-stripe.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-gateway-stripe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/css/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/css/app.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/js/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/js/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_goodNotification.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_goodNotification.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/form/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/form/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/form/_inputs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/form/_inputs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/checkout/form-checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/checkout/form-checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/checkout/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/checkout/payment.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,16 +26,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/src/sass/form/_index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="394">
+              <caret line="371" column="23" selection-start-line="371" selection-start-column="23" selection-end-line="371" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/src/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-gateway-stripe.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="460" column="51" selection-start-line="460" selection-start-column="51" selection-end-line="460" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/checkout/payment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="34" column="75" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>btn--pri</find>
+      <find>goodNotification__title</find>
+      <find>__close</find>
+      <find>HARD CODE</find>
+      <find>form__apply-pay</find>
+      <find>woocommerce_checkout_before_customer_details</find>
+      <find>form__ra</find>
+      <find>style</find>
+      <find>.css</find>
+      <find>wc_stripe_show_payment_request_on_checkout</find>
+      <find>stripe</find>
+      <find>applePay</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,7 +86,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/.gitignore" />
         <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_buttons.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/gulp/tasks/server.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/helpers/_helpers.sass" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_badge.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_goodNotification.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/form/_inputs.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/checkout/form-checkout.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/checkout/payment.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/src/sass/form/_index.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storefront/src/js/app.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-gateway-stripe.php" />
       </list>
     </option>
   </component>
@@ -41,6 +112,7 @@
     <option name="width" value="1440" />
     <option name="height" value="825" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -52,6 +124,32 @@
             <path>
               <item name="cream.local" type="b2602c69:ProjectViewProjectNode" />
               <item name="cream.local" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cream.local" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cream.local" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cream.local" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cream.local" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cream.local" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cream.local" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="woocommerce-gateway-stripe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cream.local" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cream.local" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="woocommerce-gateway-stripe" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -66,6 +164,14 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/storefront/img" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/storefront/src/img" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/storefront/src" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -91,17 +197,18 @@
       <updated>1543847543654</updated>
       <workItem from="1543847546297" duration="1575000" />
       <workItem from="1543925667081" duration="76000" />
+      <workItem from="1545496795902" duration="4562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1651000" />
+    <option name="totallyTimeSpent" value="7529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22246066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -126,10 +233,143 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apple-developer-merchantid-domain-association">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="161">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="37" selection-start-line="37" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/gulp/tasks/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/src/sass/helpers/_helpers.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/src/sass/blocks/_goodNotification.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="67" column="24" lean-forward="true" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/src/sass/elements/_badge.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/src/sass/form/_inputs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+          <folding>
+            <element signature="e#477#1036#0" />
+            <element signature="e#1222#1244#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/cart/cart-shipping.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="77" column="23" lean-forward="true" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce-gateway-stripe/includes/payment-methods/class-wc-stripe-payment-request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="613" column="51" lean-forward="true" selection-start-line="613" selection-start-column="51" selection-end-line="613" selection-end-column="51" />
+          <folding>
+            <element signature="e#18292#18329#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/checkout/form-checkout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="223" column="106" selection-start-line="223" selection-start-column="62" selection-end-line="223" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="372" column="55" selection-start-line="372" selection-start-column="13" selection-end-line="372" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/woocommerce/checkout/payment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="34" column="75" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/src/sass/form/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="371" column="23" selection-start-line="371" selection-start-column="23" selection-end-line="371" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storefront/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-gateway-stripe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="460" column="51" selection-start-line="460" selection-start-column="51" selection-end-line="460" selection-end-column="51" />
         </state>
       </provider>
     </entry>

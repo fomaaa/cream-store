@@ -90,6 +90,11 @@ div.section--hero {
 		transition: .3s all;
 		z-index: 10;
 
+		@include r($xs-breakpoint) {
+			width: 100%;
+			padding: rem(115px) rem(72px);
+		}
+
 		.close {
 			position: absolute;
 			top: 0;
@@ -100,6 +105,11 @@ div.section--hero {
 			background-size: 27px 27px;
 			background-repeat: no-repeat;
 			background-position: center center;
+
+			@include r($xs-breakpoint) {
+				top: rem(100px);
+				right: rem(70px);
+			}
 		}
 
 
@@ -108,9 +118,23 @@ div.section--hero {
 			text-align: left;
 			margin: 0 -45px;
 
+			@include r($xs-breakpoint) {
+				margin: 0;
+				display: block;
+			}
+
 			.list-column {
 				padding: 0 55px;
 				width: 33.33%;
+
+				@include r($xs-breakpoint) {
+					padding: 0;
+					width: 100%;
+
+					&:not(:first-child) {
+						margin-top: rem(70px);
+					}
+				}
 
 				a {
 					white-space: nowrap;
@@ -118,6 +142,10 @@ div.section--hero {
 
 				li:not(:first-child) {
 					margin-top: 29px;
+
+					@include r($xs-breakpoint) {
+						margin-top: rem(70px);
+					}
 				}
 			}
 		}
@@ -128,6 +156,10 @@ div.section--hero {
 				font-size: 16px;
 				font-weight: 300;
 				text-transform: uppercase;
+
+				@include r($xs-breakpoint) {
+					font-size: rem(24px);
+				}
 
 				&.is-active {
 					background-color: $black;

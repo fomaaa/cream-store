@@ -28,7 +28,7 @@ get_header(); ?>
             <?php endif; ?> 
           <?php endif; ?>
           <div class="searchForm">
-            <form action="/" method="get" class="form form--search">
+            <form action="/" class="form form--search">
               <div class="form__field">
                 <input type="text" name="s" placeholder="NEW SEARCH" />
                 <button class="btn btn--search" type="submit">
@@ -41,6 +41,7 @@ get_header(); ?>
           </div>
         </div>
       </div>
+
 
                   <?
 get_footer();

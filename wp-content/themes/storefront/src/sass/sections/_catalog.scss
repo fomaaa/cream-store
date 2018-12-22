@@ -67,7 +67,6 @@
 	.goodList {
 		display: flex;
 		flex-flow: wrap;
-		justify-content: center;
 		margin: 143px -63px 0;
 
 		@include r($xs-breakpoint) {
@@ -82,7 +81,7 @@
 				width: 100%;
 			}
 
-			&:nth-child(n+4) {
+			&:nth-child(n+3) {
 				margin-top: 22px;
 
 				@include r($xs-breakpoint) {

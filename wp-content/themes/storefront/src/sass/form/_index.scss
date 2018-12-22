@@ -364,3 +364,11 @@
 		line-height: rem(36px);
 	}
 }
+
+.form__apply-pay {
+	display: none;
+
+	&.is-active {
+		display: block;
+	}
+}
