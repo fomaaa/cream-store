@@ -1,0 +1,29 @@
+.section--error {
+	padding-top: 84px;
+	padding-bottom: 150px;
+
+	.searchForm {
+		margin-top: 90px;
+	}
+}
+
+.error__title {
+	font-size: 111px;
+	text-align: center;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+}
+.error__subtitle {
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	margin-top: 45px;
+
+	@include r($xs-breakpoint) {
+		font-size: rem(18px);
+		margin-top: rem(50px);
+	}
+}
+

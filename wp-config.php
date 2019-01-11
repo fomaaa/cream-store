@@ -20,13 +20,21 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'cream-store');
+<<<<<<< HEAD
+define('DB_NAME', 'co57247_cream');
+=======
+define('DB_NAME', 'cream');
+>>>>>>> c749672ea2ae41d024c803ce5c56e402b75907c9
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'co57247_cream');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+<<<<<<< HEAD
+define('DB_PASSWORD', '12345');
+=======
+define('DB_PASSWORD', 'root');
+>>>>>>> c749672ea2ae41d024c803ce5c56e402b75907c9
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

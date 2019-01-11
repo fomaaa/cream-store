@@ -15,7 +15,13 @@
 
 .header.header--white {
 	color: #fff;
-	
+
+	.btn--search {
+		svg {
+			fill: #fff;
+		}
+	}
+
 	.nav a {
 		color: #fff;
 	}
@@ -35,7 +41,7 @@
 			}
 		}
 	}
-	
+
 	.btn--burger .bar {
 		background-color: #fff;
 	}
@@ -69,15 +75,16 @@
 }
 
 .header__center {
-	width: percentage(1392/1900);
-	margin-left: 130px;
+	width: percentage(1438/1900);
+	margin-left: percentage(98/1900);
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 0;
 
-	@include r($lg-breakpoint) {
-		padding: 0;
+	@include r(1650) {
+		padding: 0 !important;
+		width: percentage(1338/1900);
 	}
 
 	@include r($xs-breakpoint) {
@@ -125,9 +132,19 @@
 	margin-left: auto;
 	position: relative;
 	text-align: right;
+	display: flex;
+	align-items: center;
+
+	.btn--search {
+		margin-right: 47px;
+		margin-top: 10px;
+
+		@include r($xs-breakpoint) {
+			display: none;
+		}
+	}
 
 	@include r($xs-breakpoint) {
-		display: flex;
 		flex-flow: column;
 		margin-top: rem(-5px);
 

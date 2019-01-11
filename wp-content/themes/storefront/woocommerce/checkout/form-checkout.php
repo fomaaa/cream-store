@@ -220,17 +220,19 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 
 
 			                        <div class="form__bottom">
-										<div class="form__apply-pay"><?php do_action( 'woocommerce_checkout_before_customer_details' ); ?></div>
+										<div class="form__apply-pay">
+											<?php do_action( 'woocommerce_checkout_before_customer_details' ); ?>
+										</div>
 			                            <div class="form__button">
-  
+
 											  <?php //wc_get_template( 'checkout/terms.php' ); ?>
-  
+
 											  <?php do_action( 'woocommerce_review_order_before_submit' ); ?>
 											  <!-- <button class="btn btn--primary" type="submit"> Complete order </button> -->
 											<?php echo apply_filters( 'woocommerce_order_button_html', '<button type="submit" class="btn btn--primary button alt" name="woocommerce_checkout_place_order" id="place_order" value="Complete order"   data-value="Complete order">Complete order</button>' ); // @codingStandardsIgnoreLine ?>
-  
+
 											  <?php do_action( 'woocommerce_review_order_after_submit' ); ?>
-  
+
 											  <?php wp_nonce_field( 'woocommerce-process_checkout', 'woocommerce-process-checkout-nonce' ); ?>
 			                              <!-- <button class="btn btn--primary" type="submit"> Complete order </button> -->
 			                              <a href="#" class="btn btn--back js-tab-prev">

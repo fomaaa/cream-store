@@ -1,3 +1,7 @@
+:root {
+	--browser-address-bar: 0px;
+}
+
 .out {
 	position: relative;
 	overflow: hidden;
@@ -12,6 +16,7 @@
 	position: fixed;
 	top: 0;
 	left: 0;
+	right: 0;
 }
 
 .section__title {
@@ -63,4 +68,34 @@
 
 .color-white {
 	color: #fff;
+}
+
+.js-enter-text {
+	transition: .3s all;
+
+	&:focus {
+
+		&::placeholder {
+			opacity: 0;
+		}
+	}
+}
+
+
+.js-area-text {
+	position: absolute;
+	color: #bf9b30;
+	left: 50%;
+	top: 150px;
+	font-size: 2.5rem;
+	text-align: center;
+	text-transform: uppercase;
+	width: 160px;
+	height: 50px;
+	font-family: "Arbesco-DT", serif;
+	transform: translateX(-50%);
+
+	-webkit-text-fill-color: transparent !important;
+	background-clip: text !important;
+	-webkit-background-clip: text !important;
 }
