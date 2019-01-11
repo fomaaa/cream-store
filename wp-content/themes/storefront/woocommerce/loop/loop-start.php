@@ -26,7 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) {
         'orderby' => 'name',
         'order' => 'ASC',
         'parent' => 0,
-        'hide_empty' => true,
+        'hide_empty' => false,
     );
     $cats = get_categories($args_cat); 
 ?>

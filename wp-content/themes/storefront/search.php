@@ -30,7 +30,7 @@ get_header(); ?>
           <div class="searchForm">
             <form action="/" class="form form--search">
               <div class="form__field">
-                <input type="text" name="s" placeholder="NEW SEARCH" />
+                <input type="text" name="s" placeholder="type something" />
                 <button class="btn btn--search" type="submit">
                   <svg class="icon icon-search">
                     <use xlink:href="<?php echo get_stylesheet_directory_uri() ?>/img/sprite.svg#icon-search"></use>

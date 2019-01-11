@@ -373,3 +373,7 @@ function load_product() {
 add_filter( 'wc_stripe_show_payment_request_on_checkout', '__return_true' );
 
 
+add_filter('relevanssi_block_one_letter_searches', function(){
+	return false;
+}, 999);
+

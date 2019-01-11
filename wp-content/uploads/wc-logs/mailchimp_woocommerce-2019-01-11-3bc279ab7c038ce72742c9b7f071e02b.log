@@ -1,0 +1,107 @@
+2019-01-11T10:19:49+00:00 DEBUG api.addCart :: Adding Cart :: fasaff@mail.ru :: Array
+(
+    [id] => 4be3ace0cd0b54e9e1898641c67740ab
+    [customer] => Array
+        (
+            [id] => 4be3ace0cd0b54e9e1898641c67740ab
+            [email_address] => fasaff@mail.ru
+            [opt_in_status] => 
+            [orders_count] => 0
+            [total_spent] => 0
+        )
+
+    [checkout_url] => http://cream-store.loc/checkout/?mc_cart_id=4be3ace0cd0b54e9e1898641c67740ab
+    [currency_code] => USD
+    [order_total] => 50
+    [lines] => Array
+        (
+            [0] => Array
+                (
+                    [id] => bf92693a639ba590dbb1e13572f3e253
+                    [product_id] => 287
+                    [product_variant_id] => 288
+                    [quantity] => 1
+                    [price] => 50
+                )
+
+        )
+
+)
+
+2019-01-11T10:19:50+00:00 NOTICE abandoned_cart.success :: email: fasaff@mail.ru :: checkout_url: http://cream-store.loc/checkout/?mc_cart_id=4be3ace0cd0b54e9e1898641c67740ab
+2019-01-11T10:46:36+00:00 DEBUG product_submit.debug :: #279 :: Array
+(
+    [id] => 279
+    [title] => Product 14
+    [handle] => product-14
+    [url] => http://cream-store.loc/product/product-14/
+    [description] => Leather craftsmanship expertise is showcased in our bespoke iPhone cases. Crafted with our signature pebble grain leather, the slim and sleek cases perfectly wrap around your device without adding any bulk to your phone. The interior boasts a plush microfiber suede lining to ensure optimum protection of your device. Our iPhone X cases come in a range of eight different colors with each hue being reminiscent of various elements in nature.
+<h2>DETAILED FEATURES</h2>
+<ul>
+ 	<li>- Personalized monogramming with your choice of 4 initials in gold or silver lettering</li>
+ 	<li>- Premium grade cow grain leather exterior</li>
+ 	<li>- Plush microfibre suede internal lining</li>
+ 	<li>- Hand painted finished edges</li>
+</ul>
+<h2>Shipping</h2>
+Standard shipping (7-15 business days),
+or express shipping (2-5 business days).
+<h2>Shipping</h2>
+All items will be delivered with our signature packaging.
+    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/black-154x300.png
+    [variants] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 279
+                    [title] => Product 14
+                    [url] => http://cream-store.loc/product/product-14/
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [1] => Array
+                (
+                    [id] => 280
+                    [title] => Product 14 :: Model = x :: Text-color = 
+                    [url] => http://cream-store.loc/product/product-14/?attribute_pa_model=x
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [2] => Array
+                (
+                    [id] => 281
+                    [title] => Product 14 :: Model = xr :: Text-color = 
+                    [url] => http://cream-store.loc/product/product-14/?attribute_pa_model=xr
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+            [3] => Array
+                (
+                    [id] => 282
+                    [title] => Product 14 :: Model = xs :: Text-color = 
+                    [url] => http://cream-store.loc/product/product-14/?attribute_pa_model=xs
+                    [price] => 50
+                    [inventory_quantity] => 1000000
+                    [image_url] => http://cream-store.loc/wp-content/uploads/2018/11/black-154x300.png
+                    [backorders] => false
+                    [visibility] => visible
+                )
+
+        )
+
+    [published_at_foreign] => 2018-12-05 21:27:08
+)
+
+2019-01-11T10:46:37+00:00 NOTICE product_submit.success :: addStoreProduct :: #279

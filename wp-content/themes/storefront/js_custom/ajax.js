@@ -105,10 +105,11 @@ $(document).ready(function(){
 
   });
 
-  $('[name="additional_email"]').on('change', function(){
+  $('[name="billing_email"]').on('change', function(){
      var val = $(this).val();
      $('.add-value-contact').html(val);
   })
+  
   $('[name="billing_address_1"], [name="billing_city"], [name="billing_custom_country"], [name="billing_postcode"]').on('change', function(){
       var address = $('[name="billing_address_1"]').val();
       var city = $('[name="billing_city"]').val();

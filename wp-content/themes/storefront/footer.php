@@ -79,22 +79,6 @@
                     'depth'           => 0,
                   ) );
               ?>
-<!--         <nav class="nav">
-          <ul class="menu">
-            <li class="menu__item">
-              <a href="#">SHOP</a>
-            </li>
-            <li class="menu__item">
-              <a href="#">CONTACT</a>
-            </li>
-            <li class="menu__item">
-              <a href="#">ABOUT</a>
-            </li>
-            <li class="menu__item">
-              <a href="#">blog</a>
-            </li>
-          </ul>
-        </nav> -->
         <a href="search.html" class="btn btn--search">
           <svg class="icon icon-search">
             <use xlink:href="<?php echo get_stylesheet_directory_uri() ?>/img/sprite.svg#icon-search"></use>
