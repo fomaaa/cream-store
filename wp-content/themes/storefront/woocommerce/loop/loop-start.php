@@ -33,7 +33,7 @@ if ( ! defined( 'ABSPATH' ) ) {
       <div class="section section--catalog section--first">
         <div class="container section__inner">
           <div class="catalog__title"><?php if (single_cat_title('', 0)) : single_cat_title(); else : ?> Case<br> collection <?php endif; ?></div>
-          <div class="category category--black">
+          <div class="category category--black is-active">
             <div class="category__head"> show categories </div>
             <div class="category__body">
               <a href="javascript:void(0);" class="close"></a>
