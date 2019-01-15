@@ -29,6 +29,11 @@
                 ?>" alt="logotype">
               </a>
             </div>
+            <?php if (is_product()) : ?>
+              <nav class="nav nav--secondary">
+                <a href="/shop" class="btn btn--return"> Return to catalogue </a>
+              </nav>
+            <?php endif ;?>
           </div>
           <div class="header__center i-content">
             <div class="slogan"> <?php the_field("left_slogan", 'option'); ?> </div>

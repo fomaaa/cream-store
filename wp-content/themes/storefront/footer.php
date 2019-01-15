@@ -79,7 +79,7 @@
                     'depth'           => 0,
                   ) );
               ?>
-        <a href="search.html" class="btn btn--search">
+        <a href="/?s=" class="btn btn--search">
           <svg class="icon icon-search">
             <use xlink:href="<?php echo get_stylesheet_directory_uri() ?>/img/sprite.svg#icon-search"></use>
           </svg>
