@@ -31,9 +31,9 @@
 	&:before {
 		content: '';
 		position: absolute;
-		top: 30px;
-		right: 30px;
-		left: 30px;
+		top: rem(30px);
+		right: rem(30px);
+		left: rem(30px);
 		bottom: 0;
 		background-color: #eaecf0;
 	}

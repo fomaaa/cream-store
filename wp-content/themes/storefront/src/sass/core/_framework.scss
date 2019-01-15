@@ -10,6 +10,10 @@
 .container {
 	max-width: 1230px;
 	padding: 0 15px;
+
+	@include r($xs-breakpoint) {
+		padding: 0 rem(15px);
+	}
 }
 
 .container-fluid {

@@ -25,7 +25,7 @@
 	height: 100%;
 
 	@include r($xs-breakpoint) {
-		padding-top: 14px;
+		padding-top: rem(14px);
 	}
 
 	.swiper-button {
@@ -62,6 +62,7 @@
 			bottom: rem(88px);
 			padding: 0 rem(72px);
 			min-height: 10px;
+			display: none;
 		}
 
 		&-bullet {
@@ -120,7 +121,7 @@
 		margin-top: auto;
 
 		@include r($xs-breakpoint) {
-			width: percentage(587/750);
+			width: percentage(578/750);
 			height: rem(533px);
 		}
 
@@ -163,7 +164,7 @@
 
 		@include r($xs-breakpoint) {
 			width: 100%;
-			padding: rem(88px) rem(72px) 0;
+			padding: rem(43px) rem(72px) 0;
 		}
 	}
 

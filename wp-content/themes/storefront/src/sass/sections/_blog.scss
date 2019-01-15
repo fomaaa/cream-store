@@ -2,7 +2,7 @@
 	padding: 130px 0 142px;
 
 	@include r($xs-breakpoint) {
-		padding: 113px 0;
+		padding: rem(113px) 0;
 	}
 }
 
@@ -11,7 +11,7 @@
 	flex-flow: wrap;
 
 	@include r($xs-breakpoint) {
-		width: 607px;
+		width: rem(607px);
 	}
 
 	&.grid--3 {
@@ -68,7 +68,7 @@
 		padding-top: 37px;
 
 		@include r($xs-breakpoint) {
-			padding-top: 68px;
+			padding-top: rem(68px);
 		}
 	}
 

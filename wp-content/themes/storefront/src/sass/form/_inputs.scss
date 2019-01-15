@@ -3,6 +3,11 @@
 textarea {
 	border-radius: 0;
 }
+
+input {
+	border-radius: 0 !important;
+}
+
 .wc-stripe-elements-field,
 .input:not(.input--white) {
 	background-color: #f3f3f3;
@@ -85,7 +90,7 @@ textarea {
 	margin-left: -10px;
 	margin-right: -10px;
 
-	> div {
+	> div.form-row {
 		padding: 10px;
 		float: left;
 		width: 100%;

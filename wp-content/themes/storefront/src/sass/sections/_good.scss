@@ -58,7 +58,7 @@
 		margin-top: 102px;
 
 		@include r($xs-breakpoint) {
-			margin-top: rem(100px);
+			margin-top: rem(50px);
 			padding: 0 rem(56px);
 		}
 	}
@@ -388,7 +388,7 @@
 
 		@include r($xs-breakpoint) {
 			font-size: rem(23.68px);
-			margin-right: rem(35px);
+			margin-right: rem(17px);
 		}
 	}
 

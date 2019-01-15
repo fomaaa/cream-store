@@ -372,3 +372,11 @@
 		display: block;
 	}
 }
+
+
+#stripe-payment-data {
+	@include r($xs-breakpoint) {
+		font-size: rem(23px);
+		line-height: rem(27px);
+	}
+}

@@ -47,6 +47,10 @@
 
 		&__subtitle {
 			margin-top: 30px;
+
+			@include r($xs-breakpoint) {
+				margin-top: rem(30px);
+			}
 		}
 	}
 }

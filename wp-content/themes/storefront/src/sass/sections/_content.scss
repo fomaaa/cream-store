@@ -44,6 +44,10 @@ div.section--hero {
 		left: 0;
 		right: 0;
 		padding-bottom: 128px;
+
+		@include r($xs-breakpoint) {
+			padding-bottom: rem(80px);
+		}
 	}
 }
 

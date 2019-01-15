@@ -97,6 +97,7 @@
 
 	@include r($xs-breakpoint) {
 		display: block;
+		padding-bottom: rem(50px);
 	}
 
 	&.cart--mobileReverse {
@@ -317,7 +318,7 @@
 		margin-top: 11px;
 
 		@include r($xs-breakpoint) {
-			margin-top: rem(28px);
+			margin-top: rem(12px);
 		}
 	}
 }
@@ -387,7 +388,7 @@
 	padding-bottom: 200px;
 
 	@include r($md-breakpoint) {
-		min-height: calc(100vh - 10.5625rem);
+		min-height: calc(100vh - 20.5625rem);
 		padding-bottom: 0;
 	}
 
