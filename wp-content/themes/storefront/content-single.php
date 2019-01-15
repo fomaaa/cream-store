@@ -7,15 +7,15 @@
       </div>
       <div class="section section--gallery">
         <ul class="gallery">
-          <?php 
+          <?php
           $block = get_field("gallery");
           if ($block):
             foreach($block as $item) :
           ?>
             <li class="gallery__item">
-              <a href="<?php echo $item['url'] ?>" data-fancybox="#gallery1" style="background-image: url(<?php echo $item['sizes']['medium_large'] ?>);"></a>
+              <a href="<?php echo $item['url'] ?>" data-fancybox="gallery1" style="background-image: url(<?php echo $item['sizes']['medium_large'] ?>);"></a>
             </li>
-            
+
           <?php endforeach; endif; ?>
         </ul>
         <div class="container-custom">
@@ -26,26 +26,26 @@
                 <li>
                   <a href="#" onclick="
                   Share.facebook(
-                  '<?php the_permalink() ?>', 
+                  '<?php the_permalink() ?>',
                   '<?php get_field('sharing_title') ? the_field('sharing_title') : the_title(); ?>',
                   '<?php get_field('sharing_image') ? the_field('sharing_image') : the_field("background") ?>',
-                  '<?php get_field('sharing_text') ? the_field('sharing_text') : "" ?>'); 
+                  '<?php get_field('sharing_text') ? the_field('sharing_text') : "" ?>');
                   return false;
                   " style="background-image: url('<?php echo get_stylesheet_directory_uri() ?>/img/fb.png');"></a>
                 </li>
                 <li>
                   <a onclick="
                   Share.twitter(
-                  '<?php the_permalink() ?>', 
-                  '<?php get_field('sharing_text') ? the_field('sharing_text') : "" ?>'); 
+                  '<?php the_permalink() ?>',
+                  '<?php get_field('sharing_text') ? the_field('sharing_text') : "" ?>');
                   return false;
                   " href="#" style="background-image: url('<?php echo get_stylesheet_directory_uri() ?>/img/twitter.png');"></a>
                 </li>
               </ul>
             </div>
             <?php $next_post = get_next_post();
-            	if (!empty( $next_post )): 
-             ?>		
+            	if (!empty( $next_post )):
+             ?>
 	            <div class="nextPage">
 	              <a href="<?php echo esc_url( get_permalink( $next_post->ID ) ); ?>">
 	                <span>Next post</span>

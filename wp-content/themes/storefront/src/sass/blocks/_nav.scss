@@ -17,6 +17,12 @@
 		font-size: 12px;
 		text-transform: uppercase;
 		letter-spacing: .25em;
+		padding: 6px 7px 3px;
+
+		&:hover {
+			background-color: $black;
+			color: #fff;
+		}
 
 		@include r($xs-breakpoint) {
 			font-size: rem(50px);

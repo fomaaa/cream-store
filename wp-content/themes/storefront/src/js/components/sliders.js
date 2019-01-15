@@ -9,6 +9,12 @@ new Swiper('.bannerSlider', {
   pagination: {
     el: '.swiper-pagination',
     clickable: true
+  },
+  touchRatio: 0,
+  breakpoints: {
+    1000: {
+      touchRatio: 1
+    }
   }
 });
 

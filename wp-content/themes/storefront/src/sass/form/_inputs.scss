@@ -80,11 +80,26 @@ textarea {
 
 .wc-payment-form {
 	margin-top: 30px;
+	display: block;
+	//flex-flow: wrap;
+	margin-left: -10px;
+	margin-right: -10px;
+
+	> div {
+		padding: 10px;
+		float: left;
+		width: 100%;
+	}
+
+	> div:not(.form-row-wide) {
+		width: 50%;
+	}
 }
 
-.form-row:not(:first-child) {
-	margin-top: 20px;
-}
+//.form-row:not(:first-child) {
+//	margin-top: 20px;
+//}
+
 .form-row >  label {
 	margin-bottom: 10px;
 	display: block;

@@ -25,7 +25,7 @@
 
 
 .footer__logo {
-	margin-left: 170px;
+	margin-left: 77px;
 
 	@include r($xs-breakpoint) {
 		margin-left: 0;
@@ -62,6 +62,15 @@
 			padding: rem(3px) rem(6px) rem(4px) rem(8px);
 			font-weight: 900;
 		}
+	}
+}
+
+.footer__center .menu-footer_links-container {
+	position: relative;
+	left: -94px;
+
+	@include r(1600) {
+		left: 0;
 	}
 }
 
@@ -154,7 +163,7 @@
 .footer__center {
 	display: flex;
 	align-items: center;
-	
+
 	@include r($xs-breakpoint) {
 	    flex-flow: column;
 	}
@@ -181,11 +190,17 @@
 }
 
 .form--callback {
-	width: 276px;
+	max-width: 700px;
 	margin: 0 auto;
 
-	@include r($xs-breakpoint) {
-		width: rem(434px);
+	.form__field,
+	.form__button {
+		max-width: 437px;
+		margin: 0 auto;
+
+		@include r($xs-breakpoint) {
+			max-width: rem(434px);
+		}
 	}
 
 	.input {
@@ -201,6 +216,42 @@
 
 		.btn {
 			font-family: inherit;
+		}
+	}
+
+	&.sent {
+
+		.form__button,
+		.form__field {
+			display: none;
+		}
+
+		div.wpcf7-mail-sent-ok {
+			border: 0;
+			font-size: 20px;
+			color: $black;
+			letter-spacing: .2em;
+			margin: 83px 0;
+		}
+	}
+
+	&:not(.sent) {
+		div.wpcf7-response-output {
+			border: 0;
+			font-size: 20px;
+			color: $black;
+			letter-spacing: .2em;
+			max-width: 500px;
+			margin-left: auto;
+			margin-right: auto;
+			line-height: 1.4;
+		}
+	}
+
+	&.invalid {
+
+		.form__field .input {
+			border-color: red;
 		}
 	}
 }

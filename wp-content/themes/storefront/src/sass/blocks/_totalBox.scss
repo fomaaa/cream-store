@@ -1,6 +1,6 @@
 .totalBox {
 	display: inline-block;
-	
+
 	@include r($xs-breakpoint) {
 		display: block;
 	}
@@ -25,7 +25,7 @@
 					margin-top: 35px;
 					letter-spacing: .21em;
 				}
-				
+
 				strong {
 					text-transform: initial;
 				}
@@ -77,7 +77,7 @@
 		text-align: center;
 		margin-top: 42px;
 	}
-	
+
 }
 
 .totalBox__advantages {
@@ -88,7 +88,7 @@
 	text-align: left;
 	display: flex;
 	align-items: center;
-	justify-content: flex-start;
+	justify-content: center;
 	margin-top: 33px;
 	text-transform: uppercase;
 	letter-spacing: .2em;

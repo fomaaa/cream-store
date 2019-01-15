@@ -83,7 +83,7 @@ div.section--hero {
 		transform: translateX(-50%);
 		top: -38px;
 		background-color: #fff;
-		padding: 72px 90px;
+		padding: 72px 69px;
 		letter-spacing: .3em;
 		opacity: 0;
 		visibility: hidden;
@@ -124,7 +124,7 @@ div.section--hero {
 			}
 
 			.list-column {
-				padding: 0 55px;
+				padding: 0 72px;
 				width: 33.33%;
 
 				@include r($xs-breakpoint) {

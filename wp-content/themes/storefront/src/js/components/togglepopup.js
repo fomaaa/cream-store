@@ -3,7 +3,6 @@ $('[data-popup]').on('click', function(event) {
   let idPopup = $(this).attr('data-popup');
   $(idPopup).addClass('is-active');
   $('body').addClass('no-scroll');
-  $.fn.fullpage.setAllowScrolling(false);
 });
 
 $('.modal').on('click', function(event) {
@@ -12,6 +11,5 @@ $('.modal').on('click', function(event) {
     event.preventDefault();
     self.removeClass('is-active');
     $('body').removeClass('no-scroll');
-    $.fn.fullpage.setAllowScrolling(true);
   }
 });

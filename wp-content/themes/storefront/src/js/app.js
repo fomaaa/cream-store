@@ -1,10 +1,11 @@
-// require('@fancyapps/fancybox');
+import '@fancyapps/fancybox';
 import vhCheck from 'vh-check';
 import svg4everybody from 'svg4everybody';
 import StickySidebar from './components/sticky-head';
 import './components/jquery.sTabs';
 import './components/jquery.splitter';
 import './components/sliders';
+import './components/togglepopup';
 
 import $ from 'jquery';
 
@@ -68,6 +69,8 @@ svg4everybody();
         });
       });
     }
+
+
 
     $('.accordion__head').on('click', function() {
       $(this).next().slideToggle(400);

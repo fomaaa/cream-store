@@ -4,6 +4,15 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
+	z-index: 99;
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s all;
+
+	&.is-active {
+		opacity: 1;
+		visibility: visible;
+	}
 }
 
 .modal-container {
@@ -18,4 +27,46 @@
 
 .modal-inner {
 
+}
+
+.no-scroll {
+
+	.header {
+		z-index: auto;
+	}
+
+	.header__left {
+		position: relative;
+		z-index: 100;
+	}
+
+	.header__right,
+	.header__center {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
+.modal-close {
+	position: absolute;
+	top: 63px;
+	right: 66px;
+	display: block;
+	z-index: 101;
+
+	&:hover {
+
+		svg {
+			stroke: $black;
+		}
+	}
+
+	svg {
+		pointer-events: none;
+		transition: .3s all;
+		vertical-align: middle;
+		width: 42px;
+		height: 43px;
+		stroke: #aeaeae;
+	}
 }

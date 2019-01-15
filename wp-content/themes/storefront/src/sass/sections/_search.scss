@@ -69,7 +69,7 @@
 	&__list {
 		display: flex;
 		flex-flow: wrap;
-		padding: 70px 40px;
+		padding: 80px 40px;
 		margin: 0 -100px;
 
 		@include r($xs-breakpoint) {
@@ -80,6 +80,14 @@
 		li {
 			width: 33.33%;
 			padding: 0 100px;
+
+			&:nth-child(n+4) {
+				margin-top: 90px;
+
+				@include r($xs-breakpoint) {
+					margin-top: 0;
+				}
+			}
 
 			@include r($xs-breakpoint) {
 				width: 100%;

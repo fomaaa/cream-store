@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#fff" />
     <meta name="format-detection" content="telephone=no" />
-    <?php wp_head(); ?> 
+    <?php wp_head(); ?>
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/css/app.css">
   </head>
 
@@ -20,11 +20,11 @@
           <div class="header__left">
             <div class="header__logo">
               <a <?php if (!is_front_page()) echo 'href="/"' ?>>
-                <img src="<?php 
+                <img src="<?php
                  if (is_home() || (is_single() && !is_product()) || (is_archive() && !is_shop()   && !is_product_category())  || get_page_template_slug() == "template-pages/content-page.php") {
-                  the_field("light_logo", 'option'); 
+                  the_field("light_logo", 'option');
                  } else {
-                  the_field("logo", 'option'); 
+                  the_field("logo", 'option');
                  }
                 ?>" alt="logotype">
               </a>
@@ -35,7 +35,8 @@
             <div class="sloganSecondary"> <?php the_field("right_slogan", 'option'); ?> </div>
           </div>
           <div class="header__right">
-            <a href="/?s=" class="btn btn--search">
+<!--            <a href="/?s=" class="btn btn--search">-->
+            <a href="javascript:void(0);" class="btn btn--search" data-popup="#searchBox">
               <svg class="icon icon-search">
                 <use xlink:href="<?php echo get_stylesheet_directory_uri() ?>/img/sprite.svg#icon-search"></use>
               </svg>
@@ -90,12 +91,12 @@
                 </g>
               </svg>
             </a>
-              <?php 
+              <?php
                   wp_nav_menu( array(
-                    'menu'            => 'right_nav', 
-                    'container'       => 'nav', 
-                    'container_class' => 'nav', 
-                    'menu_class'      => 'menu', 
+                    'menu'            => 'right_nav',
+                    'container'       => 'nav',
+                    'container_class' => 'nav',
+                    'menu_class'      => 'menu',
                     'echo'            => true,
                     'fallback_cb'     => 'wp_page_menu',
                     'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',

@@ -65,17 +65,27 @@
 		}
 
 		&-bullet {
-			width: 9px;
-			height: 9px;
+			width: 10px;
+			height: 10px;
 			opacity: 1;
 			border-radius: 100%;
 			background-color: $black;
 			margin: 0 8px !important;
+			position: relative;
 
 			@include r($xs-breakpoint) {
 				width: 5px;
 				height: 5px;
 				margin: 0 4px !important;
+			}
+
+			&:before {
+				content: '';
+				position: absolute;
+				top: -6px;
+				left: -6px;
+				right: -6px;
+				bottom: -6px;
 			}
 
 			&-active {
@@ -149,6 +159,7 @@
 		//padding-left: 152px;
 		padding-left: 8vw;
 		padding-top: 71px;
+		position: relative;
 
 		@include r($xs-breakpoint) {
 			width: 100%;
@@ -194,6 +205,19 @@
 
 		@include r($xs-breakpoint) {
 			margin-top: rem(60px);
+		}
+
+		a {
+			position: static;
+
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+			}
 		}
 	}
 }

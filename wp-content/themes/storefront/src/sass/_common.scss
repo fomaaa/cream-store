@@ -66,12 +66,12 @@ input:focus {
 
 ::selection {
 	color: $white;
-	background-color: $primary-color;
+	background-color: $black;
 }
 
 ::-moz-selection {
 	color: $white;
-	background-color: $primary-color;
+	background-color: $black;
 }
 
 strong {

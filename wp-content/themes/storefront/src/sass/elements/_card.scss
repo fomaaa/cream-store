@@ -250,7 +250,8 @@
 	.card__photo {
 		width: 230px;
 		//width: 309px;
-		height: 458px;
+		//height: 458px;
+		height: 445px;
 		@include cover();
 
 		@include r($xs-breakpoint) {
@@ -261,7 +262,7 @@
 	}
 
 	.card__body {
-		padding: 40px 0;
+		padding: 44px 0 0;
 
 		@include r($xs-breakpoint) {
 			padding: rem(50px) 0;
