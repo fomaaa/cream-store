@@ -2453,6 +2453,7 @@ if ( ! function_exists( 'woocommerce_form_field' ) ) {
 	 * @return string
 	 */
 	function woocommerce_form_field( $key, $args, $value = null ) {
+		$value = "";
 		$defaults = array(
 			'type'              => 'text',
 			'label'             => '',
