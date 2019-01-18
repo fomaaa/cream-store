@@ -11,7 +11,7 @@
 	}
 
 	.section__inner {
-		padding-top: 84px;
+		//padding-top: 84px;
 
 		@include r($xs-breakpoint) {
 			padding-top: rem(76px);
@@ -29,7 +29,8 @@
 }
 
 .search__title {
-	font-size: 111px;
+	//font-size: 111px;
+	font-size: 5.9vw;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 900;
@@ -54,7 +55,7 @@
 		text-transform: uppercase;
 		letter-spacing: .2em;
 		text-align: center;
-		border-bottom: 1px solid #c8c8c8;
+		//border-bottom: 1px solid #c8c8c8;
 		max-width: 953px;
 		margin: 0 auto;
 		padding-bottom: 68px;

@@ -142,6 +142,37 @@ div.section--hero {
 
 				a {
 					white-space: nowrap;
+					padding-left: 4px;
+					position: relative;
+					overflow: hidden;
+					display: inline-block;
+
+					&:before {
+						content: '';
+						position: absolute;
+						top: 0;
+						left: 0;
+						right: 0;
+						bottom: 0;
+						background-color: $black;
+						transform: translateX(100%);
+						transition: .3s all;
+						opacity: 0;
+					}
+
+					&:hover {
+						color: #fff;
+
+						&:before {
+							opacity: 1;
+							transform: translateX(0);
+						}
+					}
+
+					span {
+						position: relative;
+						z-index: 1;
+					}
 				}
 
 				li:not(:first-child) {
@@ -175,7 +206,7 @@ div.section--hero {
 }
 
 .hero__title {
-	font-size: 111px;
+	font-size: 5.9vw;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 900;

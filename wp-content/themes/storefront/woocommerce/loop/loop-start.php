@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-<?php 
+<?php
     $args_cat = array(
     	'taxonomy'  => 'product_cat',
         'orderby' => 'name',
@@ -28,7 +28,7 @@ if ( ! defined( 'ABSPATH' ) ) {
         'parent' => 0,
         'hide_empty' => false,
     );
-    $cats = get_categories($args_cat); 
+    $cats = get_categories($args_cat);
 ?>
       <div class="section section--catalog section--first">
         <div class="container section__inner">
@@ -39,7 +39,7 @@ if ( ! defined( 'ABSPATH' ) ) {
               <a href="javascript:void(0);" class="close"></a>
               <ul>
               	<?php foreach ($cats as $cat) : ?>
-		           <li><a href="<?php echo get_category_link($cat) ?>" <?php if (single_cat_title('', 0) == $cat->name) echo 'class="is-active"' ?>><?php echo $cat->name ?></a></li>
+		           <li><a href="<?php echo get_category_link($cat) ?>" <?php if (single_cat_title('', 0) == $cat->name) echo 'class="is-active"' ?>><span><?php echo $cat->name ?></span></a></li>
 				<?php endforeach ?>
               </ul>
             </div>

@@ -366,6 +366,9 @@
 
 
 	.totalBox__advantages {
+		width: 348px;
+		margin-left: 0;
+		margin-right: 0;
 
 		@include r($xs-breakpoint) {
 			width: rem(516px);
