@@ -20,7 +20,7 @@
           <div class="header__left">
             <div class="header__logo">
               <a <?php if (!is_front_page()) echo 'href="/"' ?>>
-				  
+
 				  <?php  if (is_home() || (is_single() && !is_product()) || (is_archive() && !is_shop()   && !is_product_category())  || get_page_template_slug() == "template-pages/content-page.php"):?>
 					  <img src="<?php the_field("light_logo", 'option')?>" alt="logotype">
 					  <img src="<?php the_field("logo", 'option');?>" alt="logotype" class="hidden">
