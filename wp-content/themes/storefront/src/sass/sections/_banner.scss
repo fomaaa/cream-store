@@ -122,7 +122,8 @@
 
 		@include r($xs-breakpoint) {
 			width: percentage(578/750);
-			height: rem(533px);
+			//height: rem(533px);
+			height: calc(33.3125rem - var(--browser-address-bar));
 		}
 
 		&:before,

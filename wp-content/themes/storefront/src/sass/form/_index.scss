@@ -42,9 +42,11 @@
 		letter-spacing: .1em;
 
 		@include r($xs-breakpoint) {
-			font-size: rem(23px);
+			//font-size: rem(23px);
+			font-size: rem(20.6px);
 			line-height: rem(27px);
-			padding-left: rem(74px);
+			//padding-left: rem(74px);
+			padding-left: rem(51px);
 		}
 
 		&:before {
@@ -57,9 +59,14 @@
 			height: 26px;
 
 			@include r($xs-breakpoint) {
-				width: rem(44px);
-				top: rem(4px);
-				height: rem(44px);
+				//width: rem(44px);
+				//top: rem(4px);
+				//height: rem(44px);
+				border-width: 1px;
+
+				width: rem(33px);
+				top: rem(8px);
+				height: rem(33px);
 			}
 		}
 
@@ -74,10 +81,15 @@
 			opacity: 0;
 
 			@include r($xs-breakpoint) {
-				width: rem(18px);
-				height: rem(18px);
-				top: rem(18px);
-				left: rem(13px);
+				//width: rem(18px);
+				//height: rem(18px);
+				//top: rem(18px);
+				//left: rem(13px);
+
+				width: rem(21px);
+				height: rem(20px);
+				top: rem(15px);
+				left: rem(6px);
 			}
 		}
 	}

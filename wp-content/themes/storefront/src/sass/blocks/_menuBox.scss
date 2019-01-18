@@ -1,5 +1,51 @@
 .show-menu {
 
+	.header {
+		color: $black;
+
+
+		.header__logo img {
+
+			&:not(.hidden) {
+				display: none;
+			}
+
+			&.hidden {
+				display: block;
+			}
+		}
+
+		.btn--search {
+			svg {
+				fill: $black;
+			}
+		}
+
+		.nav a {
+			color: $black;
+		}
+
+		.btn--cart {
+
+			.badge {
+				background-color: $black;
+				color: $black;
+			}
+
+			svg {
+
+				.basket-st0,
+				.basket-st1 {
+					stroke: $black;
+				}
+			}
+		}
+
+		.btn--burger .bar {
+			background-color: $black;
+		}
+	}
+
 	.menuBox {
 		transform: translateX(0);
 	}
@@ -34,7 +80,7 @@
 		top: rem(30px);
 		right: rem(30px);
 		left: rem(30px);
-		bottom: 0;
+		bottom: rem(30px);
 		background-color: #eaecf0;
 	}
 

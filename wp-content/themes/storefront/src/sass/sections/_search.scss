@@ -102,10 +102,13 @@
 }
 
 .searchForm {
-	margin-top: 14px;
 
-	@include r($xs-breakpoint) {
-		margin-top: rem(107px);
+	&:not(:first-child) {
+		margin-top: 14px;
+
+		@include r($xs-breakpoint) {
+			margin-top: rem(107px);
+		}
 	}
 }
 
@@ -174,5 +177,13 @@
 		&::placeholder {
 			text-transform: uppercase;
 		}
+	}
+}
+
+.search-no-results {
+
+	.header__right .btn--cart,
+	.header__center {
+		display: none;
 	}
 }

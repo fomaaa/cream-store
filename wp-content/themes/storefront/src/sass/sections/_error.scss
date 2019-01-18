@@ -14,6 +14,10 @@
 	font-weight: 900;
 	text-transform: uppercase;
 	letter-spacing: .2em;
+
+	@include r($xs-breakpoint) {
+		font-size: rem(103px);
+	}
 }
 .error__subtitle {
 	text-align: center;

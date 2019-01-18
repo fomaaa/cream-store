@@ -113,6 +113,8 @@ div.section--hero {
 			@include r($xs-breakpoint) {
 				top: rem(100px);
 				right: rem(70px);
+				width: rem(60px);
+				height: rem(58px);
 			}
 		}
 
@@ -199,6 +201,10 @@ div.section--hero {
 				&.is-active {
 					background-color: $black;
 					color: #fff;
+					padding-left: rem(6px);
+					margin-left: rem(-6px);
+					padding-top: rem(2px);
+					margin-top: rem(-2px);
 				}
 			}
 		}
