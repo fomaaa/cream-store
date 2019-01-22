@@ -55,8 +55,8 @@
 	width: 284px;
 	height: 548px;
 	border-radius: 35px;
-	box-shadow: 0 16px 90px rgba(#010101, .27);
-	
+	//box-shadow: 0 16px 90px rgba(#010101, .27);
+
 	@include r($xs-breakpoint) {
 		width: rem(284px);
 		height: rem(548px);
@@ -90,7 +90,7 @@
 
 	li:not(:first-child) {
 		margin-left: -181px;
-		
+
 		@include r($xs-breakpoint) {
 			margin-left: rem(-181px);
 		}
