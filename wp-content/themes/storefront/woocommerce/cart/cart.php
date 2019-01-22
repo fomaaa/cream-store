@@ -69,7 +69,8 @@ do_action( 'woocommerce_before_cart' ); ?>
 				                    	<div class="card__body">
 						                    <div class="card__category">iphone <?php echo $cart_item['variation']['attribute_pa_model'] ?></div>
 						                      <div class="card__title"><?php 
-													           echo $_product->get_name();
+													           // echo $_product->get_name();
+						                      echo get_the_title($product_id);
 						                       ?></div>
 						                      <div class="card__price">
 						                      	<?php
