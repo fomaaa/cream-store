@@ -65,13 +65,13 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 								<?php }
 								//echo end( $attribute_keys ) === $attribute_name ? wp_kses_post( apply_filters( 'woocommerce_reset_variations_link', '<a class="reset_variations" href="#">' . esc_html__( 'Clear', 'woocommerce' ) . '</a>' ) ) : '';
 							?>
+				<?php endforeach; ?>
 									<div class="form__field form__field--checkbox">
 										<div class="form__checkbox">
 											<input type="checkbox" id="gift_wrapper" name="gift_wrapper" />
 											<span class="form__label"> Complementary Gift Wrapping </span>
 										</div>
 									</div>
-				<?php endforeach; ?>
 		<div class="single_variation_wrap">
 			<?php
 				/**
