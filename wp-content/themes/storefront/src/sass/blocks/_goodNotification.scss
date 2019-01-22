@@ -29,6 +29,7 @@
 
 		@include r($xs-breakpoint) {
 			justify-content: space-between;
+			flex-flow: row-reverse;
 		}
 	}
 
@@ -53,10 +54,11 @@
 		}
 
 		@include r($xs-breakpoint) {
-			width: rem(127px);
-			height: rem(44px);
+			min-width: rem(127px);
+			min-height: rem(44px);
 			padding: 0;
 			font-size: rem(24px);
+			text-align: center;
 		}
 	}
 

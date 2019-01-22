@@ -18,7 +18,11 @@
 .footer__left {
 
 	@include r($xs-breakpoint) {
-		display: none;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		top: rem(488px);
+		font-size: rem(20px);
 	}
 }
 
@@ -71,6 +75,10 @@
 	@include r(1600) {
 		left: 0;
 	}
+
+	@include r($xs-breakpoint) {
+		margin-top: rem(92px);
+	}
 }
 
 .footerLinks {
@@ -87,7 +95,7 @@
 
 		@include r($xs-breakpoint) {
 			margin-left: 0;
-			margin-top: rem(70px);
+			margin-top: rem(75px);
 		}
 	}
 
@@ -96,6 +104,12 @@
 		font-size: 12px;
 		font-weight: 300;
 		letter-spacing: .2em;
+		padding-left: 4px;
+
+		&:hover {
+			background-color: $black;
+			color: #fff;
+		}
 
 		@include r($xs-breakpoint) {
 			font-size: rem(18px);
@@ -135,6 +149,10 @@
 	font-size: 12px;
 	text-transform: uppercase;
 	letter-spacing: .2em;
+
+	@include r($xs-breakpoint) {
+		font-size: rem(18px);
+	}
 }
 
 
@@ -211,6 +229,12 @@
 
 	.input {
 		width: 100%;
+		text-align: center;
+		padding-right: 53px;
+
+		@include r($xs-breakpoint) {
+			padding-right: 0;
+		}
 	}
 
 	.form__button {

@@ -58,6 +58,8 @@
 
 			@include r($xs-breakpoint) {
 				margin-left: rem(24px);
+				line-height: 1;
+				padding-top: rem(3px);
 			}
 		}
 	}
@@ -140,6 +142,8 @@
 
 			@include r($xs-breakpoint) {
 				margin-left: rem(-15px);
+				width: rem(23px);
+				height: rem(23px);
 			}
 		}
 	}

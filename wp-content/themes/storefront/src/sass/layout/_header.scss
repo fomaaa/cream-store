@@ -58,12 +58,22 @@
 		margin-top: 53px;
 
 		@include r($xs-breakpoint) {
-			display: none;
+			//display: none;
+			margin-top: rem(53px);
+
+
+			.page__current {
+				display: none;
+			}
 		}
 	}
 }
 
 .header__logo {
+
+	.hidden {
+		display: none;
+	}
 
 	img {
 		width: 99px;

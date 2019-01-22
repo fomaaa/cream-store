@@ -109,16 +109,12 @@
 }
 
 .catalog__title {
-	font-size: 111.81px;
+	font-size: 5.9vw;
 	letter-spacing: .2em;
 	font-weight: 900;
 	text-align: center;
 	text-transform: uppercase;
 	margin: 0 -60px;
-
-	br {
-		display: none;
-	}
 
 	@include r($xs-breakpoint) {
 		margin: 0;
@@ -130,5 +126,9 @@
 		br {
 			display: inline;
 		}
+	}
+
+	br {
+		display: none;
 	}
 }

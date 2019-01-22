@@ -13,6 +13,10 @@
 			right: rem(70px);
 		}
 
+		&.is-clicked {
+			animation: rightArrow .5s forwards linear;
+		}
+
 		span {
 			width: 96px;
 
@@ -86,6 +90,7 @@
 			font-size: rem(103.59px);
 			position: relative;
 			left: rem(-5px);
+			line-height: 1;
 		}
 
 		&:not(:first-child) {
@@ -123,6 +128,7 @@
 
 		@include r($xs-breakpoint) {
 			font-size: rem(53.27px);
+			white-space: nowrap;
 		}
 	}
 
@@ -366,6 +372,9 @@
 
 
 	.totalBox__advantages {
+		width: 348px;
+		margin-left: 0;
+		margin-right: 0;
 
 		@include r($xs-breakpoint) {
 			width: rem(516px);
@@ -530,5 +539,15 @@
 			padding: 1px rem(8px);
 			min-width: rem(60px);
 		}
+	}
+}
+
+@keyframes rightArrow {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(250%);
 	}
 }

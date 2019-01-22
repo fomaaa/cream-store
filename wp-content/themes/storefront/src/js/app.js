@@ -70,6 +70,10 @@ svg4everybody();
       });
     }
 
+    $('.btn--next').on('click', function() {
+      $(this).addClass('is-clicked');
+    });
+
 
 
     $('.accordion__head').on('click', function() {

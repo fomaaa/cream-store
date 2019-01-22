@@ -5,14 +5,14 @@
     <meta charset="utf-8" />
     <title><?php getCorrectTitle() ?></title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"" />
     <meta name="theme-color" content="#fff" />
     <meta name="format-detection" content="telephone=no" />
     <?php wp_head(); ?>
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/css/app.css">
   </head>
 
-  <body class="">
+  <body <?php body_class(); ?>>
     <!-- BEGIN content -->
     <div class="out">
       <header class="header <?php if (is_home() || (is_single() && !is_product()) || (is_archive() && !is_shop()  && !is_product_category())  || get_page_template_slug() == "template-pages/content-page.php") echo 'header--white' ?>">
@@ -20,18 +20,18 @@
           <div class="header__left">
             <div class="header__logo">
               <a <?php if (!is_front_page()) echo 'href="/"' ?>>
-                <img src="<?php
-                 if (is_home() || (is_single() && !is_product()) || (is_archive() && !is_shop()   && !is_product_category())  || get_page_template_slug() == "template-pages/content-page.php") {
-                  the_field("light_logo", 'option');
-                 } else {
-                  the_field("logo", 'option');
-                 }
-                ?>" alt="logotype">
+
+				  <?php  if (is_home() || (is_single() && !is_product()) || (is_archive() && !is_shop()   && !is_product_category())  || get_page_template_slug() == "template-pages/content-page.php"):?>
+					  <img src="<?php the_field("light_logo", 'option')?>" alt="logotype">
+					  <img src="<?php the_field("logo", 'option');?>" alt="logotype" class="hidden">
+				  <?php else: ?>
+					  <img src="<?php the_field("logo", 'option');?>" alt="logotype">
+				  <?php endif;?>
               </a>
             </div>
             <?php if (is_product()) : ?>
               <nav class="nav nav--secondary">
-                <a href="/shop" class="btn btn--return"> Return to catalogue </a>
+                <a href="/shop" class="btn btn--return"> <span>Return to catalogue</span> </a>
               </nav>
             <?php endif ;?>
           </div>

@@ -12,14 +12,14 @@
  */
 
 get_header(); ?>
-<?php 
+<?php
     $args_cat = array(
         'orderby' => 'name',
         'order' => 'ASC',
         'parent' => 0,
         'hide_empty' => true,
     );
-    $cats = get_categories($args_cat); 
+    $cats = get_categories($args_cat);
 ?>
       <div class="section section--hero section--first" style="background-image: url(<?php echo the_field('background', 119);  ?>);">
         <div class="container section__inner">
@@ -32,7 +32,7 @@ get_header(); ?>
               <a href="javascript:void(0);" class="close"></a>
               <ul>
 				<?php foreach ($cats as $cat) : ?>
-		           <li><a href="<?php echo get_category_link($cat) ?>"><?php echo $cat->name ?></a></li>
+		           <li><a href="<?php echo get_category_link($cat) ?>"><span><?php echo $cat->name ?></span></a></li>
 				<?php endforeach ?>
               </ul>
             </div>
@@ -42,12 +42,12 @@ get_header(); ?>
       <div class="section section--blog">
         <div class="container section__inner">
           <div class="grid grid--3">
-          	<?php 	               
+          	<?php
           		$posts = query_posts(array(
 	                	'post_type' => 'post',
 	                	'posts_per_page'  => 6,
 	                    'orderby' => 'date_add',
-	                    'order' => 'DESC' 
+	                    'order' => 'DESC'
 	            )); ?>
           	<?php while ( have_posts() ) : the_post(); ?>
 	            <div class="grid__item">
